@@ -1,9 +1,9 @@
 /*!
-Theme Name: Canadian Adventure Co. Theme
-Theme URI:
+Theme Name: RED Starter Theme
+Theme URI: http://underscores.me/
 Author: RED Academy
-Author URI:
-Description: A WordPress theme for Canadian Adventure Co.
+Author URI: http://www.redacademy.com
+Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -591,9 +591,6 @@ a {
 
 .bypostauthor {
   display: block; }
-
-.this-seems-like-a-bad-idea {
-  position: relative; }
 
 /*--------------------------------------------------------------
 # Media

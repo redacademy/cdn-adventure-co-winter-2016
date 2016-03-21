@@ -60,7 +60,7 @@ gulp.task('browser-sync', function() {
    ];
 
     browserSync.init(files, {
-        proxy: 'community-project.dev',
+        proxy: 'cdnadventure.dev'
     });
 });
 
