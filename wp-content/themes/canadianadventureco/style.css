@@ -707,21 +707,41 @@ object {
 --------------------------------------------------------------*/
 .site-footer {
   background: #303030;
-  display: block; }
+  display: block;
+  text-align: center; }
   .site-footer h3 {
     color: #ffffff; }
 
+.contact-info {
+  padding-bottom: 3rem;
+  line-height: 2; }
+  .contact-info a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff; }
+    .contact-info a:hover {
+      color: #068fbf; }
+
 .social-icons {
+  padding-bottom: 4rem;
   font-size: 32px;
-  font-size: 2rem;
-  text-align: center; }
+  font-size: 2rem; }
   .social-icons .fa-border {
     border-radius: 50%;
-    width: 50px; }
+    border: solid 0.1rem #ffffff;
+    width: 46px; }
     .social-icons .fa-border:hover {
-      border: solid 0.08em #068fbf; }
+      border: solid 0.1rem #068fbf; }
   .social-icons a {
     color: #ffffff;
-    text-decoration: none; }
+    text-decoration: none;
+    padding: .5rem;
+    text-align: center; }
     .social-icons a:hover {
       color: #068fbf; }
+  @media screen and (min-width: 1024px) {
+    .social-icons {
+      font-size: 80px;
+      font-size: 5rem; }
+      .social-icons .fa-border {
+        width: 116px; } }
