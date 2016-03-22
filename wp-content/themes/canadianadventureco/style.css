@@ -638,6 +638,37 @@ a {
 .bypostauthor {
   display: block; }
 
+.banner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.single-column {
+  width: 309px; }
+  @media screen and (min-width: 1024px) {
+    .single-column {
+      width: 785px; } }
+
+.triple-column {
+  width: 309px; }
+  @media screen and (min-width: 1024px) {
+    .triple-column {
+      width: 1195px; } }
+
+.container {
+  margin: 0 auto; }
+
+.front-hero {
+  background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/

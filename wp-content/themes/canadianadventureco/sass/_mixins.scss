@@ -11,6 +11,10 @@
 	margin-right: auto;
 }
 
+@mixin banner {
+	background-size: cover;
+	height: 850px;
+}
 // Breakpoints
 
 /* 480px */
