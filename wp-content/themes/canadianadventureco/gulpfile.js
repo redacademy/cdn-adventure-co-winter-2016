@@ -60,7 +60,7 @@ gulp.task('browser-sync', function() {
    ];
 
     browserSync.init(files, {
-        proxy: 'cdnadventure.dev'
+        proxy: 'localhost/canadianAdventureCo'
     });
 });
 
