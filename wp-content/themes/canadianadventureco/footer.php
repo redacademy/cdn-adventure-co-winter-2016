@@ -11,7 +11,20 @@
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
-					<a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a>
+					<h3>Get in Touch</h3>
+					<a href="mailto:info@cacltd.com">Email: info@cacltd.com</a>
+					<a href="tel:2508354516">Phone: 250.835.4516</a>
+					<div class="social-icons">
+						<a href="https://twitter.com/CanAdvCo">
+							<i class="fa fa-border fa-twitter"></i>
+						</a>
+						<a href="https://www.facebook.com/CanadianAdventureCompanyLtd">
+							<i class="fa fa-border fa-facebook"></i>
+						</a>
+						<a href="https://www.instagram.com/canadianadventurecompany">
+							<i class="fa fa-border fa-instagram"></i>
+						</a>
+					</div>
 				</div><!-- .site-info -->
 			</footer><!-- #colophon -->
 		</div><!-- #page -->

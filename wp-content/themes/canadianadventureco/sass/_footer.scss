@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.site-footer {
+  background: $color__dark-grey;
+  display: block;
+  h3 {
+    color: $color__white;
+  }
+}
+
+.social-icons {
+  @include font-size(2);
+  text-align: center;
+  .fa-border {
+    border-radius: 50%;
+    width: 50px;
+    &:hover {
+      border: solid .08em $color__blue;
+    }
+  }
+  a {
+    color: $color__white;
+    text-decoration: none;
+    &:hover {
+      color: $color__blue;
+    }
+  }
+}
