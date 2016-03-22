@@ -66,6 +66,9 @@ get_header(); ?>
          </button>
       </section>
 
+			<!-- This is the explore packages section (only for mobile)-->
+			<?php get_template_part( 'template-parts/content', 'explore' ); ?>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
