@@ -1,10 +1,10 @@
 <?php get_header() ?>
-
 <!-- This is the hero banner -->
 <section>
-   <div class="banner center">
-      <img src="" alt="" />
-      <p>The mountains are calling</p>
+   <div class="banner front-hero">
+      <div class="">
+         The mountains are calling
+      </div>
    </div>
 </section>
 
@@ -23,7 +23,7 @@
 
 <!-- This is the Packages banner image section -->
 <section>
-   <div class="banner center">
+   <div class="banner">
       Summer &amp; Winter Packages
    </div>
 </section>
@@ -84,26 +84,27 @@
 
 <!-- This is the Work with our guests section -->
 <section>
-   <h2>We work with our guests to create a customized, once-in-a-lifetome adventure.</h2>
-   <img src="" alt="" />
-   <h3>expert guides</h3>
-   <p>Safety is our first priority, and our guides are experts in the backcountry.
-   </p>
-</div>
-<div class="">
-   <img src="" alt="" />
-   <h3>catered or self-catered</h3>
-   <p>
-      Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
-   </p>
-</div>
-<div class="">
-   <img src="" alt="" />
-   <h3>small groups</h3>
-   <p>
-      With maximum groups of 9, guests will experience an intimate experience at the lodge.
-   </p>
-</div>
+   <div class="">
+      <h2>We work with our guests to create a customized, once-in-a-lifetome adventure.</h2>
+      <img src="" alt="" />
+      <h3>expert guides</h3>
+      <p>Safety is our first priority, and our guides are experts in the backcountry.
+      </p>
+   </div>
+   <div class="">
+      <img src="" alt="" />
+      <h3>catered or self-catered</h3>
+      <p>
+         Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
+      </p>
+   </div>
+   <div class="">
+      <img src="" alt="" />
+      <h3>small groups</h3>
+      <p>
+         With maximum groups of 9, guests will experience an intimate experience at the lodge.
+      </p>
+   </div>
 </section>
 
 <!-- This is the explore packages section -->
