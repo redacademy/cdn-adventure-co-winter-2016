@@ -16,9 +16,9 @@
    <div class="">
       <?php //put the info text here ?>
    </div>
-   <div class="button">
+   <button class="button">
       Explore the lodge
-   </div>
+   </button>
 </section>
 
 <!-- This is the Packages banner image section -->
@@ -110,12 +110,12 @@
 <section>
    <div class="">
       <h2>explore packages</h2>
-      <div class="button">
+      <button class="button">
          winter
-      </div>
-      <div class="button">
+      </button>
+      <button class="button">
          summer
-      </div>
+      </button>
    </div>
 </section>
 
@@ -132,9 +132,9 @@
 <!-- This is the map section -->
 <section>
    <?php //this is either an image or an iframe ?>
-   <div class="button">
+   <button class="button">
       how to get here
-   </div>
+   </button>
 </section>
 
 <!-- This is the newsletter section -->
