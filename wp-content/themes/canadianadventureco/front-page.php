@@ -4,14 +4,14 @@
 <section>
    <div class="banner center">
       <img src="" alt="" />
-      <h1>The mountains are calling</h1>
+      <p>The mountains are calling</p>
    </div>
 </section>
 
 <!-- This is the "what/where/how" section -->
 <section>
    <div class="">
-      <h2>What/Where/How</h2>
+      <h1>What/Where/How</h1>
    </div>
    <div class="">
       <?php //put the info text here ?>
@@ -107,17 +107,7 @@
 </section>
 
 <!-- This is the explore packages section -->
-<section>
-   <div class="">
-      <h2>explore packages</h2>
-      <button class="button">
-         winter
-      </button>
-      <button class="button">
-         summer
-      </button>
-   </div>
-</section>
+<?php get_template_part( 'template-parts/content', 'explore' ); ?>
 
 <!-- This is the video -->
 <section>

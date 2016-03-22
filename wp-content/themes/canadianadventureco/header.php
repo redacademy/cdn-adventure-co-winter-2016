@@ -27,6 +27,8 @@
 					<img src="" alt="The Canadian Adventure Company logo" />
 				</div><!-- .site-branding -->
 
+
+				<!-- The header needs to change at the breakpoint - don't forget to add this  -->
 				<div class="menu-button mobile">
 					<i class="fa fa-bars"></i>
 				</div>
