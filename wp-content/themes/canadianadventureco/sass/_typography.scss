@@ -9,7 +9,7 @@ select,
 textarea {
 	color: $color__text-main;
 	font-family: $font__main;
-	@include font-size(1);
+	font-size: 1.25rem;
 	line-height: $font__line-height-body;
 }
 
@@ -18,6 +18,34 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
+
+h1 {
+	font-family: $font__heading;
+	font-size: 5.625rem;
+	text-transform: uppercase;
+	color: $color__white;
+}
+
+h2 {
+	font-family: $font__heading;
+	font-size: 4rem;
+	text-transform: uppercase;
+	color: $color__white;
+}
+
+h3 {
+	font-family: $font__heading;
+	font-size: 3.4375rem;
+	text-transform: uppercase;
+	color: $color__dark-grey;
+}
+
+h4 {
+	font-family: $font__main;
+	font-size: 3rem;
+	color: $color__dark-grey;
+}
+
 
 /* Copy */
 
