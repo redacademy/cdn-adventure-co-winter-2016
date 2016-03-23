@@ -19,33 +19,44 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 }
 
-h1 {
+/* This is H1 per design spec */
+.banner p {
 	font-family: $font__heading;
 	font-size: 5.625rem;
 	text-transform: uppercase;
 	color: $color__white;
 }
 
+/* This is H2 per design spec (changed color)*/
+h1,
 h2 {
 	font-family: $font__heading;
 	font-size: 4rem;
 	text-transform: uppercase;
-	color: $color__white;
-}
-
-h3 {
-	font-family: $font__heading;
-	font-size: 3.4375rem;
-	text-transform: uppercase;
 	color: $color__dark-grey;
 }
 
-h4 {
+// h3 {
+// 	font-family: $font__heading;
+// 	font-size: 3.4375rem;
+// 	text-transform: uppercase;
+// 	color: $color__dark-grey;
+// }
+
+/* This is H4 per design spec */
+h3 {
 	font-family: $font__main;
 	font-size: 3rem;
 	color: $color__dark-grey;
 }
 
+/* Not in design spec */
+h4 {
+	font-family: $font__main;
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	color: $color__dark-grey;
+}
 
 /* Copy */
 
