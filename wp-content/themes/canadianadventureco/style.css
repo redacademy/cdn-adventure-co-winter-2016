@@ -840,6 +840,26 @@ object {
       .social-icons .fa-border {
         width: 116px; } }
 
+.about-hero {
+  background: url(../../assets/images/pictures/about-us/who-we-are.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
+.start-hero {
+  background: url(../../assets/images/pictures/about-us/it-all-started.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
+.getting-hero {
+  background: url(../../assets/images/pictures/getting-here/getting-here.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
+.meet-hero {
+  background: url(../../assets/images/pictures/getting-here/we-cant-wait.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
 /*--------------------------------------------------------------
 # Lodge
 --------------------------------------------------------------*/

@@ -1,1 +1,9 @@
+.about-hero {
+	background: url(../../assets/images/pictures/about-us/who-we-are.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
 
+.start-hero {
+	background: url(../../assets/images/pictures/about-us/it-all-started.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
