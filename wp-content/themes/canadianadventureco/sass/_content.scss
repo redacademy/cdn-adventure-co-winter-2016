@@ -128,12 +128,7 @@
 	text-transform: uppercase;
 	color: white;
 }
-.main-title {
 
-	h1 {
-		color: $color__text-main;
-	}
-}
 .summer-hero {
 	background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
 	@include banner;
