@@ -33,27 +33,27 @@ get_header(); ?>
 
       <section>
         <h2>Lodge Amenities</h2>
-        <h5>Beds</h5>
+        <span>Beds</span>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </p>
-        <h5>Showers</h5>
+        <span>Showers</span>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </p>
-        <h5>Kitchen</h5>
+        <span>Kitchen</span>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </p>
-        <h5>Toilet</h5>
+        <span>Toilet</span>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </p>
-        <h5>Living Space</h5>
+        <span>Living Space</span>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </p>
-        <h5>Catering</h5>
+        <span>Catering</span>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </p>

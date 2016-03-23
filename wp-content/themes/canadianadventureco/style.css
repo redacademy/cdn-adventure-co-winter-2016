@@ -649,13 +649,13 @@ a {
 
 .single-column {
   width: 309px; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 480px) {
     .single-column {
       width: 785px; } }
 
 .triple-column {
   width: 309px; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 480px) {
     .triple-column {
       width: 1195px; } }
 
@@ -676,7 +676,7 @@ a {
   width: 84px;
   height: 65px;
   margin: 1rem; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 480px) {
     .logo {
       width: 170px;
       height: 130px; } }
@@ -684,13 +684,13 @@ a {
 .menu-button {
   margin: 2rem;
   font-size: 1.5rem; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 480px) {
     .menu-button {
       display: none; } }
 
 .main-navigation {
   display: none; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 480px) {
     .main-navigation {
       padding-top: 1rem;
       display: -webkit-flex;
@@ -787,15 +787,17 @@ object {
 /* Explore Packages */
 .explore-packages {
   background: #303030;
-  color: #ffffff;
   text-align: center;
   padding-bottom: 2rem;
+  width: 100%;
   border-bottom: 1px solid #f5f5f5; }
+  .explore-packages h2 {
+    color: #ffffff; }
   .explore-packages .button {
     display: block;
     width: 100%;
     margin: 2rem 0; }
-    @media screen and (max-width: 1024px) {
+    @media screen and (min-width: 480px) {
       .explore-packages .button {
         display: inline;
         width: 458px;
@@ -808,7 +810,7 @@ object {
   background: #303030;
   display: block;
   text-align: center; }
-  .site-footer h3 {
+  .site-footer h2 {
     color: #ffffff; }
 
 .contact-info {
@@ -838,9 +840,20 @@ object {
     text-align: center; }
     .social-icons a:hover {
       color: #068fbf; }
-  @media screen and (max-width: 1024px) {
+  @media screen and (min-width: 480px) {
     .social-icons {
       font-size: 80px;
       font-size: 5rem; }
       .social-icons .fa-border {
         width: 116px; } }
+
+/*--------------------------------------------------------------
+# Lodge
+--------------------------------------------------------------*/
+.lodge-hero {
+  background-size: cover;
+  height: 850px; }
+
+.sustain-hero {
+  background-size: cover;
+  height: 850px; }

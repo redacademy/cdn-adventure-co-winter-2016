@@ -28,7 +28,7 @@
 /* 1024px */
 
 @mixin desktop {
-  @media screen and (max-width: $desktop-width) {
+  @media screen and (min-width: $mobile-width) {
     @content;
   }
 }

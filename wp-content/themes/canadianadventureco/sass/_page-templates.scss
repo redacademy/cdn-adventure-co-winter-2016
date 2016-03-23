@@ -6,10 +6,13 @@
 
 .explore-packages {
   background: $color__dark-grey;
-  color: $color__white;
   text-align: center;
   padding-bottom: 2rem;
+  width: 100%;
   border-bottom: 1px solid $color__light-grey;
+  h2 {
+    color: $color__white;
+  }
   .button {
     display: block;
     width: 100%;

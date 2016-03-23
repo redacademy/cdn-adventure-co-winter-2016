@@ -11,10 +11,10 @@
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
-					<h3>Get in Touch</h3>
+					<h2>Get in Touch</h2>
 					<div class="contact-info">
-						<a href="mailto:info@cacltd.com">Email: info@cacltd.com</a>
-						<a href="tel:2508354516">Phone: 250.835.4516</a>
+						<a href="mailto:info@cacltd.com" target="_blank">Email: info@cacltd.com</a>
+						<a href="tel:2508354516" target="_blank">Phone: 250.835.4516</a>
 					</div><!-- contact-info -->
 					<div class="social-icons">
 						<a href="https://twitter.com/CanAdvCo">
