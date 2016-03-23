@@ -21,7 +21,6 @@ get_header(); ?>
       <!-- This is the "get to know the mcmanus family" section -->
       <section>
          <div class="">
-           <!-- <h1><?php echo CFS()->get('h1'); ?></h1> -->
            <h1>Get to know the McManus Family</h1>
          </div>
          <div class="">

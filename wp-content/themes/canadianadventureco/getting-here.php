@@ -23,7 +23,6 @@ get_header(); ?>
       <!-- This is the "never-been-touched terrain" section -->
       <section>
          <div class="">
-           <!-- <h1><?php echo CFS()->get('h1'); ?></h1> -->
            <h1>Never-been-touched terrain will leave you mesmerized</h1>
          </div>
          <div class="">
@@ -51,7 +50,6 @@ get_header(); ?>
       <!-- This is the "travel options" section -->
       <section>
          <div class="">
-           <!-- <h2><?php echo CFS()->get('h2'); ?></h2> -->
             <h2>We recommned car or air travel to get you and your gear to Valemount.</h2>
          </div>
          <div class="">
