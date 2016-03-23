@@ -46,7 +46,6 @@ get_header(); ?>
       <!-- This is the "why we built the mallard lodge" section -->
       <section>
          <div class="">
-           <!-- <h2><?php echo CFS()->get('h2'); ?></h2> -->
             <h2>Why we built the Mallard Lodge</h2>
          </div>
          <div class="">
