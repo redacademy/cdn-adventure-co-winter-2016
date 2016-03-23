@@ -860,3 +860,6 @@ object {
   background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
   background-size: cover;
   height: 850px; }
+
+.front-single-column {
+  border: 1px solid black; }
