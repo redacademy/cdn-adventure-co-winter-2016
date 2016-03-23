@@ -72,6 +72,8 @@
 	}
 }
 .triple-column {
+	display: flex;
+	justify-content: space-between;
 	width: 22%;
 
 	@include desktop {

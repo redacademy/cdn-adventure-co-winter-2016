@@ -34,48 +34,52 @@
 
 <!-- This is the Where adventure meets... section -->
 <section>
-   <h2>Where adventure and relaxation meet</h2>
+   <h2 class="center">Where adventure and relaxation meet</h2>
+   <div class="triple-column container">
+      <div class="front-single-column">
+         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>
+         <h3>Winter outdoor activities</h3>
+         <p>
+            Spend your day skiing, snowboarding or snowshoeing in the backcountry with out expert guide.
+         </p>
+      </div>
 
-   <div class="">
-      <img src="" alt="" />
-      <h3>Winter outdoor activities</h3>
-      <p>
-         Spend your day skiing, snowboarding or snowshoeing in the backcountry with out expert guide.
-      </p>
+      <div class="front-single-column">
+         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/sun-icon.png" alt="an icon depicting a shining sun" class="icon"/>
+         <h3>summer outdoor activities</h3>
+         <p>
+            In the warmer months, hike amoungst the wildflowers and creeks.
+         </p>
+      </div>
+
+      <div class="front-single-column">
+         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/lodge-icon.png" alt="an icon depicting a house" class="icon"/>
+         <h3>relaxation at the lodge</h3>
+         <p>
+            At the end of the day, relax in the beautiful Mallard Mountain Lodge.
+         </p>
+      </div>
+
    </div>
-
-   <div class="">
-      <img src="" alt="" />
-      <h3>summer outdoor activities</h3>
-      <p>
-         In the warmer months, hike amoungst the wildflowers and creeks.
-      </p>
-   </div>
-
-   <div class="">
-      <img src="" alt="" />
-      <h3>relaxation at the lodge</h3>
-      <p>
-         At the end of the day, relax in the beautiful Mallard Mountain Lodge.
-      </p>
-   </div>
-
 </section>
 
 <hr>
 <!-- this is the unique adventure section  -->
 <section>
-   <h2>We offer a unique adventure in the remote wilderness of the Canadian Rockies</h2>
-   <div class="triple-column">
+   <h2 class="triple-column container center">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h2>
+   <div class="triple-column container">
       <div class="front-single-column">
-         <img src="" alt="" />
+         <div class="picture-wrapper">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/03_helicopteraccess.jpg" alt="A picture of a helicopter" class="zoomed-in-1"/>
+         </div>
          <h3>Helicopter access</h3>
          <p>Our lodge is accessible by 30-minute helicopter from Valemount, BC.
          </p>
       </div>
-
       <div class="front-single-column">
-         <img src="" alt="" />
+         <div class="picture-wrapper">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/04_backcountry.jpeg" alt="a picture of a wide open field in the mountains" class=""/>
+         </div>
          <h3>backcountry experience</h3>
          <p>
             we are located in one of the most pristine and remote areas of the Rocky Mountains.
@@ -83,12 +87,15 @@
       </div>
 
       <div class="front-single-column">
-         <img src="" alt="" />
+         <div class="picture-wrapper">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/05_lodge.jpeg" alt="a picture of Mallard Mountain Lodge at night during winter" class="zoomed-in-2"/>
+         </div>
          <h3>the mallard mountain lodge</h3>
          <p>
             Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
          </p>
       </div>
+
    </div>
 </section>
 
