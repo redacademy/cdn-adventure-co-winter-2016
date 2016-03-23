@@ -59,7 +59,7 @@ get_header(); ?>
           </p>
           <img src="" alt="" />
         </section><!-- .lodge-amenities -->
-will it blend?
+
         <section>
           <div class="banner sustain-hero">
             <div class="banner-text">
