@@ -12,10 +12,11 @@ get_header(); ?>
 
     <article class="lodge">
       <section>
-         <div class="banner">
-            <img src="" alt="" />
-            <p>Mallard Mountain Lodge</p>
-         </div>
+        <div class="banner lodge-hero">
+           <div class="banner-text">
+              Mallard Mountain Lodge
+           </div>
+        </div>
       </section>
 
       <section>
@@ -60,7 +61,12 @@ get_header(); ?>
       </section><!-- .lodge-amenities -->
 
       <section>
-        <h2>Sustainability</h2>
+        <div class="banner sustain-hero">
+           <div class="banner-text">
+              Sustainability & Environmental Stewardship
+           </div>
+        </div>
+
           <p>
             Sustainability and environmental stewardship are cornerstones of CAC's business and the packages we offer.Here are some highlights.
           </p>
@@ -71,10 +77,6 @@ get_header(); ?>
             A large solar system with 9 solar panels provides electric power, and is designed to minimize generator usage year round. CAC did not construct a road to the Lodge site. CAC does not build hiking trails. Although there are patterns to hiking routes, with a small group and lots of terrain to work with.
           </p>
           <img src="" alt="" />
-      </section><!-- .sustainability -->
-
-      <section>
-        <h2>Environmental Stewardship</h2>
         <p>
           Enjoying the outdoors and sharing in the wonder that makes British Columbia a magnificent province are what makes backcountry in the wilderness a popular activity. Without a healthy natural environment, we would lose an integral element of what defines BC as a province. We feel very strongly about the need to protect the health of our natural environment for generations to come.
         </p>
@@ -85,7 +87,7 @@ get_header(); ?>
       </section><!-- .stewardship-->
 
       <?php get_template_part( 'template-parts/content', 'explore' ); ?>
-      
+
     </article><!-- .lodge -->
 
   </main><!-- #main -->
