@@ -1,0 +1,19 @@
+.winter-packages-hero {
+	background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
+
+.guided-hero {
+	background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
+
+.meals-hero {
+	background: url(../../assets/images/pictures/packages/winter/meals.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
+
+.small-groups-hero {
+	background: url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
