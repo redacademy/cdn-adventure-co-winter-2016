@@ -1,6 +1,6 @@
 <?php
 /**
- * Theme Name: Getting Here Page.
+ * Template Name: Getting Here Page.
  *
  * @package RED_Starter_Theme
  */
