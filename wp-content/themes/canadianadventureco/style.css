@@ -390,10 +390,11 @@ input[type="submit"] {
   background: #068fbf;
   color: #ffffff;
   text-transform: uppercase;
+  text-align: center;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1;
-  padding: 1.25rem 5rem; }
+  padding: 2% 5%; }
   button:hover,
   input[type="button"]:hover,
   input[type="reset"]:hover,
@@ -648,16 +649,16 @@ a {
           flex-direction: column; }
 
 .single-column {
-  width: 309px; }
+  width: 22%; }
   @media screen and (min-width: 480px) {
     .single-column {
-      width: 785px; } }
+      width: 55%; } }
 
 .triple-column {
-  width: 309px; }
+  width: 22%; }
   @media screen and (min-width: 480px) {
     .triple-column {
-      width: 1195px; } }
+      width: 83%; } }
 
 .container {
   margin: 0 auto; }
@@ -789,18 +790,20 @@ object {
   background: #303030;
   text-align: center;
   padding-bottom: 2rem;
-  width: 100%;
   border-bottom: 1px solid #f5f5f5; }
+  .explore-packages div {
+    width: 95%; }
   .explore-packages h2 {
     color: #ffffff; }
   .explore-packages .button {
     display: block;
+    min-width: 116px;
     width: 100%;
     margin: 2rem 0; }
     @media screen and (min-width: 480px) {
       .explore-packages .button {
         display: inline;
-        width: 458px;
+        width: 33%;
         margin: 0 2rem; } }
 
 /*--------------------------------------------------------------

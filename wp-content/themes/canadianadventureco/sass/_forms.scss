@@ -13,9 +13,10 @@ input[type="submit"] {
 	background: $color__blue;
 	color: $color__white;
 	text-transform: uppercase;
+	text-align: center;
 	@include font-size(1.25);
 	line-height: 1;
-	padding: 1.25rem 5rem;
+	padding: 2% 5%;
 
 	&:hover {
 		filter: brightness(0.6);

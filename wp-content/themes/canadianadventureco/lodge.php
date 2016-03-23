@@ -1,9 +1,9 @@
 <?php
 /**
- * Template Name: The Lodge Page
- *
- * @package RED_Starter_Theme
- */
+* Template Name: The Lodge Page
+*
+* @package RED_Starter_Theme
+*/
 
 get_header(); ?>
 
@@ -13,9 +13,9 @@ get_header(); ?>
     <article class="lodge">
       <section>
         <div class="banner lodge-hero">
-           <div class="banner-text">
-              Mallard Mountain Lodge
-           </div>
+          <div class="banner-text">
+            Mallard Mountain Lodge
+          </div>
         </div>
       </section>
 
@@ -26,46 +26,46 @@ get_header(); ?>
         </p>
         <p>
           The Lodge was partially pre-built off site, then flown by helicopter to our very remote Mallard Peaks area of the Rocky Mountains, where the building was completed.         </p>
-        <p>
-          The main floor of the lodge features a living and dining room, with wood fired stove, and kitchen. The second floor has sleeping bays along the outside walls, divided by interior walls. The beds (one upper & lower in each bay) are custom made oversize twins for lots of space, each fronted by individual black out privacy curtains, and each with a solar light. The second floor also has a separate room for changing, with a counter and sink for wash up etc. & a mountain shower (full sized stall and curtain, hot water container and overhead nozzle) draining into our greywater system.
-        </p>
-      </section><!-- .lodge-info -->
+          <p>
+            The main floor of the lodge features a living and dining room, with wood fired stove, and kitchen. The second floor has sleeping bays along the outside walls, divided by interior walls. The beds (one upper & lower in each bay) are custom made oversize twins for lots of space, each fronted by individual black out privacy curtains, and each with a solar light. The second floor also has a separate room for changing, with a counter and sink for wash up etc. & a mountain shower (full sized stall and curtain, hot water container and overhead nozzle) draining into our greywater system.
+          </p>
+        </section><!-- .lodge-info -->
 
-      <section>
-        <h2>Lodge Amenities</h2>
-        <span>Beds</span>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry
-        </p>
-        <span>Showers</span>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry
-        </p>
-        <span>Kitchen</span>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry
-        </p>
-        <span>Toilet</span>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry
-        </p>
-        <span>Living Space</span>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry
-        </p>
-        <span>Catering</span>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry
-        </p>
-        <img src="" alt="" />
-      </section><!-- .lodge-amenities -->
+        <section>
+          <h2>Lodge Amenities</h2>
+          <span>Beds</span>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          </p>
+          <span>Showers</span>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          </p>
+          <span>Kitchen</span>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          </p>
+          <span>Toilet</span>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          </p>
+          <span>Living Space</span>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          </p>
+          <span>Catering</span>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+          </p>
+          <img src="" alt="" />
+        </section><!-- .lodge-amenities -->
 
-      <section>
-        <div class="banner sustain-hero">
-           <div class="banner-text">
+        <section>
+          <div class="banner sustain-hero">
+            <div class="banner-text">
               Sustainability & Environmental Stewardship
-           </div>
-        </div>
+            </div>
+          </div>
 
           <p>
             Sustainability and environmental stewardship are cornerstones of CAC's business and the packages we offer.Here are some highlights.
@@ -77,20 +77,20 @@ get_header(); ?>
             A large solar system with 9 solar panels provides electric power, and is designed to minimize generator usage year round. CAC did not construct a road to the Lodge site. CAC does not build hiking trails. Although there are patterns to hiking routes, with a small group and lots of terrain to work with.
           </p>
           <img src="" alt="" />
-        <p>
-          Enjoying the outdoors and sharing in the wonder that makes British Columbia a magnificent province are what makes backcountry in the wilderness a popular activity. Without a healthy natural environment, we would lose an integral element of what defines BC as a province. We feel very strongly about the need to protect the health of our natural environment for generations to come.
-        </p>
-        <p>
-          Environmental stewardship means taking care of our environment through our actions. It means practising sensible and responsible management of our resources, through what we do, for the benefit of present and future generations. CAC’s role is to ensure that our pristine wilderness is here in the future.
-        </p>
-        <img src="" alt="" />
-      </section><!-- .stewardship-->
+          <p>
+            Enjoying the outdoors and sharing in the wonder that makes British Columbia a magnificent province are what makes backcountry in the wilderness a popular activity. Without a healthy natural environment, we would lose an integral element of what defines BC as a province. We feel very strongly about the need to protect the health of our natural environment for generations to come.
+          </p>
+          <p>
+            Environmental stewardship means taking care of our environment through our actions. It means practising sensible and responsible management of our resources, through what we do, for the benefit of present and future generations. CAC’s role is to ensure that our pristine wilderness is here in the future.
+          </p>
+          <img src="" alt="" />
+        </section><!-- .stewardship-->
 
-      <?php get_template_part( 'template-parts/content', 'explore' ); ?>
+        <?php get_template_part( 'template-parts/content', 'explore' ); ?>
 
-    </article><!-- .lodge -->
+      </article><!-- .lodge -->
 
-  </main><!-- #main -->
-</div><!-- #primary -->
+    </main><!-- #main -->
+  </div><!-- #primary -->
 
-<?php get_footer(); ?>
+  <?php get_footer(); ?>

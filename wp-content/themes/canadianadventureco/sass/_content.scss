@@ -56,17 +56,17 @@
 	flex-direction: column;
 }
 .single-column {
-	width: 309px;
+	width: 22%;
 
 	@include desktop {
-		width:785px;
+		width: 55%;
 	}
 }
 .triple-column {
-	width: 309px;
+	width: 22%;
 
 	@include desktop {
-		width: 1195px;
+		width: 83%;
 	}
 }
 .container {
