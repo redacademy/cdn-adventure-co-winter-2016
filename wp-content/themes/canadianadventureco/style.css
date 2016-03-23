@@ -732,7 +732,23 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-/* Front page */
+/* Explore Packages */
+.explore-packages {
+  background: #303030;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #f5f5f5; }
+  .explore-packages .button {
+    display: block;
+    width: 100%;
+    margin: 2rem 0; }
+    @media screen and (min-width: 1024px) {
+      .explore-packages .button {
+        display: inline;
+        width: 458px;
+        margin: 0 2rem; } }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

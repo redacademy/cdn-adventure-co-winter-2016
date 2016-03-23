@@ -8,14 +8,14 @@
 ?>
 
 <!-- This is the explore packages section -->
-<section>
-   <div class="">
-      <h2>explore packages</h2>
+<section class="explore-packages">
+   <div class="triple-column container">
+      <h2>explore our adventure packages</h2>
       <button class="button">
          winter
       </button>
       <button class="button">
          summer
       </button>
-   </div>
+   </div><!-- .explore-packages -->
 </section>

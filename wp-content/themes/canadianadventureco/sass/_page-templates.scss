@@ -2,4 +2,22 @@
 # Page Templates
 --------------------------------------------------------------*/
 
-/* Front page */
+/* Explore Packages */
+
+.explore-packages {
+  background: $color__dark-grey;
+  color: $color__white;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $color__light-grey;
+  .button {
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    @include desktop {
+      display: inline;
+      width: 458px;
+      margin: 0 2rem;
+    }
+  }
+}
