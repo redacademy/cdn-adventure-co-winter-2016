@@ -750,6 +750,49 @@ object {
         width: 458px;
         margin: 0 2rem; } }
 
+#masthead {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  width: 100vw; }
+
+.logo {
+  width: 84px;
+  height: 65px;
+  margin: 1rem; }
+  @media screen and (min-width: 480px) {
+    .logo {
+      width: 170px;
+      height: 130px; } }
+
+.menu-button {
+  margin: 2rem;
+  font-size: 1.5rem; }
+  @media screen and (min-width: 480px) {
+    .menu-button {
+      display: none; } }
+
+.main-navigation {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .main-navigation {
+      padding-top: 1rem;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 80%; } }
+
+.menu li a {
+  padding: 1rem; }
+
+.request_to_book {
+  padding: 1.25rem;
+  height: 3.75rem; }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -802,5 +845,15 @@ object {
   height: 850px; }
 
 .sustain-hero {
+  background-size: cover;
+  height: 850px; }
+
+.front-hero {
+  background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
+.summer-hero {
+  background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
   background-size: cover;
   height: 850px; }

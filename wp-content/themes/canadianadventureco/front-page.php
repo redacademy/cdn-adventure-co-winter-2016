@@ -35,6 +35,7 @@
 <!-- This is the Where adventure meets... section -->
 <section>
    <h2>Where adventure and relaxation meet</h2>
+
    <div class="">
       <img src="" alt="" />
       <h3>Winter outdoor activities</h3>
@@ -42,6 +43,7 @@
          Spend your day skiing, snowboarding or snowshoeing in the backcountry with out expert guide.
       </p>
    </div>
+
    <div class="">
       <img src="" alt="" />
       <h3>summer outdoor activities</h3>
@@ -49,6 +51,7 @@
          In the warmer months, hike amoungst the wildflowers and creeks.
       </p>
    </div>
+
    <div class="">
       <img src="" alt="" />
       <h3>relaxation at the lodge</h3>
@@ -56,31 +59,36 @@
          At the end of the day, relax in the beautiful Mallard Mountain Lodge.
       </p>
    </div>
+
 </section>
 
 <hr>
 <!-- this is the unique adventure section  -->
 <section>
    <h2>We offer a unique adventure in the remote wilderness of the Canadian Rockies</h2>
-   <div class="">
-      <img src="" alt="" />
-      <h3>Helicopter access</h3>
-      <p>Our lodge is accessible by 30-minute helicopter from Valemount, BC.
-      </p>
-   </div>
-   <div class="">
-      <img src="" alt="" />
-      <h3>backcountry experience</h3>
-      <p>
-         we are located in one of the most pristine and remote areas of the Rocky Mountains.
-      </p>
-   </div>
-   <div class="">
-      <img src="" alt="" />
-      <h3>the mallard mountain lodge</h3>
-      <p>
-         Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
-      </p>
+   <div class="triple-column">
+      <div class="front-single-column">
+         <img src="" alt="" />
+         <h3>Helicopter access</h3>
+         <p>Our lodge is accessible by 30-minute helicopter from Valemount, BC.
+         </p>
+      </div>
+
+      <div class="front-single-column">
+         <img src="" alt="" />
+         <h3>backcountry experience</h3>
+         <p>
+            we are located in one of the most pristine and remote areas of the Rocky Mountains.
+         </p>
+      </div>
+
+      <div class="front-single-column">
+         <img src="" alt="" />
+         <h3>the mallard mountain lodge</h3>
+         <p>
+            Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
+         </p>
+      </div>
    </div>
 </section>
 
@@ -88,6 +96,7 @@
 
 <!-- This is the Work with our guests section -->
 <section>
+
    <div class="">
       <h2>We work with our guests to create a customized, once-in-a-lifetome adventure.</h2>
       <img src="" alt="" />
@@ -95,6 +104,7 @@
       <p>Safety is our first priority, and our guides are experts in the backcountry.
       </p>
    </div>
+
    <div class="">
       <img src="" alt="" />
       <h3>catered or self-catered</h3>
@@ -102,6 +112,7 @@
          Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
       </p>
    </div>
+
    <div class="">
       <img src="" alt="" />
       <h3>small groups</h3>
@@ -109,6 +120,7 @@
          With maximum groups of 9, guests will experience an intimate experience at the lodge.
       </p>
    </div>
+
 </section>
 
 <!-- This is the explore packages section -->
