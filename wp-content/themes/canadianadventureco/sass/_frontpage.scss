@@ -1,0 +1,9 @@
+.front-hero {
+	background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
+
+.summer-hero {
+	background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
