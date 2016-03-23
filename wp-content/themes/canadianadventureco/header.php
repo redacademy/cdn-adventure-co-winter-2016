@@ -21,12 +21,10 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
 
 			<header id="masthead" class="site-header" role="banner">
-				<div class="site-branding">
-					<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-					<a href="<?php echo esc_url(home_url('/')) ?>"><img src="<?php echo get_template_directory_uri()?>/assets/images/cac-logo.png" alt="The Canadian Adventure Company logo" /></a>
-				</div><!-- .site-branding -->
 
+				<div class="site-branding">
+					<a href="<?php echo esc_url(home_url('/')) ?>"><img src="<?php echo get_template_directory_uri()?>/assets/images/cac-logo-grey.png" alt="The Canadian Adventure Company logo" class="logo" /></a>
+				</div><!-- .site-branding -->
 
 				<!-- The header needs to change at the breakpoint - don't forget to add this  -->
 				<div class="menu-button mobile">
@@ -35,11 +33,10 @@
 
 				<nav id="site-navigation desktop" class="main-navigation" role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					<button class="request_to_book">
+						Request to book
+					</button>
 				</nav><!-- #site-navigation -->
-
-				<div class="">
-					Request to book
-				</div>
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">

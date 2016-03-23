@@ -52,6 +52,9 @@
 	align-items: center;
 	justify-content: center;
 }
+.column {
+	flex-direction: column;
+}
 .single-column {
 	width: 309px;
 
@@ -69,8 +72,69 @@
 .container {
 	margin: 0 auto;
 }
+
+//Header
+#masthead {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	width: 100vw;
+	@include desktop {
+		// position: fixed;
+	}
+
+}
+.logo {
+	width: 84px;
+	height: 65px;
+	margin: 1rem;
+	@include desktop {
+		width: 170px;
+		height: 130px;
+	}
+}
+.menu-button {
+	margin: 2rem;
+	font-size: 1.5rem;
+	@include desktop {
+		display: none;
+	};
+}
+.main-navigation {
+	display: none;
+	@include desktop {
+		padding-top:1rem;
+		display: flex;
+		width: 80%;
+	};
+}
+.menu {
+	li a {
+		padding: 1rem;
+	}
+}
+.request_to_book {
+	padding: 1.25rem;
+	height: 3.75rem;
+}
 // Front Page
 .front-hero {
 	background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
+.banner-text {
+	font-size: 90pt;
+	font-family: $font__heading;
+	text-transform: uppercase;
+	color: white;
+}
+.main-title {
+
+	h1 {
+		color: $color__text-main;
+	}
+}
+.summer-hero {
+	background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
 	@include banner;
 }

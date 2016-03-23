@@ -2,29 +2,33 @@
 <!-- This is the hero banner -->
 <section>
    <div class="banner front-hero">
-      <div class="">
+      <div class="banner-text">
          The mountains are calling
       </div>
    </div>
 </section>
 
 <!-- This is the "what/where/how" section -->
-<section>
-   <div class="">
-      <h1>What/Where/How</h1>
+<section class="banner column">
+   <div class="main-title">
+      <h1>Where/What/How</h1>
    </div>
-   <div class="">
-      <?php //put the info text here ?>
+   <div class="single-column">
+      <p>
+         Located in the Punch Bowl region of the Rocky Mountains, the Mallard Mountain Lodge is the home of the Canadian Adventure Company. Small groups of 9 come from all over to stay with us and experience one of the most remote regions in the Canadian Rockies by 30-minute helicopter ride.
+      </p>
    </div>
-   <button class="button">
+   <button class="">
       Explore the lodge
    </button>
 </section>
 
 <!-- This is the Packages banner image section -->
 <section>
-   <div class="banner">
-      Summer &amp; Winter Packages
+   <div class="banner summer-hero">
+      <div class="banner-text">
+         Summer &amp; Winter Packages
+      </div>
    </div>
 </section>
 
