@@ -883,3 +883,23 @@ object {
 
 .front-single-column {
   border: 1px solid black; }
+
+.winter-packages-hero {
+  background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
+.guided-hero {
+  background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
+.meals-hero {
+  background: url(../../assets/images/pictures/packages/winter/meals.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }
+
+.small-groups-hero {
+  background: url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 850px; }

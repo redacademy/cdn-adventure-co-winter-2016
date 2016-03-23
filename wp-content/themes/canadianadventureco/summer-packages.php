@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Winter-Packages Page
+* Template Name: Summer-Packages Page
 *
 * @package RED_Starter_Theme
 */
@@ -10,51 +10,48 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 
-		<!-- This is the winter-packages hero banner -->
+		<!-- This is the summer-packages hero banner -->
 		<section>
-			<div class="banner winter-packages-hero">
+			<div class="banner summer-packages-hero">
 				<div class="banner-text">
-					Winter Packages
+					Summer Packages
 				</div>
 			</div>
 		</section>
 
-      <!-- This is the "our winter season" section -->
+      <!-- This is the "our summer season" section -->
       <section class="banner column">
          <div class="main-title">
-           <h1>Our Winter Season is from November to April</h1>
+           <h1>Our Summer Season is from TBD to TBD</h1>
          </div>
          <div class="single-column">
-            <p>Canadian Adventure Company offers highly customized
-              packages for guests, so that they can enjoy their perfect
-              getaway at the Mallard Lodge. Due to the often extreme nature
-              of the winter season, all of our winter season packages are
-              guided by experts.</p>
+            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
+              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
+              eos, nam tation postulant suscipiantur ei.</p>
          </div>
       </section>
 
-      <!-- This is the "winter activities" section -->
+      <!-- This is the "summer activities" section -->
       <section class="banner column">
          <div class="">
-            <h2>Winter Activities</h2>
+            <h2>Summer Activities</h2>
          </div>
          <div class="">
-            <img src="" alt="Ski Icon">
-            <img src="" alt="Snowboard Icon">
-            <img src="" alt="Snowshoe Icon">
+            <img src="" alt="Hiking Boot Icon">
+            <img src="" alt="Camping Tent Icon">
+            <img src="" alt="Relaxation Hut Icon">
          </div>
 
          <div>
-           <p>When you arrive for your winter adventure, spend your days skiing,
-             snowboarding, snowshoeing or just relaxing in the lodge. With your guide,
-             you’ll experience some of the most remote regions of British Columbia and
-             ski down slopes that have never been skiied before.</p>
+           <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
+             splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
+             eos, nam tation postulant suscipiantur ei.</p>
         </div>
 		</section>
 
     <!-- This is the guided sub banner -->
     <section>
-      <div class="banner guided-winter-hero">
+      <div class="banner guided-summer-hero">
         <div class="banner-text">
           Guided By Experts
         </div>
@@ -125,7 +122,6 @@ get_header(); ?>
         Get a Trip Estimate
       </button>
     </section>
-
 
 	</main><!-- #main -->
 </div><!-- #primary -->

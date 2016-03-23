@@ -3,7 +3,7 @@
 	@include banner;
 }
 
-.guided-hero {
+.guided-winter-hero {
 	background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
 	@include banner;
 }
@@ -15,5 +15,15 @@
 
 .small-groups-hero {
 	background: url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
+
+.summer-packages-hero {
+	background: url(../../assets/images/pictures/packages/summer/lake.jpg) center top no-repeat #ffffff;
+	@include banner;
+}
+
+.guided-summer-hero {
+	background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
 	@include banner;
 }
