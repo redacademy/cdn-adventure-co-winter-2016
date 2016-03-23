@@ -12,21 +12,21 @@ get_header(); ?>
 
       <!-- This is the getting-here hero banner -->
       <section>
-         <div class="banner center">
-            <img src="" alt="" />
-            <p>Get yourself to Valemount, and we'll tae care of the rest</p>
+         <div class="banner getting-hero">
+            <div class="banner-text">
+							Get yourself to Valemount, and we'll tae care of the rest
+						</div>
             <p>Every adventure with us begins in Valemount, BC, where a 30-minute helicopter
               ride will whisk you away to our Mallard Mountain Lodge.</p>
          </div>
       </section>
 
       <!-- This is the "never-been-touched terrain" section -->
-      <section>
-         <div class="">
+      <section class="banner column">
+         <div class="main-title">
            <h1>Never-been-touched terrain will leave you mesmerized</h1>
          </div>
-         <div class="">
-            <?php //put the info text here ?>
+         <div class="single-column">
             <p>The Mallard Mountan Lodge is located in one of the most pristine and remote areas
             of British Columbia, on the west slope of the Rocky Mountains.</p>
             <p>The winter brings huge snowfalls of perfect dry powder, while in the summer the high alpine
@@ -40,19 +40,19 @@ get_header(); ?>
       </section>
 
       <!-- This is the valemount map section-->
-      <section>
-         <div>
+      <section class="banner column">
+         <div class="">
             <h2>Valemount is where your adventure begins.</h2>
             <img src="" alt="" />
          </div>
       </section>
 
       <!-- This is the "travel options" section -->
-      <section>
+      <section class="banner column">
          <div class="">
             <h2>We recommned car or air travel to get you and your gear to Valemount.</h2>
          </div>
-         <div class="">
+         <div class="triple-column">
             <div>
               <h3>Car</h3>
               <p><strong>Approximate Driving Times to Valemount, from:</strong></p>
@@ -92,9 +92,10 @@ get_header(); ?>
 
       <!-- This is the can't-wait-to-meet-up sub banner -->
       <section>
-         <div class="banner center">
-            <img src="" alt="" />
-            <p>We can't wait to meet you!</p>
+         <div class="banner meet-hero">
+            <div class="banner-side-text">
+							We can't wait to meet you!
+						</div>
          </div>
       </section>
 

@@ -1,6 +1,5 @@
 <?php
 /**
-
 * Template Name: About Page
 *
 * @package RED_Starter_Theme
@@ -13,18 +12,19 @@ get_header(); ?>
 
 		<!-- This is the about hero banner -->
 		<section>
-			<div class="banner">
-				<img src="" alt="" />
-				<p>Who we are</p>
+			<div class="banner about-hero">
+				<div class="banner-text">
+					Who we are
+				</div>
 			</div>
 		</section>
 
       <!-- This is the "get to know the mcmanus family" section -->
-      <section>
-         <div class="">
+      <section class="banner column">
+         <div class="main-title">
            <h1>Get to know the McManus Family</h1>
          </div>
-         <div class="">
+         <div class="single-column">
             <?php //put the info text here ?>
             <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
               splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
@@ -38,14 +38,15 @@ get_header(); ?>
 
 		<!-- This is the about sub banner -->
 		<section>
-			<div class="banner center">
-				<img src="" alt="" />
-				<p>It all started in 1985</p>
+			<div class="banner start-hero">
+				<div class="banner-text">
+					It all started in 1985
+				</div>
 			</div>
 		</section>
 
       <!-- This is the "why we built the mallard lodge" section -->
-      <section>
+      <section class="banner column">
          <div class="">
             <h2>Why we built the Mallard Lodge</h2>
          </div>
