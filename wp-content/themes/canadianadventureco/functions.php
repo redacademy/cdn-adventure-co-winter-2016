@@ -91,6 +91,7 @@ function cdn_adventure_scripts() {
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 	wp_enqueue_script( 'jquery', get_template_directory_uri() . 'https://code.jquery.com/jquery-2.2.2.min.js');
 	wp_enqueue_script( 'angular', get_template_directory_uri() . '/build/js/angular.min.js');
+	wp_enqueue_script( 'ui-router', get_template_directory_uri() . '/build/js/angular.ui-router.min.js');
 	wp_enqueue_script( 'BookingApp', get_template_directory_uri() . '/js/booking-app.js');
 	wp_enqueue_script( 'bxslider', get_template_directory_uri() . '/js/jquery.bxslider/jquery.bxslider.min.js', array('jquery'));
 	wp_enqueue_script( 'bx_slider', get_template_directory_uri(). '/js/bx-slider.js');
