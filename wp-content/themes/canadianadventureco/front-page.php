@@ -9,18 +9,20 @@
 </section>
 
 <!-- This is the "what/where/how" section -->
-<section class="banner column">
-   <div class="main-title">
-      <h1>Where/What/How</h1>
+<section>
+   <div class="banner column-what">
+      <div class="main-title">
+         <h1>Where/What/How</h1>
+      </div>
+      <div class="single-column">
+         <p>
+            Located in the Punch Bowl region of the Rocky Mountains, the Mallard Mountain Lodge is the home of the Canadian Adventure Company. Small groups of 9 come from all over to stay with us and experience one of the most remote regions in the Canadian Rockies by 30-minute helicopter ride.
+         </p>
+      </div>
+      <button class="">
+         Explore the lodge
+      </button>
    </div>
-   <div class="single-column">
-      <p>
-         Located in the Punch Bowl region of the Rocky Mountains, the Mallard Mountain Lodge is the home of the Canadian Adventure Company. Small groups of 9 come from all over to stay with us and experience one of the most remote regions in the Canadian Rockies by 30-minute helicopter ride.
-      </p>
-   </div>
-   <button class="">
-      Explore the lodge
-   </button>
 </section>
 
 <!-- This is the Packages banner image section -->
@@ -36,7 +38,7 @@
 <section>
    <h2 class="center">Where adventure and relaxation meet</h2>
    <div class="triple-column container">
-      <div class="front-single-column">
+      <div class="front-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>
          <h3>Winter outdoor activities</h3>
          <p>
@@ -44,7 +46,7 @@
          </p>
       </div>
 
-      <div class="front-single-column">
+      <div class="front-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/sun-icon.png" alt="an icon depicting a shining sun" class="icon"/>
          <h3>summer outdoor activities</h3>
          <p>
@@ -52,7 +54,7 @@
          </p>
       </div>
 
-      <div class="front-single-column">
+      <div class="front-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/lodge-icon.png" alt="an icon depicting a house" class="icon"/>
          <h3>relaxation at the lodge</h3>
          <p>
@@ -68,17 +70,17 @@
 <section>
    <h2 class="triple-column container center">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h2>
    <div class="triple-column container">
-      <div class="front-single-column">
+      <div class="front-single-column container">
          <div class="picture-wrapper">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/03_helicopteraccess.jpg" alt="A picture of a helicopter" class="zoomed-in-1"/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/03_helicopteraccess.jpg" alt="A picture of a helicopter" class="zoomed in-1"/>
          </div>
          <h3>Helicopter access</h3>
          <p>Our lodge is accessible by 30-minute helicopter from Valemount, BC.
          </p>
       </div>
-      <div class="front-single-column">
+      <div class="front-single-column container">
          <div class="picture-wrapper">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/04_backcountry.jpeg" alt="a picture of a wide open field in the mountains" class=""/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/04_backcountry.jpeg" alt="a picture of a wide open field in the mountains" class="full-picture"/>
          </div>
          <h3>backcountry experience</h3>
          <p>
@@ -86,9 +88,9 @@
          </p>
       </div>
 
-      <div class="front-single-column">
+      <div class="front-single-column container">
          <div class="picture-wrapper">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/05_lodge.jpeg" alt="a picture of Mallard Mountain Lodge at night during winter" class="zoomed-in-2"/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/05_lodge.jpeg" alt="a picture of Mallard Mountain Lodge at night during winter" class="zoomed in-2"/>
          </div>
          <h3>the mallard mountain lodge</h3>
          <p>
@@ -103,31 +105,37 @@
 
 <!-- This is the Work with our guests section -->
 <section>
+   <h2 class="triple-column container center">We work with our guests to create a customized, once-in-a-lifetome adventure.</h2>
+   <div class="triple-column container">
+      <div class="front-single-column container">
+         <div class="picture-wrapper">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/06_guides.jpg" alt="A picture of a group of cross country skiers" class="zoomed in-3"/>
+         </div>
+         <h3>expert guides</h3>
+         <p>Safety is our first priority, and our guides are experts in the backcountry.
+         </p>
+      </div>
+      <div class="front-single-column container">
+         <div class="picture-wrapper">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/07_meals.jpeg" alt="a picture of a dinner table with a full spread" class="zoomed in-4"/>
+         </div>
+         <h3>catered or self-catered</h3>
+         <p>
+            Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
+         </p>
+      </div>
 
-   <div class="">
-      <h2>We work with our guests to create a customized, once-in-a-lifetome adventure.</h2>
-      <img src="" alt="" />
-      <h3>expert guides</h3>
-      <p>Safety is our first priority, and our guides are experts in the backcountry.
-      </p>
+      <div class="front-single-column container">
+         <div class="picture-wrapper">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/08_smallgroups.jpg" alt="a group of people having fun in the snow" class="zoomed in-5"/>
+         </div>
+         <h3>small groups</h3>
+         <p>
+            With maximum groups of 9, guests will experience an intimate experience at the lodge.
+         </p>
+      </div>
+
    </div>
-
-   <div class="">
-      <img src="" alt="" />
-      <h3>catered or self-catered</h3>
-      <p>
-         Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
-      </p>
-   </div>
-
-   <div class="">
-      <img src="" alt="" />
-      <h3>small groups</h3>
-      <p>
-         With maximum groups of 9, guests will experience an intimate experience at the lodge.
-      </p>
-   </div>
-
 </section>
 
 <!-- This is the explore packages section -->

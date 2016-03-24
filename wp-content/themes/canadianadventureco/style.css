@@ -644,23 +644,29 @@ a {
           justify-content: center; }
 
 .banner-text {
-  font-size: 90pt;
+  font-size: 3.25rem;
+  text-align: center;
   font-family: "Pathway Gothic", sans-serif;
   text-transform: uppercase;
   color: white; }
+  @media screen and (min-width: 480px) {
+    .banner-text {
+      font-size: 5.625rem; } }
 
-.column {
+.column-what {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  margin-bottom: 3rem; }
 
 .single-column {
-  width: 22%; }
+  width: 100%; }
   @media screen and (min-width: 480px) {
     .single-column {
       width: 55%; } }
 
 .triple-column {
+<<<<<<< HEAD
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -668,9 +674,19 @@ a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 22%; }
+=======
+  display: block;
+  width: 100%; }
+>>>>>>> frontpage
   @media screen and (min-width: 480px) {
     .triple-column {
-      width: 83%; } }
+      width: 83%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
 
 .container {
   margin: 0 auto; }
@@ -848,35 +864,64 @@ object {
 
 .about-hero {
   background: url(../../assets/images/pictures/about-us/who-we-are.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .about-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .start-hero {
   background: url(../../assets/images/pictures/about-us/it-all-started.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .start-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .getting-hero {
   background: url(../../assets/images/pictures/getting-here/getting-here.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .getting-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .meet-hero {
   background: url(../../assets/images/pictures/getting-here/we-cant-wait.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .meet-hero {
+      background-size: contain;
+      height: 850px; } }
 
 /*--------------------------------------------------------------
 # Lodge
 --------------------------------------------------------------*/
 .lodge-hero {
+<<<<<<< HEAD
   background: url("../../assets/images/pictures/the-lodge/the-lodge.jpeg") no-repeat;
   background-size: cover;
   height: 850px; }
+=======
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .lodge-hero {
+      background-size: contain;
+      height: 850px; } }
+>>>>>>> frontpage
 
 .sustain-hero {
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .sustain-hero {
+      background-size: contain;
+      height: 850px; } }
 
 /*bx slider */
 .bxslider {
@@ -897,13 +942,21 @@ object {
 
 .front-hero {
   background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .front-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .summer-hero {
   background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .summer-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .front-single-column {
   height: 741px;
@@ -924,6 +977,7 @@ object {
   overflow: hidden;
   position: relative; }
 
+<<<<<<< HEAD
 .zoomed-in-1 {
   max-width: 900px;
   position: absolute;
@@ -939,24 +993,77 @@ object {
   top: 50%;
   -webkit-transform: translate(-30%, -50%);
           transform: translate(-30%, -50%); }
+=======
+.zoomed {
+  position: absolute;
+  left: 50%;
+  top: 50%; }
+
+.in-1 {
+  max-width: 900px;
+  max-width: 900px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.in-2 {
+  min-width: 800px;
+  max-width: 800px;
+  -webkit-transform: translate(-30%, -50%);
+          transform: translate(-30%, -50%); }
+
+.in-3 {
+  min-width: 800px;
+  max-width: 800px;
+  -webkit-transform: translate(-58%, -50%);
+          transform: translate(-58%, -50%); }
+
+.in-4 {
+  min-width: 700px;
+  max-width: 700px;
+  -webkit-transform: translate(-60%, -50%);
+          transform: translate(-60%, -50%); }
+
+.in-5 {
+  min-width: 700px;
+  max-width: 700px;
+  -webkit-transform: translate(-64%, -50%);
+          transform: translate(-64%, -50%); }
+
+.full-picture {
+  min-height: 100%;
+  max-height: 100%; }
+>>>>>>> frontpage
 
 .winter-packages-hero {
   background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .winter-packages-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .guided-winter-hero {
   background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .guided-winter-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .meals-hero {
   background: url(../../assets/images/pictures/packages/winter/meals.jpg) center top no-repeat #ffffff;
-  background-size: cover;
-  height: 850px; }
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .meals-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .small-groups-hero {
   background: url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
+<<<<<<< HEAD
   background-size: cover;
   height: 850px; }
 
@@ -969,3 +1076,29 @@ object {
   background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
   background-size: cover;
   height: 850px; }
+=======
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .small-groups-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.summer-packages-hero {
+  background: url(../../assets/images/pictures/packages/summer/lake.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .summer-packages-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.guided-summer-hero {
+  background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .guided-summer-hero {
+      background-size: contain;
+      height: 850px; } }
+>>>>>>> frontpage
