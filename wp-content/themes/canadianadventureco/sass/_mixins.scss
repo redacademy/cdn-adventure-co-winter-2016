@@ -19,6 +19,17 @@
 		height: 850px;
 	}
 }
+
+@mixin sub-banner {
+	background-size: cover;
+	height: 285px;
+	@include desktop {
+		background-size: cover;
+		height: 850px;
+	}
+}
+
+
 // Breakpoints
 
 /* 480px */
