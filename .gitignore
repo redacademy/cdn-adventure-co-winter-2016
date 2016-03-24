@@ -55,6 +55,5 @@ wp-content/themes/*
 
 # Ignore npm packages #
 # =================== #
-wp-content/themes/canadianadventureco/build/*
 wp-content/themes/canadianadventureco/node_modules/
 wp-content/themes/canadianadventureco/gulpfile.js
