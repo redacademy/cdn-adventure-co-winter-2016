@@ -1028,6 +1028,19 @@ object {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
 
+.newsletter .email-input {
+  border: 1px solid black;
+  border-radius: 0;
+  width: 75%; }
+  .newsletter .email-input:placeholder-shown {
+    text-transform: uppercase; }
+
+.newsletter button {
+  border-top: 2px solid transparent; }
+
+.newsletter p {
+  text-transform: uppercase; }
+
 .winter-packages-hero {
   background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
   background-size: contain;

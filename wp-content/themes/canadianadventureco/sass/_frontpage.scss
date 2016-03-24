@@ -81,3 +81,22 @@
 	top: 85%;
 	transform: translate(-50%, -50%);
 }
+.newsletter {
+	& .news-form {
+
+	}
+	& .email-input {
+		border: 1px solid black;
+		border-radius: 0;
+		width: 75%;
+		&:placeholder-shown {
+			text-transform: uppercase;
+		}
+	}
+	& button {
+		border-top: 2px solid transparent;
+	}
+	& p {
+		text-transform: uppercase;
+	}
+}

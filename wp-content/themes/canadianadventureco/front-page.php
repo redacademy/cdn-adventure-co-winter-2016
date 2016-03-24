@@ -172,16 +172,18 @@
 
 <!-- This is the newsletter section -->
 <section>
-   <h2>subscribe to our newsletter</h2>
-   <p>
-      Stay up to date on the latest deals and news from the mountain!
-   </p>
-   <form class="" action="submit" method="post">
-      <input type="email" name="name" value="">
-      <div class="button">
-         sign up
-      </div>
-   </form>
+   <div class="newsletter single-column center container">
+      <h2>subscribe to our newsletter</h2>
+      <p>
+         Stay up to date on the latest deals and news from the mountain!
+      </p>
+      <form class="news-form" action="submit" method="post">
+         <input type="email" name="name" value="" placeholder="email" class="email-input">
+         <button class="button">
+            sign up
+         </button>
+      </form>
+   </div>
 </section>
 
 <?php get_footer() ?>
