@@ -1,0 +1,1056 @@
+/*!
+Theme Name: Canadian Adventure Co.
+Theme URI:
+Author: RED Academy Students
+Author URI: http://www.redacademy.com
+Description: A WordPress starter theme for RED Academy students.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+RED Starter Theme is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Embedded Fonts
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Asides
+	## Comments
+# Media
+	## Captions
+	## Galleries
+# Page Templates
+	## Front page
+--------------------------------------------------------------*/
+/* 480px */
+/* 1024px */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden],
+template {
+  display: none; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+pre {
+  overflow: auto; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+button {
+  overflow: visible; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto; }
+
+optgroup {
+  font-weight: bold; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*--------------------------------------------------------------
+# Embedded Fonts
+--------------------------------------------------------------*/
+@font-face {
+  font-family: 'Lato';
+  src: url("../../assets/fonts/lato-regular-webfont.eot");
+  src: url("../../assets/fonts/lato-regular-webfont.eot") format("embedded-opentype"), url("../../assets/fonts/lato-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/lato-regular-webfont.woff") format("woff"), url("../../assets/fonts/lato-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/lato-regular-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../../assets/fonts/lato-bold-webfont.eot");
+  src: url("../../assets/fonts/lato-bold-webfont.eot") format("embedded-opentype"), url("../../assets/fonts/lato-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/lato-bold-webfont.woff") format("woff"), url("../../assets/fonts/lato-bold-webfont.ttf") format("truetype"), url("../../assets/fonts/lato-bold-webfont.svg") format("svg");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Pathway Gothic';
+  src: url("../../assets/fonts/pathwaygothicone-regular-webfont.eot");
+  src: url("../../assets/fonts/pathwaygothicone-regular-webfont.eot") format("embedded-opentype"), url("../../assets/fonts/pathwaygothicone-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/pathwaygothicone-regular-webfont.woff") format("woff"), url("../../assets/fonts/pathwaygothicone-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/pathwaygothicone-regular-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #303030;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  clear: both; }
+
+/* This is H2 per design spec (changed color)*/
+h1,
+h2 {
+  font-family: "Pathway Gothic", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #303030; }
+
+/* This is H4 per design spec */
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  color: #303030; }
+
+/* Not in design spec */
+h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: #303030; }
+
+/* Copy */
+p {
+  margin-bottom: 1.5em; }
+
+dfn, cite, em, i {
+  font-style: italic; }
+
+blockquote {
+  margin: 0 1.5em; }
+
+address {
+  margin: 0 0 1.5em; }
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em; }
+
+code, kbd, tt, var {
+  font-family: "Monaco", "Consolas", "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem; }
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help; }
+
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none; }
+
+big {
+  font-size: 125%; }
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-size: 1rem; }
+
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit; }
+
+body {
+  background: #f5f5f5;
+  /* Fallback for when there is no custom background color defined. */ }
+
+blockquote, q {
+  quotes: "" ""; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: ""; }
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em; }
+
+ul, ol {
+  margin: 0 0 1.5em 3em; }
+
+ul {
+  list-style: disc; }
+
+ol {
+  list-style: decimal; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em; }
+
+dt {
+  font-weight: bold; }
+
+dd {
+  margin: 0 1.5em 1.5em; }
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%; }
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+/* Buttons */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: none;
+  border-radius: 3px;
+  background: #068fbf;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: 2% 5%; }
+  button:hover,
+  input[type="button"]:hover,
+  input[type="reset"]:hover,
+  input[type="submit"]:hover {
+    -webkit-filter: brightness(0.6);
+            filter: brightness(0.6); }
+  button:active, button:focus,
+  input[type="button"]:active,
+  input[type="button"]:focus,
+  input[type="reset"]:active,
+  input[type="reset"]:focus,
+  input[type="submit"]:active,
+  input[type="submit"]:focus {
+    border-color: #aaa #bbb #bbb;
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+/* Fields */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  color: #303030;
+  border: 1px solid #f5f5f5;
+  border-radius: 3px; }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="url"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  textarea:focus {
+    color: #111; }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+  padding: .75rem;
+  font-size: 20px;
+  font-size: 1.25rem; }
+
+textarea {
+  padding-left: 3px;
+  width: 100%; }
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/* Links */
+a {
+  color: #068fbf; }
+  a:visited {
+    color: #045775; }
+  a:hover, a:focus, a:active {
+    color: #1abef8; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
+
+/* Menus */
+.main-navigation {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+  text-transform: uppercase; }
+  .main-navigation ul {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0; }
+    .main-navigation ul ul {
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      float: left;
+      position: absolute;
+      top: 1.5em;
+      left: -999em;
+      z-index: 99999; }
+      .main-navigation ul ul ul {
+        left: -999em;
+        top: 0; }
+      .main-navigation ul ul li:hover > ul,
+      .main-navigation ul ul li.focus > ul {
+        left: 100%; }
+      .main-navigation ul ul a {
+        width: 200px; }
+    .main-navigation ul li:hover > ul,
+    .main-navigation ul li.focus > ul {
+      left: auto; }
+  .main-navigation li {
+    float: left;
+    position: relative; }
+  .main-navigation a {
+    display: block;
+    text-decoration: none; }
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block; }
+
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none; }
+  .main-navigation ul {
+    display: block; } }
+
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden; }
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%; }
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%; }
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+  .screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */ }
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clearfix {
+  clear: both;
+  content: "";
+  display: table; }
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget {
+  margin: 0 0 1.5em;
+  /* Make sure select elements fit in widgets. */ }
+  .widget select {
+    max-width: 100%; }
+
+/* Search widget. */
+.widget_search .search-submit {
+  display: none; }
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/* Posts and pages */
+.sticky {
+  display: block; }
+
+.hentry {
+  margin: 0 0 1.5em; }
+
+.updated:not(.published) {
+  display: none; }
+
+.single .byline,
+.group-blog .byline {
+  display: inline; }
+
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0; }
+
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em; }
+
+/* Asides */
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: none; }
+
+/* Comments */
+.comment-content a {
+  word-wrap: break-word; }
+
+.bypostauthor {
+  display: block; }
+
+.banner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.banner-text {
+  font-size: 3.25rem;
+  text-align: center;
+  font-family: "Pathway Gothic", sans-serif;
+  text-transform: uppercase;
+  color: white; }
+  @media screen and (min-width: 480px) {
+    .banner-text {
+      font-size: 5.625rem; } }
+
+.column-what {
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 3rem; }
+
+.single-column {
+  width: 100%; }
+  @media screen and (min-width: 480px) {
+    .single-column {
+      width: 55%; } }
+
+.triple-column {
+  display: block;
+  width: 100%; }
+  @media screen and (min-width: 480px) {
+    .triple-column {
+      width: 83%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+.container {
+  margin: 0 auto; }
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0; }
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%; }
+
+/* Captions */
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%; }
+  .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .wp-caption .wp-caption-text {
+    margin: 0.8075em 0; }
+
+.wp-caption-text {
+  text-align: center; }
+
+/* Galleries*/
+.gallery {
+  margin-bottom: 1.5em; }
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%; }
+  .gallery-columns-2 .gallery-item {
+    max-width: 50%; }
+  .gallery-columns-3 .gallery-item {
+    max-width: 33.33%; }
+  .gallery-columns-4 .gallery-item {
+    max-width: 25%; }
+  .gallery-columns-5 .gallery-item {
+    max-width: 20%; }
+  .gallery-columns-6 .gallery-item {
+    max-width: 16.66%; }
+  .gallery-columns-7 .gallery-item {
+    max-width: 14.28%; }
+  .gallery-columns-8 .gallery-item {
+    max-width: 12.5%; }
+  .gallery-columns-9 .gallery-item {
+    max-width: 11.11%; }
+
+.gallery-caption {
+  display: block; }
+
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+/* Explore Packages */
+.explore-packages {
+  background: #303030;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #f5f5f5; }
+  .explore-packages div {
+    width: 95%; }
+  .explore-packages h2 {
+    color: #ffffff; }
+  .explore-packages .button {
+    display: block;
+    min-width: 116px;
+    width: 100%;
+    margin: 2rem 0; }
+    @media screen and (min-width: 480px) {
+      .explore-packages .button {
+        display: inline;
+        width: 33%;
+        margin: 0 2rem; } }
+
+#masthead {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+  width: 100vw; }
+
+.logo {
+  width: 84px;
+  height: 65px;
+  margin: 1rem; }
+  @media screen and (min-width: 480px) {
+    .logo {
+      width: 170px;
+      height: 130px; } }
+
+.menu-button {
+  margin: 2rem;
+  font-size: 1.5rem; }
+  @media screen and (min-width: 480px) {
+    .menu-button {
+      display: none; } }
+
+.main-navigation {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .main-navigation {
+      padding-top: 1rem;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 80%; } }
+
+.menu li a {
+  padding: 1rem; }
+
+.request_to_book {
+  padding: 1.25rem;
+  height: 3.75rem; }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.site-footer {
+  background: #303030;
+  display: block;
+  text-align: center; }
+  .site-footer h2 {
+    color: #ffffff; }
+
+.contact-info {
+  padding-bottom: 3rem;
+  line-height: 2; }
+  .contact-info a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff; }
+    .contact-info a:hover {
+      color: #068fbf; }
+
+.social-icons {
+  padding-bottom: 4rem;
+  font-size: 32px;
+  font-size: 2rem; }
+  .social-icons .fa-border {
+    border-radius: 50%;
+    border: solid 0.1rem #ffffff;
+    width: 46px; }
+    .social-icons .fa-border:hover {
+      border: solid 0.1rem #068fbf; }
+  .social-icons a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: .5rem;
+    text-align: center; }
+    .social-icons a:hover {
+      color: #068fbf; }
+  @media screen and (min-width: 480px) {
+    .social-icons {
+      font-size: 80px;
+      font-size: 5rem; }
+      .social-icons .fa-border {
+        width: 116px; } }
+
+.about-hero {
+  background: url(../../assets/images/pictures/about-us/who-we-are.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .about-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.start-hero {
+  background: url(../../assets/images/pictures/about-us/it-all-started.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .start-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.getting-hero {
+  background: url(../../assets/images/pictures/getting-here/getting-here.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .getting-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.meet-hero {
+  background: url(../../assets/images/pictures/getting-here/we-cant-wait.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .meet-hero {
+      background-size: contain;
+      height: 850px; } }
+
+/*--------------------------------------------------------------
+# Lodge
+--------------------------------------------------------------*/
+.lodge-hero {
+  background: url("../../assets/images/pictures/the-lodge/the-lodge.jpeg") no-repeat;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .lodge-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.sustain-hero {
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .sustain-hero {
+      background-size: contain;
+      height: 850px; } }
+
+/*bx slider */
+.bxslider {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .bxslider img {
+    display: block;
+    margin: 0 auto;
+    height: 300px; }
+    @media screen and (min-width: 480px) {
+      .bxslider img {
+        height: 550px; } }
+
+#bx-pager img {
+  width: 100px;
+  height: 100px; }
+
+.front-hero {
+  background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .front-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.summer-hero {
+  background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .summer-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.front-single-column {
+  height: 741px;
+  width: 90%;
+  text-align: center; }
+  @media screen and (min-width: 480px) {
+    .front-single-column {
+      width: 30%; } }
+
+.center {
+  text-align: center; }
+
+.icon {
+  width: 67%; }
+
+.picture-wrapper {
+  height: 455px;
+  overflow: hidden;
+  position: relative; }
+
+.zoomed {
+  position: absolute;
+  left: 50%;
+  top: 50%; }
+
+.in-1 {
+  max-width: 900px;
+  max-width: 900px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.in-2 {
+  min-width: 800px;
+  max-width: 800px;
+  -webkit-transform: translate(-30%, -50%);
+          transform: translate(-30%, -50%); }
+
+.in-3 {
+  min-width: 800px;
+  max-width: 800px;
+  -webkit-transform: translate(-58%, -50%);
+          transform: translate(-58%, -50%); }
+
+.in-4 {
+  min-width: 700px;
+  max-width: 700px;
+  -webkit-transform: translate(-60%, -50%);
+          transform: translate(-60%, -50%); }
+
+.in-5 {
+  min-width: 700px;
+  max-width: 700px;
+  -webkit-transform: translate(-64%, -50%);
+          transform: translate(-64%, -50%); }
+
+.full-picture {
+  min-height: 100%;
+  max-height: 100%; }
+
+.winter-packages-hero {
+  background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .winter-packages-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.guided-winter-hero {
+  background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .guided-winter-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.meals-hero {
+  background: url(../../assets/images/pictures/packages/winter/meals.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .meals-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.small-groups-hero {
+  background: url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .small-groups-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.summer-packages-hero {
+  background: url(../../assets/images/pictures/packages/summer/lake.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .summer-packages-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.guided-summer-hero {
+  background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+  background-size: contain;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .guided-summer-hero {
+      background-size: contain;
+      height: 850px; } }
