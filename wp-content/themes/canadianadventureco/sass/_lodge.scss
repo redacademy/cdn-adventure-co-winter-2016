@@ -3,10 +3,33 @@
 --------------------------------------------------------------*/
 
 .lodge-hero {
-  // background: url('');
+  background: url('../../assets/images/pictures/the-lodge/the-lodge.jpeg') no-repeat;
   @include banner;
 }
 
 .sustain-hero {
   @include banner;
+}
+
+/*bx slider */
+
+.bxslider {
+  display: flex;
+  img {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    // width: 300px;
+    @include desktop {
+      height: 550px;
+      // width: 720px;
+    }
+  }
+}
+
+#bx-pager {
+  img {
+    width: 100px;
+    height: 100px;
+  }
 }

@@ -92,11 +92,24 @@ function cdn_adventure_scripts() {
 	wp_enqueue_script( 'angular', get_template_directory_uri() . '/build/js/angular.min.js');
 	wp_enqueue_script( 'BookingApp', get_template_directory_uri() . '/js/booking-app.js');
 
+	wp_enqueue_script( 'bx_slider', get_template_directory_uri(). '/js/bx-slider.js');
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'cdn_adventure_scripts' );
+
+function load_bx_slider() {
+
+	wp_enqueue_script( 'jquery', get_template_directory_uri() . 'https://code.jquery.com/jquery-2.2.2.min.js');
+
+	wp_enqueue_style( 'bxslider_stylesheet', get_stylesheet_uri() . '/js/jquery.bxslider/jquery.bxslider.css');
+
+	wp_enqueue_script( 'bxslider', get_template_directory_uri() . '/js/jquery.bxslider/jquery.bxslider.min.js', array('jquery'));
+
+}
+add_action( 'init', 'load_bx_slider');
 
 /**
  * Custom template tags for this theme.
