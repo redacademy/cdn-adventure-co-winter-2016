@@ -56,10 +56,15 @@
 	justify-content: center;
 }
 .banner-text {
-	font-size: 5.625rem;
+	font-size: 3.25rem;
+	text-align: center;
 	font-family: $font__heading;
 	text-transform: uppercase;
 	color: white;
+
+	@include desktop {
+		font-size: 5.625rem;
+	};
 }
 .column-what {
 	flex-direction: column;
