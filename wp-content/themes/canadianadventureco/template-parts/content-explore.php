@@ -9,7 +9,7 @@
 
 <!-- This is the explore packages section -->
 <section class="explore-packages">
-   <div class="triple-column container">
+   <div class="container">
       <h2>explore our adventure packages</h2>
       <button class="button">
          winter
