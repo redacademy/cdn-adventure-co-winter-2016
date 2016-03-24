@@ -36,11 +36,11 @@
 
 <!-- This is the Where adventure meets... section -->
 <section>
-   <h2 class="center">Where adventure and relaxation meet</h2>
+   <h3 class="center">Where adventure and relaxation meet</h3>
    <div class="triple-column container">
       <div class="front-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>
-         <h3>Winter outdoor activities</h3>
+         <h4>Winter outdoor activities</h4>
          <p>
             Spend your day skiing, snowboarding or snowshoeing in the backcountry with out expert guide.
          </p>
@@ -48,7 +48,7 @@
 
       <div class="front-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/sun-icon.png" alt="an icon depicting a shining sun" class="icon"/>
-         <h3>summer outdoor activities</h3>
+         <h4>summer outdoor activities</h4>
          <p>
             In the warmer months, hike amoungst the wildflowers and creeks.
          </p>
@@ -56,7 +56,7 @@
 
       <div class="front-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/lodge-icon.png" alt="an icon depicting a house" class="icon"/>
-         <h3>relaxation at the lodge</h3>
+         <h4>relaxation at the lodge</h4>
          <p>
             At the end of the day, relax in the beautiful Mallard Mountain Lodge.
          </p>
@@ -68,13 +68,13 @@
 <hr>
 <!-- this is the unique adventure section  -->
 <section>
-   <h2 class="triple-column container center">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h2>
+   <h3 class="triple-column container center">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h3>
    <div class="triple-column container">
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/03_helicopteraccess.jpg" alt="A picture of a helicopter" class="zoomed in-1"/>
          </div>
-         <h3>Helicopter access</h3>
+         <h4>Helicopter access</h4>
          <p>Our lodge is accessible by 30-minute helicopter from Valemount, BC.
          </p>
       </div>
@@ -82,7 +82,7 @@
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/04_backcountry.jpeg" alt="a picture of a wide open field in the mountains" class="full-picture"/>
          </div>
-         <h3>backcountry experience</h3>
+         <h4>backcountry experience</h4>
          <p>
             we are located in one of the most pristine and remote areas of the Rocky Mountains.
          </p>
@@ -92,7 +92,7 @@
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/05_lodge.jpeg" alt="a picture of Mallard Mountain Lodge at night during winter" class="zoomed in-2"/>
          </div>
-         <h3>the mallard mountain lodge</h3>
+         <h4>the mallard mountain lodge</h4>
          <p>
             Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
          </p>
@@ -105,34 +105,41 @@
 
 <!-- This is the Work with our guests section -->
 <section>
-   <h2 class="triple-column container center">We work with our guests to create a customized, once-in-a-lifetome adventure.</h2>
+   <h3 class="triple-column container center">We work with our guests to create a customized, once-in-a-lifetome adventure.</h3>
    <div class="triple-column container">
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/06_guides.jpg" alt="A picture of a group of cross country skiers" class="zoomed in-3"/>
          </div>
-         <h3>expert guides</h3>
-         <p>Safety is our first priority, and our guides are experts in the backcountry.
-         </p>
+         <div class="info-wrapper">
+            <h4>expert guides</h4>
+            <p>
+               Safety is our first priority, and our guides are experts in the backcountry.
+            </p>
+         </div>
       </div>
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/07_meals.jpeg" alt="a picture of a dinner table with a full spread" class="zoomed in-4"/>
          </div>
-         <h3>catered or self-catered</h3>
-         <p>
-            Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
-         </p>
+         <div class="info-wrapper">
+            <h4>catered or self-catered</h4>
+            <p>
+               Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
+            </p>
+         </div>
       </div>
 
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/08_smallgroups.jpg" alt="a group of people having fun in the snow" class="zoomed in-5"/>
          </div>
-         <h3>small groups</h3>
-         <p>
-            With maximum groups of 9, guests will experience an intimate experience at the lodge.
-         </p>
+         <div class="info-wrapper">
+            <h4>small groups</h4>
+            <p>
+               With maximum groups of 9, guests will experience an intimate experience at the lodge.
+            </p>
+         </div>
       </div>
 
    </div>
@@ -143,7 +150,9 @@
 
 <!-- This is the video -->
 <section>
-   <?php //iframe video goes here. ?>
+   <div class="center">
+      <iframe class="triple-column video container" src="https://www.youtube.com/embed/jVqoBuc1gFM" frameborder="0" allowfullscreen></iframe>
+   </div>
 </section>
 
 <!-- This is the image grid section  -->
@@ -153,10 +162,12 @@
 
 <!-- This is the map section -->
 <section>
-   <?php //this is either an image or an iframe ?>
-   <button class="button">
-      how to get here
-   </button>
+   <div class="">
+      <?php //this is either an image or an iframe ?>
+      <button class="button">
+         how to get here
+      </button>
+   </div>
 </section>
 
 <!-- This is the newsletter section -->

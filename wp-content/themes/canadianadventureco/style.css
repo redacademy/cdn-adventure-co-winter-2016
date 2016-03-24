@@ -945,6 +945,7 @@ object {
       height: 850px; } }
 
 .front-single-column {
+  background-color: #fff;
   height: 741px;
   width: 90%;
   text-align: center; }
@@ -962,6 +963,9 @@ object {
   height: 455px;
   overflow: hidden;
   position: relative; }
+
+.info-wrapper {
+  padding: 1rem; }
 
 .zoomed {
   position: absolute;
@@ -1001,6 +1005,12 @@ object {
 .full-picture {
   min-height: 100%;
   max-height: 100%; }
+
+.video {
+  height: 315px; }
+  @media screen and (min-width: 480px) {
+    .video {
+      height: 630px; } }
 
 .winter-packages-hero {
   background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
