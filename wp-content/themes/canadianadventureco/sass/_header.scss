@@ -34,6 +34,13 @@
 	};
 }
 
+.mobile-navigation {
+	display: none;
+	.request_to_book {
+		width: 100%;
+	}
+	}
+
 .mobile-menu {
 	position: relative;
 	background: $color__dark-grey;
@@ -43,6 +50,14 @@
 	z-index: 0;
 	top: 0;
 	left: 0;
+	.menu-item {
+		border: 1px solid $color__light-grey;
+		text-align: right;
+		float: none;
+	}
+	a {
+		color: $color__white;
+	}
 }
 
 .menu {

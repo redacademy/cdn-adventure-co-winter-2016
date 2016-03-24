@@ -6,9 +6,9 @@ jQuery(document).ready(function(){
   });
 
   jQuery('.menu-button').on('click', function() {
-    jQuery('.main-navigation').toggle().addClass('mobile-menu');
+    jQuery('.mobile-navigation').toggle().toggleClass('mobile-menu');
 
-    jQuery('#primary-menu').toggle();
+    jQuery('.mobile-navigation').children().children('ul').toggle();
     jQuery('.site-branding').toggle();
 
   });

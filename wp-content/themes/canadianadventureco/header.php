@@ -31,6 +31,12 @@
 				<div class="menu-button mobile">
 					<i class="fa fa-bars"></i>
 				</div>
+				<nav id="site-navigation mobile" class="mobile-navigation" role="navigation">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					<button class="request_to_book">
+						Request to book
+					</button>
+				</nav><!-- #site-navigation -->
 
 				<nav id="site-navigation desktop" class="main-navigation" role="navigation">
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
