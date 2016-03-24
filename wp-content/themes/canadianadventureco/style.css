@@ -248,7 +248,7 @@ button,
 input,
 select,
 textarea {
-  color: #303030;
+  color: #757575;
   font-family: "Lato", sans-serif;
   font-size: 1.25rem;
   line-height: 1.5; }
@@ -261,22 +261,22 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 h2 {
   font-family: "Pathway Gothic", sans-serif;
-  font-size: 4rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
-  color: #303030; }
+  color: #757575; }
 
 /* This is H4 per design spec */
 h3 {
   font-family: "Lato", sans-serif;
-  font-size: 3rem;
-  color: #303030; }
+  font-size: 1.75rem;
+  color: #757575; }
 
 /* Not in design spec */
 h4 {
   font-family: "Lato", sans-serif;
-  font-size: 1.875rem;
+  font-size: 1.75rem;
   text-transform: uppercase;
-  color: #303030; }
+  color: #757575; }
 
 /* Copy */
 p {
@@ -801,6 +801,16 @@ object {
       display: flex;
       width: 80%; } }
 
+.mobile-menu {
+  position: relative;
+  background: #303030;
+  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 0;
+  left: 0; }
+
 .menu li a {
   padding: 1rem; }
 
@@ -855,6 +865,7 @@ object {
 .about-hero {
   background: url(../../assets/images/pictures/about-us/who-we-are.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .about-hero {
@@ -863,16 +874,17 @@ object {
 
 .start-hero {
   background: url(../../assets/images/pictures/about-us/it-all-started.jpg) center top no-repeat #ffffff;
-  background-size: contain;
+  background-size: cover;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .start-hero {
-      background-size: contain;
+      background-size: cover;
       height: 850px; } }
 
 .getting-hero {
   background: url(../../assets/images/pictures/getting-here/getting-here.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .getting-hero {
@@ -882,6 +894,7 @@ object {
 .meet-hero {
   background: url(../../assets/images/pictures/getting-here/we-cant-wait.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .meet-hero {
@@ -894,6 +907,7 @@ object {
 .lodge-hero {
   background: url("../../assets/images/pictures/the-lodge/the-lodge.jpeg") no-repeat cover;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .lodge-hero {
@@ -903,6 +917,7 @@ object {
 .sustain-hero {
   background: url("../../assets/images/pictures/the-lodge/sustainability.png") no-repeat cover;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .sustain-hero {
@@ -933,6 +948,7 @@ object {
 .front-hero {
   background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .front-hero {
@@ -942,6 +958,7 @@ object {
 .summer-hero {
   background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .summer-hero {
@@ -1044,6 +1061,7 @@ object {
 .winter-packages-hero {
   background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .winter-packages-hero {
@@ -1053,6 +1071,7 @@ object {
 .guided-winter-hero {
   background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .guided-winter-hero {
@@ -1062,6 +1081,7 @@ object {
 .meals-hero {
   background: url(../../assets/images/pictures/packages/winter/meals.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .meals-hero {
@@ -1071,6 +1091,7 @@ object {
 .small-groups-hero {
   background: url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .small-groups-hero {
@@ -1080,6 +1101,7 @@ object {
 .summer-packages-hero {
   background: url(../../assets/images/pictures/packages/summer/lake.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .summer-packages-hero {
@@ -1089,6 +1111,7 @@ object {
 .guided-summer-hero {
   background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
   background-size: contain;
+  background-color: #f5f5f5;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .guided-summer-hero {

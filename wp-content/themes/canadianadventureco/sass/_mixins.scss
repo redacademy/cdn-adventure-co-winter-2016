@@ -13,6 +13,7 @@
 
 @mixin banner {
 	background-size: contain;
+	background-color: $color__light-grey;
 	height: 285px;
 	@include desktop {
 		background-size: contain;
