@@ -151,7 +151,7 @@
 <!-- This is the video -->
 <section>
    <div class="center">
-      <iframe class="triple-column video container" src="https://www.youtube.com/embed/jVqoBuc1gFM" frameborder="0" allowfullscreen></iframe>
+      <iframe class="iframe container" src="https://www.youtube.com/embed/jVqoBuc1gFM" frameborder="0" allowfullscreen></iframe>
    </div>
 </section>
 
@@ -162,9 +162,9 @@
 
 <!-- This is the map section -->
 <section>
-   <div class="">
-      <?php //this is either an image or an iframe ?>
-      <button class="button">
+   <div class="map-cont">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311094.7126487304!2d-118.259743!3d52.471396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda98c98eb93410e8!2sCanadian+Adventure+Company!5e0!3m2!1sen!2sca!4v1458852068826" class="iframe" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <button class="button map-btn">
          how to get here
       </button>
    </div>
