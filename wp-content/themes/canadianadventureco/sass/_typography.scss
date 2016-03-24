@@ -23,24 +23,24 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 h2 {
 	font-family: $font__heading;
-	font-size: 4rem;
+	font-size: 2.5rem;
 	text-transform: uppercase;
-	color: $color__dark-grey;
+	color: $color__medium-grey;
 }
 
 /* This is H4 per design spec */
 h3 {
 	font-family: $font__main;
-	font-size: 3rem;
-	color: $color__dark-grey;
+	font-size: 1.75rem;
+	color: $color__medium-grey;
 }
 
 /* Not in design spec */
 h4 {
 	font-family: $font__main;
-	font-size: 1.875rem;
+	font-size: 1.75rem;
 	text-transform: uppercase;
-	color: $color__dark-grey;
+	color: $color__medium-grey;
 }
 
 /* Copy */

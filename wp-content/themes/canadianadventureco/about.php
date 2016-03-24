@@ -14,8 +14,7 @@ get_header(); ?>
 		<section>
 			<div class="banner about-hero">
 				<div class="banner-text">
-					Who we are - Who we are
-				</div>
+					Who we are 
 			</div>
 		</section>
 
