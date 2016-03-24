@@ -33,5 +33,8 @@
 
 		<?php wp_footer(); ?>
 
+		<?php wp_enqueue_script('jquery'); ?>
+		<?php wp_enqueue_script('bx_slider'); ?>
+
 	</body>
 </html>

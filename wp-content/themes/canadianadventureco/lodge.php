@@ -31,6 +31,37 @@ get_header(); ?>
           </p>
         </section><!-- .lodge-info -->
 
+        <section class="lodge-gallery">
+          <ul class="bxslider single-column">
+            <li><img alt="Single Beds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/bed.jpeg" /></li>
+            <li><img alt="Sleeping Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/beds2.jpg" /></li>
+            <li><img alt="Bunkbeds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/beds3.jpeg" /></li>
+            <li><img alt="Wood Fireplace"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/fire.jpeg" /></li>
+            <li><img alt="Living Space"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/guitars.jpeg" /></li>
+            <li><img alt="Tea and Coffee"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/IMG_3222.jpg" /></li>
+            <li><img alt="Shoe Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/IMG_4238.jpg" /></li>
+            <li><img alt="Boot Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/IMG_4246.jpg" /></li>
+            <li><img alt="View of Kitchen"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/kitchen.jpeg" /></li>
+            <li><img alt="View of Living Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/livingroom.jpeg" /></li>
+            <li><img alt="View of Bathroom"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/shower.jpeg" /></li>
+          </ul>
+
+          <div id="bx-pager">
+            <a data-slide-index="0" href=""><img alt="Beds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/bed.jpeg" /></a>
+            <a data-slide-index="1" href=""><img alt="Sleeping Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/beds2.jpg" /></a>
+            <a data-slide-index="2" href=""><img alt="Bunkbeds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/beds3.jpeg" /></a>
+            <a data-slide-index="3" href=""><img alt="Wood Fireplace"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/fire.jpeg" /></a>
+            <a data-slide-index="4" href=""><img alt="Living Space"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/guitars.jpeg" /></a>
+            <a data-slide-index="5" href=""><img alt="Tea and Coffee"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/IMG_3222.jpg" /></a>
+            <a data-slide-index="6" href=""><img alt="Shoe Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/IMG_4238.jpg" /></a>
+            <a data-slide-index="7" href=""><img alt="Boot Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/IMG_4246.jpg" /></a>
+            <a data-slide-index="8" href=""><img alt="View of Kitchen"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/kitchen.jpeg" /></a>
+            <a data-slide-index="9" href=""><img alt="View of Living Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/livingroom.jpeg" /></a>
+            <a data-slide-index="10" href=""><img alt="View of Bathroom"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/shower.jpeg" /></a>
+
+          </div>
+        </section><!-- .lodge-gallery -->
+
         <section>
           <h2>Lodge Amenities</h2>
           <span>Beds</span>
@@ -59,7 +90,7 @@ get_header(); ?>
           </p>
           <img src="" alt="" />
         </section><!-- .lodge-amenities -->
-will it blend?
+
         <section>
           <div class="banner sustain-hero">
             <div class="banner-text">

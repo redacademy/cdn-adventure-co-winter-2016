@@ -866,12 +866,30 @@ object {
 # Lodge
 --------------------------------------------------------------*/
 .lodge-hero {
+  background: url("../../assets/images/pictures/the-lodge/the-lodge.jpeg") no-repeat;
   background-size: cover;
   height: 850px; }
 
 .sustain-hero {
   background-size: cover;
   height: 850px; }
+
+/*bx slider */
+.bxslider {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .bxslider img {
+    display: block;
+    margin: 0 auto;
+    height: 300px; }
+    @media screen and (min-width: 480px) {
+      .bxslider img {
+        height: 550px; } }
+
+#bx-pager img {
+  width: 100px;
+  height: 100px; }
 
 .front-hero {
   background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
