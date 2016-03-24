@@ -31,6 +31,8 @@ get_header(); ?>
 			<div class="">
         <div>
           <img src="" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/how-to-prepare/prepare-hero.png" alt="snowboarders hikinging up a mountain on a sunny day"/>
+
         </div>
 
 				<div class="">
