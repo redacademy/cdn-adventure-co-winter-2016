@@ -3,14 +3,15 @@
 --------------------------------------------------------------*/
 
 .lodge-hero {
-  background: url('../../assets/images/pictures/the-lodge/the-lodge.jpeg') no-repeat;
+  background: url('../../assets/images/pictures/the-lodge/the-lodge.jpeg') no-repeat cover;
   @include banner;
 }
 
 .sustain-hero {
-  background: url('../../assets/images/pictures/the-lodge/sustainability.png') no-repeat;
+  background: url('../../assets/images/pictures/the-lodge/sustainability.png') no-repeat cover;
   @include banner;
 }
+
 
 
 /*bx slider */
@@ -31,7 +32,11 @@
 
 #bx-pager {
   img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    @include desktop {
+      width: 100px;
+      height: 100px;
+    }
   }
 }
