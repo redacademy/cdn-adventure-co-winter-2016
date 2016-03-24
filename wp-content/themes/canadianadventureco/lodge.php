@@ -10,7 +10,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main" role="main">
 
-    <article class="lodge">
+    <article class="lodge container">
       <section>
         <div class="banner lodge-hero">
           <div class="banner-text">
