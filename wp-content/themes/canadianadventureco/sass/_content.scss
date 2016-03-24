@@ -56,28 +56,30 @@
 	justify-content: center;
 }
 .banner-text {
-	font-size: 90pt;
+	font-size: 5.625rem;
 	font-family: $font__heading;
 	text-transform: uppercase;
 	color: white;
 }
-.column {
+.column-what {
 	flex-direction: column;
+	margin-bottom: 3rem;
 }
 .single-column {
-	width: 22%;
+	width: 100%;
 
 	@include desktop {
 		width: 55%;
 	}
 }
 .triple-column {
-	display: flex;
-	justify-content: space-between;
-	width: 22%;
+	display: block;
+	width: 100%;
 
 	@include desktop {
 		width: 83%;
+		display: flex;
+		justify-content: space-between;
 	}
 }
 .container {
