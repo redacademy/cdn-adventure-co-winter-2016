@@ -27,3 +27,64 @@
     }
   }
 }
+
+//angular app
+
+//Season page
+.season-page {
+   display: block;
+   margin: 3rem 0;
+   @include desktop {
+      display: flex;
+      justify-content: space-between;
+   }
+}
+.choice-cont {
+   display: flex;
+   justify-content: center;
+   @include desktop {
+      display: block;
+      text-align: center;
+      width: 50%;
+   }
+}
+.summer-app {
+   display: none;
+   @include desktop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%),
+      url(../../assets/images/pictures/packages/summer/lake.jpeg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 400px;
+      margin: 2rem .5rem 2rem 1rem;
+   }
+}
+.winter-app {
+   display: none;
+   @include desktop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 400px;
+      margin: 2rem 1rem 2rem .5rem;
+   }
+}
+.season-btn {
+   width: 80%;
+   margin: 1rem;
+   padding: 1rem 0;
+   @include desktop {
+      width: 50%;
+   }
+}
+
+
+   //Customize
+
+
+
+   //contact-info
