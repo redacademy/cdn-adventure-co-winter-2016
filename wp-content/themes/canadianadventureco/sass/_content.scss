@@ -66,7 +66,7 @@
 		font-size: 5.625rem;
 	};
 }
-.column-what {
+.column-flex {
 	flex-direction: column;
 	margin-bottom: 3rem;
 }
@@ -77,6 +77,12 @@
 		width: 55%;
 	}
 }
+
+.single-column p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
 .triple-column {
 	display: block;
 	width: 100%;
@@ -87,6 +93,12 @@
 		justify-content: space-between;
 	}
 }
+
 .container {
 	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	width: 75%;
 }

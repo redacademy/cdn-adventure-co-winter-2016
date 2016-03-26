@@ -22,26 +22,28 @@ get_header(); ?>
       </section>
 
       <!-- This is the "never-been-touched terrain" section -->
-      <section class="banner column">
-         <div class="main-title">
-           <h1>Never-been-touched terrain will leave you mesmerized</h1>
-         </div>
-         <div class="single-column">
-            <p>The Mallard Mountan Lodge is located in one of the most pristine and remote areas
-            of British Columbia, on the west slope of the Rocky Mountains.</p>
-            <p>The winter brings huge snowfalls of perfect dry powder, while in the summer the high alpine
-            offers hiking above the tree line with incredible Rcky Mountain scenery as the backdrop.</p>
-            <p><strong>Valemount, British Columbia</strong> is the staging point for your 30-minute helicopter flights
-            to and from the Mallard Mountain Lodge.</p>
-            <p>On the day of your departure, the helicopter typically leaves very early in the morning
-            (dependent on weather), so we recommend travelling to Valemount at least one day prior. Overnight
-          lodging at the Best Western PLUS Valemount is highly recommended as well.</p>
-         </div>
+      <section>
+				<div class="banner column-flex">
+	         <div class="title">
+	           <h1>Never-been-touched terrain will leave you mesmerized</h1>
+	         </div>
+	         <div class="single-column">
+	            <p>The Mallard Mountan Lodge is located in one of the most pristine and remote areas
+	            of British Columbia, on the west slope of the Rocky Mountains.</p>
+	            <p>The winter brings huge snowfalls of perfect dry powder, while in the summer the high alpine
+	            offers hiking above the tree line with incredible Rcky Mountain scenery as the backdrop.</p>
+	            <p><strong>Valemount, British Columbia</strong> is the staging point for your 30-minute helicopter flights
+	            to and from the Mallard Mountain Lodge.</p>
+	            <p>On the day of your departure, the helicopter typically leaves very early in the morning
+	            (dependent on weather), so we recommend travelling to Valemount at least one day prior. Overnight
+	          lodging at the Best Western PLUS Valemount is highly recommended as well.</p>
+	         </div>
+			 </div>
       </section>
 
       <!-- This is the valemount map section-->
       <section class="banner column">
-         <div class="">
+         <div class="title">
             <h2>Valemount is where your adventure begins.</h2>
             <img src="" alt="" />
          </div>
@@ -49,7 +51,7 @@ get_header(); ?>
 
       <!-- This is the "travel options" section -->
       <section class="banner column">
-         <div class="">
+         <div class="title">
             <h2>We recommned car or air travel to get you and your gear to Valemount.</h2>
          </div>
          <div class="triple-column">

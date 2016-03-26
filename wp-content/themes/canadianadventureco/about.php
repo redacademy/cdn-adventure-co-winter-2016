@@ -21,7 +21,7 @@ get_header(); ?>
       <!-- This is the "get to know the mcmanus family" section -->
       <section>
 				<div class="banner column-what">
-	         <div class="main-title">
+	         <div class="title">
 	           <h1>Get to know the McManus Family</h1>
 	         </div>
 			 </div>
@@ -45,8 +45,8 @@ get_header(); ?>
 
       <!-- This is the "why we built the mallard lodge" section -->
       <section>
-				<div class="banner column-what">
-	         <div class="main-title">
+				<div class="banner column-flex">
+	         <div class="title">
 	            <h2>Why we built the Mallard Lodge</h2>
 	         </div>
 	         <div class="single-column">

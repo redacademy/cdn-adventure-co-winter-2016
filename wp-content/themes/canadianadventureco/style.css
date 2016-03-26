@@ -655,7 +655,7 @@ a {
     .banner-text {
       font-size: 5.625rem; } }
 
-.column-what {
+.column-flex {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -666,6 +666,10 @@ a {
   @media screen and (min-width: 480px) {
     .single-column {
       width: 55%; } }
+
+.single-column p {
+  margin-left: 10%;
+  margin-right: 10%; }
 
 .triple-column {
   display: block;
@@ -682,6 +686,10 @@ a {
 
 .container {
   margin: 0 auto; }
+
+.title {
+  text-align: center;
+  width: 75%; }
 
 /*--------------------------------------------------------------
 # Media

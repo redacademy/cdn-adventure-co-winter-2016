@@ -20,17 +20,19 @@ get_header(); ?>
 		</section>
 
       <!-- This is the "our winter season" section -->
-      <section class="banner column">
-         <div class="main-title">
-           <h1>Our Winter Season is from November to April</h1>
-         </div>
-         <div class="single-column">
-            <p>Canadian Adventure Company offers highly customized
-              packages for guests, so that they can enjoy their perfect
-              getaway at the Mallard Lodge. Due to the often extreme nature
-              of the winter season, all of our winter season packages are
-              guided by experts.</p>
-         </div>
+      <section>
+				<div class="banner column-flex">
+	         <div class="title">
+	           <h1>Our Winter Season is from November to April</h1>
+	         </div>
+	         <div class="single-column">
+	            <p>Canadian Adventure Company offers highly customized
+	              packages for guests, so that they can enjoy their perfect
+	              getaway at the Mallard Lodge. Due to the often extreme nature
+	              of the winter season, all of our winter season packages are
+	              guided by experts.</p>
+	         </div>
+			 </div>
       </section>
 
       <!-- This is the "winter activities" section -->

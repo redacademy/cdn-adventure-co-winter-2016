@@ -10,8 +10,8 @@
 
 <!-- This is the "what/where/how" section -->
 <section>
-   <div class="banner column-what">
-      <div class="main-title">
+   <div class="banner column-flex">
+      <div class="title">
          <h1>Where/What/How</h1>
       </div>
       <div class="single-column">

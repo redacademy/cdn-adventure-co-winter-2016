@@ -20,10 +20,12 @@ get_header(); ?>
 		</section>
 
       <!-- This is the "pre-trip-planning" section -->
-      <section class="banner column">
-         <div class="main-title">
-           <h1>Pre-Trip Planning</h1>
-         </div>
+      <section>
+				<div class="banner column-flex">
+	         <div class="title">
+	           <h1>Pre-Trip Planning</h1>
+	         </div>
+			 </div>
       </section>
 
 		<!-- This is the personal-gear section -->

@@ -20,15 +20,17 @@ get_header(); ?>
 		</section>
 
       <!-- This is the "our summer season" section -->
-      <section class="banner column">
-         <div class="main-title">
-           <h1>Our Summer Season is from TBD to TBD</h1>
-         </div>
-         <div class="single-column">
-            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
-              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
-              eos, nam tation postulant suscipiantur ei.</p>
-         </div>
+      <section>
+				<div class="banner column-flex">
+	         <div class="main-title">
+	           <h1>Our Summer Season is from TBD to TBD</h1>
+	         </div>
+	         <div class="single-column">
+	            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
+	              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
+	              eos, nam tation postulant suscipiantur ei.</p>
+	         </div>
+			 </div>
       </section>
 
       <!-- This is the "summer activities" section -->
