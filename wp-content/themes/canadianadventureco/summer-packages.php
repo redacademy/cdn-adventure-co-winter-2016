@@ -19,10 +19,10 @@ get_header(); ?>
 			</div>
 		</section>
 
-      <!-- This is the "our summer season" section -->
+      <!-- This is the "our-summer-season" section -->
       <section>
-				<div class="banner column-flex">
-	         <div class="main-title">
+				<div class="center-flex column-flex">
+	         <div class="title">
 	           <h1>Our Summer Season is from TBD to TBD</h1>
 	         </div>
 	         <div class="single-column">
@@ -33,22 +33,36 @@ get_header(); ?>
 			 </div>
       </section>
 
-      <!-- This is the "summer activities" section -->
-      <section class="banner column">
-         <div class="">
+      <!-- This is the "summer-activities-icons" section -->
+      <section>
+				<!-- <div class="center-flex"> -->
+         <div class="title">
             <h2>Summer Activities</h2>
          </div>
-         <div class="">
-            <img src="" alt="Hiking Boot Icon">
-            <img src="" alt="Camping Tent Icon">
-            <img src="" alt="Relaxation Hut Icon">
+
+         <div class="triple-column container">
+					 <div class="icons-single-column container">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/hiking-icon.png" alt="an icon depicting a hiking boot" class="icon"/>
+						<h4>Hiking</h4>
+					</div>
+
+						<div class="icons-single-column container">
+						 <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/camping-icon.png" alt="an icon depicting a camping tent" class="icon"/>
+						 <h4>Camping</h4>
+					 </div>
+
+					 <div class="icons-single-column container">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/lodge-icon.png" alt="an icon depicting a lodge for relaxing" class="icon"/>
+						<h4>Relaxing</h4>
+					</div>
          </div>
 
-         <div>
+         <div class="center">
            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
              eos, nam tation postulant suscipiantur ei.</p>
         </div>
+			<!-- </div> -->
 		</section>
 
     <!-- This is the guided sub banner -->

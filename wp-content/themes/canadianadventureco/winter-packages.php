@@ -19,9 +19,9 @@ get_header(); ?>
 			</div>
 		</section>
 
-      <!-- This is the "our winter season" section -->
+      <!-- This is the "our-winter-season" section -->
       <section>
-				<div class="banner column-flex">
+				<div class="center-flex column-flex">
 	         <div class="title">
 	           <h1>Our Winter Season is from November to April</h1>
 	         </div>
@@ -35,23 +35,38 @@ get_header(); ?>
 			 </div>
       </section>
 
-      <!-- This is the "winter activities" section -->
-      <section class="banner column">
-         <div class="">
+      <!-- This is the "winter-activities-icons" section -->
+      <section>
+				<!-- <div class="center-flex"> -->
+         <div class="title">
             <h2>Winter Activities</h2>
          </div>
-         <div class="">
-            <img src="" alt="Ski Icon">
-            <img src="" alt="Snowboard Icon">
-            <img src="" alt="Snowshoe Icon">
+
+         <div class="triple-column container">
+					 <div class="icons-single-column container">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a pair of skiis" class="icon"/>
+						<h4>Ski</h4>
+					</div>
+
+					<div class="icons-single-column container">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowboard" class="icon"/>
+						<h4>Snowboard</h4>
+					</div>
+
+					<div class="icons-single-column container">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a pair of snowshoes" class="icon"/>
+						<h4>Snowshoe</h4>
+					</div>
+
          </div>
 
-         <div>
+         <div class="center">
            <p>When you arrive for your winter adventure, spend your days skiing,
              snowboarding, snowshoeing or just relaxing in the lodge. With your guide,
              you’ll experience some of the most remote regions of British Columbia and
              ski down slopes that have never been skiied before.</p>
         </div>
+			<!-- </div> -->
 		</section>
 
     <!-- This is the guided sub banner -->

@@ -9,8 +9,10 @@
 
 <!-- This is the "trip-estimate" section -->
 
-    <section>
-      <button class="button">
-        Get a Trip Estimate
-      </button>
+    <section class="trip-estimate">
+      <div class="container">
+        <button class="button">
+          Get a Trip Estimate
+        </button>
+     </div>
     </section>

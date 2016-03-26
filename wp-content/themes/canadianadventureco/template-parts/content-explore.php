@@ -7,7 +7,7 @@
 
 ?>
 
-<!-- This is the explore packages section -->
+<!-- This is the "explore-packages" section -->
 <section class="explore-packages">
    <div class="container">
       <h2>explore our adventure packages</h2>

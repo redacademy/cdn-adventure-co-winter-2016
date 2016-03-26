@@ -50,11 +50,13 @@
 
 
 //Site constants
+.center-flex,
 .banner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+
 .banner-text {
 	font-size: 3.25rem;
 	text-align: center;
@@ -66,10 +68,24 @@
 		font-size: 5.625rem;
 	};
 }
+
+.banner-side-text {
+	font-size: 3.25rem;
+	text-align: left;
+	font-family: $font__heading;
+	text-transform: uppercase;
+	color: white;
+
+	@include desktop {
+		font-size: 5.625rem;
+	};
+}
+
 .column-flex {
 	flex-direction: column;
 	margin-bottom: 3rem;
 }
+
 .single-column {
 	width: 100%;
 
@@ -101,4 +117,12 @@
 .title {
 	text-align: center;
 	width: 75%;
+}
+
+.icon {
+	width: 50%;
+}
+
+.center {
+	text-align: center;
 }

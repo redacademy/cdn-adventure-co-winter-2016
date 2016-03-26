@@ -634,6 +634,7 @@ a {
 .bypostauthor {
   display: block; }
 
+.center-flex,
 .banner {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -653,6 +654,16 @@ a {
   color: white; }
   @media screen and (min-width: 480px) {
     .banner-text {
+      font-size: 5.625rem; } }
+
+.banner-side-text {
+  font-size: 3.25rem;
+  text-align: left;
+  font-family: "Pathway Gothic", sans-serif;
+  text-transform: uppercase;
+  color: white; }
+  @media screen and (min-width: 480px) {
+    .banner-side-text {
       font-size: 5.625rem; } }
 
 .column-flex {
@@ -690,6 +701,12 @@ a {
 .title {
   text-align: center;
   width: 75%; }
+
+.icon {
+  width: 50%; }
+
+.center {
+  text-align: center; }
 
 /*--------------------------------------------------------------
 # Media
@@ -755,21 +772,26 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Explore Packages */
+.trip-estimate,
 .explore-packages {
   background: #303030;
   text-align: center;
   padding-bottom: 2rem;
   border-bottom: 1px solid #f5f5f5; }
+  .trip-estimate div,
   .explore-packages div {
     width: 95%; }
+  .trip-estimate h2,
   .explore-packages h2 {
     color: #ffffff; }
+  .trip-estimate .button,
   .explore-packages .button {
     display: block;
     min-width: 116px;
     width: 100%;
     margin: 2rem 0; }
     @media screen and (min-width: 480px) {
+      .trip-estimate .button,
       .explore-packages .button {
         display: inline;
         width: 33%;
@@ -995,12 +1017,6 @@ object {
     .front-single-column {
       width: 30%; } }
 
-.center {
-  text-align: center; }
-
-.icon {
-  width: 67%; }
-
 .picture-wrapper {
   height: 455px;
   overflow: hidden;
@@ -1100,7 +1116,7 @@ object {
       height: 850px; } }
 
 .meals-hero {
-  background: url(../../assets/images/pictures/packages/winter/meals.jpg) center top no-repeat #ffffff;
+  background: url(../../assets/images/pictures/packages/winter/meals.jpeg) center top no-repeat #ffffff;
   background-size: contain;
   background-color: #f5f5f5;
   height: 285px; }
@@ -1120,7 +1136,7 @@ object {
       height: 850px; } }
 
 .summer-packages-hero {
-  background: url(../../assets/images/pictures/packages/summer/lake.jpg) center top no-repeat #ffffff;
+  background: url(../../assets/images/pictures/packages/summer/lake.jpeg) center top no-repeat #ffffff;
   background-size: contain;
   background-color: #f5f5f5;
   height: 285px; }
@@ -1138,6 +1154,14 @@ object {
     .guided-summer-hero {
       background-size: contain;
       height: 850px; } }
+
+.icons-single-column {
+  background-color: #fff;
+  width: 90%;
+  text-align: center; }
+  @media screen and (min-width: 480px) {
+    .icons-single-column {
+      width: 30%; } }
 
 .prepare-hero {
   background: url(../../assets/images/pictures/getting-here/we-cant-wait.jpg) center top no-repeat #ffffff;

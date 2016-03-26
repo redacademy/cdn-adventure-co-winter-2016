@@ -4,26 +4,31 @@
 
 /* Explore Packages */
 
+.trip-estimate,
 .explore-packages {
   background: $color__dark-grey;
   text-align: center;
   padding-bottom: 2rem;
   border-bottom: 1px solid $color__light-grey;
+
   div {
     width: 95%;
   }
   h2 {
     color: $color__white;
   }
+
   .button {
     display: block;
     min-width: 116px;
     width: 100%;
     margin: 2rem 0;
+
     @include desktop {
       display: inline;
       width: 33%;
       margin: 0 2rem;
     }
+
   }
 }

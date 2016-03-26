@@ -7,6 +7,7 @@
 	background: url(../../assets/images/pictures/02_summerandwinterpackages-lowres.jpg) center top no-repeat #ffffff;
 	@include banner;
 }
+
 .front-single-column {
 	background-color: #fff;
 	height: 741px;
@@ -16,12 +17,7 @@
 		width: 30%;
 	};
 }
-.center {
-	text-align: center;
-}
-.icon {
-	width: 67%;
-}
+
 .picture-wrapper {
 	height:455px;
 	overflow: hidden;
