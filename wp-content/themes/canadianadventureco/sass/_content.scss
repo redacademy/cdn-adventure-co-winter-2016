@@ -57,8 +57,28 @@
 	justify-content: center;
 }
 
+.side-banner {
+	display: flex;
+	align-items: center;
+}
+
 .banner-text {
 	font-size: 3.25rem;
+	line-height: 3.5rem;
+	text-align: center;
+	font-family: $font__heading;
+	text-transform: uppercase;
+	color: white;
+
+	@include desktop {
+		font-size: 5.625rem;
+	};
+}
+
+
+.small-banner-text {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
 	text-align: center;
 	font-family: $font__heading;
 	text-transform: uppercase;
@@ -70,8 +90,11 @@
 }
 
 .banner-side-text {
-	font-size: 3.25rem;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
 	text-align: left;
+	width: 50%;
+	margin-left: 10%;
 	font-family: $font__heading;
 	text-transform: uppercase;
 	color: white;
@@ -125,4 +148,19 @@
 
 .center {
 	text-align: center;
+}
+
+.icons-single-column {
+	background-color: #fff;
+	width: 90%;
+	text-align: center;
+
+	@include desktop {
+		width: 30%;
+	}
+
+	ul {
+		list-style: none;
+		text-align: left;
+	}
 }
