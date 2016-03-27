@@ -20,3 +20,31 @@ function cdn_adventure_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'cdn_adventure_body_classes' );
+
+/**
+* Remove submenues
+**/
+function cdn_adventure_remove_submenus() {
+    remove_submenu_page( 'themes.php', 'theme-editor.php' );
+    remove_submenu_page( 'plugins.php', 'plugin-editor.php' );
+}
+add_action( 'admin_init', 'cdn_adventure_remove_submenus', 102 );
+
+/**
+* Custom Login Header
+**/
+function cdn_adventure_login_logo() {
+     echo '<style type="text/css">
+         h1 a {
+					 background-image:url('.get_template_directory_uri().'./assets/images/cac-logo-grey.png) !important;
+	         background-size: contain !important;
+					 width: 100% !important;
+					 margin-left: -40px;}
+     </style>';
+}
+add_action('login_head', 'cdn_adventure_login_logo');
+
+function cdn_adventure_login_url() {
+		return home_url();
+}
+add_filter('login_headerurl', 'cdn_adventure_login_url');
