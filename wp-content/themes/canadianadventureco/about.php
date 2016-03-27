@@ -20,11 +20,11 @@ get_header(); ?>
 
       <!-- This is the "get to know the mcmanus family" section -->
       <section>
-				<div class="banner column-what">
+				<div class="center-flex column-flex">
 	         <div class="title">
 	           <h1>Get to know the McManus Family</h1>
 	         </div>
-			 </div>
+
          <div class="single-column">
             <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
               splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
@@ -32,6 +32,7 @@ get_header(); ?>
               ne, per ad probo eripuit, mea te prompta facilis eleifend. Nam debitis lucilius deseruisse ne.
               Qui deserunt philosophia ea, aperiri voluptatum ei nec. </p>
          </div>
+				</div>
       </section>
 
 		<!-- This is the about sub banner -->

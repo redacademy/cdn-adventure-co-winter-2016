@@ -661,7 +661,8 @@ a {
   color: white; }
   @media screen and (min-width: 480px) {
     .banner-text {
-      font-size: 5.625rem; } }
+      font-size: 5.625rem;
+      line-height: 5.25rem; } }
 
 .small-banner-text {
   font-size: 2.25rem;
@@ -672,7 +673,8 @@ a {
   color: white; }
   @media screen and (min-width: 480px) {
     .small-banner-text {
-      font-size: 5.625rem; } }
+      font-size: 4rem;
+      line-height: 3.5rem; } }
 
 .banner-side-text {
   font-size: 2.25rem;
@@ -685,7 +687,8 @@ a {
   color: white; }
   @media screen and (min-width: 480px) {
     .banner-side-text {
-      font-size: 5.625rem; } }
+      font-size: 5.625rem;
+      line-height: 5.25rem; } }
 
 .column-flex {
   -webkit-flex-direction: column;
@@ -697,7 +700,7 @@ a {
   width: 100%; }
   @media screen and (min-width: 480px) {
     .single-column {
-      width: 55%; } }
+      width: 75%; } }
 
 .single-column p {
   margin-left: 10%;
@@ -826,6 +829,75 @@ object {
         display: inline;
         width: 33%;
         margin: 0 2rem; } }
+
+.season-page {
+  display: block;
+  margin: 3rem 0; }
+  @media screen and (min-width: 480px) {
+    .season-page {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+.choice-cont {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media screen and (min-width: 480px) {
+    .choice-cont {
+      display: block;
+      text-align: center;
+      width: 50%; } }
+
+.summer-app {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .summer-app {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/summer/lake.jpeg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 400px;
+      margin: 2rem .5rem 2rem 1rem; } }
+
+.winter-app {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .winter-app {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 400px;
+      margin: 2rem 1rem 2rem .5rem; } }
+
+.season-btn {
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem 0; }
+  @media screen and (min-width: 480px) {
+    .season-btn {
+      width: 50%; } }
 
 .trip-estimate {
   background: #303030;
