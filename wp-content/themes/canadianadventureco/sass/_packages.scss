@@ -27,13 +27,3 @@
 	background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
 	@include banner;
 }
-
-.icons-single-column {
-	background-color: #fff;
-	width: 90%;
-	text-align: center;
-	
-	@include desktop {
-		width: 30%;
-	};
-}

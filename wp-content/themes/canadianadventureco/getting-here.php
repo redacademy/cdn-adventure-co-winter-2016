@@ -13,7 +13,7 @@ get_header(); ?>
       <!-- This is the getting-here hero banner -->
       <section>
          <div class="banner getting-hero">
-            <div class="banner-text">
+            <div class="small-banner-text">
 							Valemount is where your adventure begins
 						</div>
             <!-- <p>Every adventure with us begins in Valemount, BC, where a 30-minute helicopter
@@ -45,20 +45,21 @@ get_header(); ?>
       <section class="banner column">
          <div class="title">
             <h2>Get yourself to Valemount, and we'll take care of the rest.</h2>
-            <img src="" alt="" />
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a pair of skiis" class="icon"/>
          </div>
       </section>
 
       <!-- This is the "travel-options" section -->
       <section>
          <div class="title">
-            <h2>We recommned car or air travel to get you and your gear to Valemount.</h2>
+            <!-- <h2>We recommned car or air travel to get you and your gear to Valemount.</h2> -->
+						<h2>How to get here</h2>
          </div>
 
          <div class="triple-column container">
             <div class="icons-single-column container">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/car.png" alt="an icon depicting a car" class="icon"/>
-              <p><strong>Approximate Driving Times to Valemount, from:</strong></p>
+              <h3><strong>Approximate Driving Times to Valemount, from:</strong></h3>
               <ul>
                 <li>Kamloops, BC - 3.5 hours</li>
                 <li>Kelowna, BC - 5 hours</li>
@@ -95,7 +96,7 @@ get_header(); ?>
 
       <!-- This is the can't-wait-to-meet-up sub banner -->
       <section>
-         <div class="banner meet-hero">
+         <div class="side-banner meet-hero">
             <div class="banner-side-text">
 							We can't wait to meet you!
 						</div>
