@@ -12,7 +12,7 @@ jQuery(document).ready(function(){
   jQuery('.menu-button').on('click', function() {
     jQuery('.mobile-navigation').toggle().toggleClass('mobile-menu');
 
-    jQuery('.mobile-navigation').children().children('ul').toggle();
+    jQuery('#secondary-menu').children('ul').toggle();
     jQuery('.site-branding').toggle();
 
   });

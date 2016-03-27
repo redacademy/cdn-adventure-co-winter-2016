@@ -32,7 +32,7 @@
 					<i class="fa fa-bars"></i>
 				</div>
 				<nav id="site-navigation mobile" class="mobile-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					<?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => 'secondary-menu' ) ); ?>
 				</nav><!-- #site-navigation -->
 
 				<nav id="site-navigation desktop" class="main-navigation" role="navigation">
