@@ -16,4 +16,13 @@ jQuery(document).ready(function(){
     jQuery('.site-branding').toggle();
 
   });
+
+  jQuery('.map-cont').click(function () {
+      jQuery('.map').css('pointer-events', 'auto');
+  });
+
+  jQuery( '.map-cont' ).mouseleave(function() {
+    jQuery('.map').css('pointer-events', 'none');
+  });
+
 });
