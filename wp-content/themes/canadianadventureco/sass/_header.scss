@@ -31,7 +31,14 @@
 		padding-top:1rem;
 		display: flex;
 		width: 80%;
-	};
+	}
+
+	a {
+		color: $color__dark-grey;
+		&:hover {
+			color: $color__link-hover;
+		}
+	}
 }
 
 .mobile-navigation {

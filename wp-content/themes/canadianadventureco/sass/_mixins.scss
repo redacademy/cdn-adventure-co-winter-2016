@@ -30,6 +30,12 @@
 	}
 }
 
+@mixin grey-background {
+	background: $color__dark-grey;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
 
 // Breakpoints
 
