@@ -30,7 +30,7 @@
 }
 
 .bx-wrapper {
-  margin-bottom: 0 !important;
+  margin-bottom: .5rem !important;
 }
 
 #bx-pager {
@@ -45,19 +45,24 @@
     @include desktop {
       width: 150px;
       height: 150px;
-      // flex: 0 1 25%;
       margin: .5rem;
     }
   }
 }
 
+.bx-viewport {
+  border: none !important;
+  box-shadow: none !important;
+  background: $color__background-body !important;
+}
+
 .lodge-gallery {
-  border-bottom: $border__grey;
   padding-bottom: 3rem;
 }
 
 .lodge-amenities {
-  width: 83%;
+  border-top: $border__grey;
+  width: 85%;
   h2 {
     text-align: center;
   }

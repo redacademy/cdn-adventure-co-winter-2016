@@ -11,8 +11,10 @@
 
     <section class="trip-estimate">
       <div class="container">
-        <button class="button">
-          Get a Trip Estimate
-        </button>
+        <a href="/request">
+          <button class="button">
+            Get a Trip Estimate
+          </button>
+        </a>
      </div>
     </section>

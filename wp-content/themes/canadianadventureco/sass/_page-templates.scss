@@ -4,15 +4,14 @@
 
 /* Explore Packages */
 
-.trip-estimate,
 .explore-packages {
-  background: $color__dark-grey;
-  text-align: center;
-  padding-bottom: 2rem;
-  border-bottom: $border__grey;
+  @include grey-background;
+  padding-top: 3rem;
 
-  div {
-    width: 95%;
+  .container {
+    border-bottom: $border__grey;
+    padding-bottom: 4rem;
+    width: 85%;
   }
   h2 {
     color: $color__white;
@@ -23,6 +22,7 @@
     min-width: 116px;
     width: 100%;
     margin: 2rem 0;
+    padding: 1rem;
 
     @include desktop {
       display: inline;
@@ -30,5 +30,26 @@
       margin: 0 2rem;
     }
 
+  }
+}
+
+//Trip-Estimate
+
+.trip-estimate {
+  @include grey-background;
+  padding-top: 4rem;
+
+  .button {
+    width: 100%;
+    padding: 1rem;
+    @include desktop {
+      width: 50%;
+    }
+  }
+
+  .container {
+    border-bottom: $border__grey;
+    padding-bottom: 4rem;
+    width: 85%;
   }
 }
