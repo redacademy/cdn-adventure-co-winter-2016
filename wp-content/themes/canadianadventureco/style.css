@@ -918,6 +918,25 @@ object {
   .radio-choice p {
     text-transform: uppercase; }
 
+input[type=radio] {
+  display: none; }
+
+input[type=radio] + div {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background: url(../../assets/images/icons/empty.png) center top no-repeat #f5f5f5;
+  background-size: contain; }
+
+input[type=radio]:checked + div {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background: url(../../assets/images/icons/filled.png) center top no-repeat #f5f5f5;
+  background-size: contain; }
+
 input[type=range] {
   -webkit-appearance: none;
   margin: 10px 0;
