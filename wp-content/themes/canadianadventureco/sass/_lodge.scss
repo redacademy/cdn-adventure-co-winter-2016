@@ -3,21 +3,20 @@
 --------------------------------------------------------------*/
 
 .lodge-hero {
-  background: url('../../assets/images/pictures/the-lodge/the-lodge.jpeg') no-repeat cover;
+  background: url(../../assets/images/pictures/the-lodge/the-lodge.jpeg) center top no-repeat;
   @include banner;
 }
 
-.sustain-hero {
-  background: url('../../assets/images/pictures/the-lodge/sustainability.png') no-repeat cover;
-  @include banner;
+.lodge {
+  h1 {
+    text-align: center;
+  }
 }
-
-
-
 /*bx slider */
 
 .bxslider {
   display: flex;
+  margin-left: 0.4em;
   img {
     display: block;
     margin: 0 auto;
@@ -30,13 +29,60 @@
   }
 }
 
+.bx-wrapper {
+  margin-bottom: 0 !important;
+}
+
 #bx-pager {
+  display: flex;
+  @include desktop {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   img {
     width: 50px;
     height: 50px;
     @include desktop {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
+      // flex: 0 1 25%;
+      margin: .5rem;
     }
   }
+}
+
+.lodge-gallery {
+  border-bottom: $border__grey;
+  padding-bottom: 3rem;
+}
+
+.lodge-amenities {
+  width: 83%;
+  h2 {
+    text-align: center;
+  }
+  span {
+    font-weight: bold;
+    margin-right: 10%;
+    display: block;
+    @include desktop {
+      margin: 0;
+    }
+  }
+  p {
+    @include desktop {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.sustain-hero {
+  background: url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
+  @include banner;
+}
+
+.enviro-hero {
+  background: url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
+  @include banner;
 }

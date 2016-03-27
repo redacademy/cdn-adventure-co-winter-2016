@@ -777,7 +777,7 @@ object {
   background: #303030;
   text-align: center;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #f5f5f5; }
+  border-bottom: 1px solid #D4D5D4; }
   .trip-estimate div,
   .explore-packages div {
     width: 95%; }
@@ -869,7 +869,8 @@ object {
   display: block;
   text-align: center; }
   .site-footer h2 {
-    color: #ffffff; }
+    color: #ffffff;
+    margin-top: 0; }
 
 .contact-info {
   padding-bottom: 3rem;
@@ -948,7 +949,7 @@ object {
 # Lodge
 --------------------------------------------------------------*/
 .lodge-hero {
-  background: url("../../assets/images/pictures/the-lodge/the-lodge.jpeg") no-repeat cover;
+  background: url(../../assets/images/pictures/the-lodge/the-lodge.jpeg) center top no-repeat;
   background-size: contain;
   background-color: #f5f5f5;
   height: 285px; }
@@ -957,21 +958,15 @@ object {
       background-size: contain;
       height: 850px; } }
 
-.sustain-hero {
-  background: url("../../assets/images/pictures/the-lodge/sustainability.png") no-repeat cover;
-  background-size: contain;
-  background-color: #f5f5f5;
-  height: 285px; }
-  @media screen and (min-width: 480px) {
-    .sustain-hero {
-      background-size: contain;
-      height: 850px; } }
+.lodge h1 {
+  text-align: center; }
 
 /*bx slider */
 .bxslider {
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-left: 0.4em; }
   .bxslider img {
     display: block;
     margin: 0 auto;
@@ -980,13 +975,73 @@ object {
       .bxslider img {
         height: 550px; } }
 
-#bx-pager img {
-  width: 50px;
-  height: 50px; }
+.bx-wrapper {
+  margin-bottom: 0 !important; }
+
+#bx-pager {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
   @media screen and (min-width: 480px) {
-    #bx-pager img {
-      width: 100px;
-      height: 100px; } }
+    #bx-pager {
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+  #bx-pager img {
+    width: 50px;
+    height: 50px; }
+    @media screen and (min-width: 480px) {
+      #bx-pager img {
+        width: 150px;
+        height: 150px;
+        margin: .5rem; } }
+
+.lodge-gallery {
+  border-bottom: 1px solid #D4D5D4;
+  padding-bottom: 3rem; }
+
+.lodge-amenities {
+  width: 83%; }
+  .lodge-amenities h2 {
+    text-align: center; }
+  .lodge-amenities span {
+    font-weight: bold;
+    margin-right: 10%;
+    display: block; }
+    @media screen and (min-width: 480px) {
+      .lodge-amenities span {
+        margin: 0; } }
+  @media screen and (min-width: 480px) {
+    .lodge-amenities p {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
+
+.sustain-hero {
+  background: url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .sustain-hero {
+      background-size: contain;
+      height: 850px; } }
+
+.enviro-hero {
+  background: url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .enviro-hero {
+      background-size: contain;
+      height: 850px; } }
 
 .front-hero {
   background: url(../../assets/images/pictures/01_mountainsarecalling-hero.jpg) center top no-repeat #ffffff;
