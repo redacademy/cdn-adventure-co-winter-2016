@@ -88,9 +88,111 @@
 }
 
    //Customize
+.custom-parent {
 
+   & section {
+      margin: 2rem 0;
+   }
+}
+.radio-choice {
+   display: flex;
+   justify-content: space-around;
 
+   & p {
+      text-transform: uppercase;
+   }
+}
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 67%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 67%;
+  height: 12.8px;
+  cursor: pointer;
+  background: $color__blue;
+  border-radius: 25px;
+}
+input[type=range]::-webkit-slider-thumb {
+  height: 20px;
+  width: 39px;
+  border-radius: 7px;
+  background: $color__dark-grey;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.6px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: $color__blue;
+}
+input[type=range]::-moz-range-track {
+  width: 67%;
+  height: 12.8px;
+  cursor: pointer;
+  background: $color__blue;
+  border-radius: 25px;
+}
+input[type=range]::-moz-range-thumb {
+  height: 20px;
+  width: 39px;
+  border-radius: 7px;
+  background: $color__dark-grey;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 67%;
+  height: 12.8px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 39px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: $color__blue;
+  border-radius: 50px;
+}
+input[type=range]::-ms-fill-upper {
+  background: $color__blue;
+  border-radius: 50px;
+}
+input[type=range]::-ms-thumb {
+  height: 20px;
+  width: 39px;
+  border-radius: 7px;
+  background: $color__dark-grey;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: $color__blue;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: $color__blue;
+}
 
+.price-estimate {
+   background-color: $color__dark-grey;
+   color: white;
+   height: 100px;
+}
+.request-btn {
+   width: 80%;
+   margin-bottom: 1rem;
+   @include desktop {
+      width: 35%;
+   }
+}
+.home-btn {
+   background-color: $color__dark-grey;
+   width: 80%;
+   @include desktop {
+      width: 35%;
+   }
+}
    //contact-info
 
 //Trip-Estimate

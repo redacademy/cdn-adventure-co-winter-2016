@@ -1,22 +1,118 @@
-<div class="">
-   <h2>Select your trip preference</h2>
+<div class="center custom-parent">
+   <h2>Select your trip preferences</h2>
    <hr>
-   <div class="">
-      <h2>Professional Guide</h2>
-      <div class="">
+   <section>
+      <div class="center">
+         <h2>Professional Guide</h2>
          <div class="">
-            
-            <p>
-               guided
-            </p>
-         </div>
-         <div class="">
-
-            <p>
-               self-guided
-            </p>
+            <div class="radio-choice">
+               <div class="">
+                  <input type="radio" name="guided"></input>
+                  <p>
+                     guided
+                  </p>
+               </div>
+               <div class="">
+                  <input type="radio" name="self-guided"></input>
+                  <p>
+                     self-guided
+                  </p>
+               </div>
+            </div>
+            <div class="">
+               You have the option to be guided by one of our backcountry certified experts.
+            </div>
          </div>
       </div>
-   </div>
-   <button type="button" name="button" ui-sref="state3" class="customize-btn">request info</button>
+   </section>
+   <section>
+      <div class="center">
+         <h2>Meals</h2>
+         <div class="">
+            <div class="radio-choice">
+               <div class="">
+                  <input type="radio" name="catered"></input>
+                  <p>
+                     catered
+                  </p>
+               </div>
+               <div class="">
+                  <input type="radio" name="self-catered"></input>
+                  <p>
+                     self-catered
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section>
+      <div class="center">
+         <h2>number of nights</h2>
+         <p>
+            Minimum 3 nights stay
+         </p>
+         <form class="" oninput="amount.value=rangeInput.value">
+            <input type="range" id="rangeInput" name="stay" value="3" min="3" max="10">
+            <!-- This label will need to reflect the range's current position -->
+            <label for="stay"><output name="amount" for="stay">0</output></label>
+         </form>
+      </div>
+   </section>
+   <section>
+      <div class="center">
+         <h2>number of guests</h2>
+         <p>
+            Groups smaller than 7 could share the lodge facilities with other guests
+         </p>
+         <form class="" oninput="amount.value=rangeInput.value">
+            <input type="range" id="rangeInput" name="guests" value="1" min="1" max="10">
+            <!-- This label will need to reflect the range's current position -->
+            <label for="guests"><output name="amount" for="guests">0</output></label>
+         </form>
+      </div>
+   </section>
+   <!-- This section needs to be generated dynamically based on the choices made by the users -->
+   <section>
+      <div class="price-estimate">
+         <div class="">
+            Estimated price per person:
+         </div>
+         <div class="">
+            -- Generated Price --
+         </div>
+      </div>
+   </section>
+   <!-- This section needs to be generated dynamically based on the choices made by the users -->
+   <section>
+      <div class="">
+         <h4>This package includes:</h4>
+         <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+      </div>
+      <hr>
+      <div class="">
+         <h4>This package doesn't include:</h4>
+         <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+      </div>
+   </section>
+   <section>
+      <hr>
+      <div class="">
+         <button type="button" name="button" ui-sref="state3" class="request-btn">request to book</button>
+         <button type="button" name="button" class="home-btn">back to packages</button>
+      </div>
+   </section>
 </div>
