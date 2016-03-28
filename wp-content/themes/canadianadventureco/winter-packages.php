@@ -46,17 +46,17 @@ get_header(); ?>
 
          <div class="triple-column container">
 					 <div class="icons-single-column container">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a pair of skiis" class="icon"/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/ski-icon.png" alt="an icon depicting a pair of skiis" class="icon"/>
 						<h4>Ski</h4>
 					</div>
 
 					<div class="icons-single-column container">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowboard" class="icon"/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snowboard-icon.png" alt="an icon depicting a snowboard" class="icon"/>
 						<h4>Snowboard</h4>
 					</div>
 
 					<div class="icons-single-column container">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a pair of snowshoes" class="icon"/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snowshoe-icon.png" alt="an icon depicting a pair of snowshoes" class="icon"/>
 						<h4>Snowshoe</h4>
 					</div>
 
