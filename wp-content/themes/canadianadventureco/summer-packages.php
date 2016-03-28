@@ -36,6 +36,8 @@ get_header(); ?>
       <!-- This is the "summer-activities-icons" section -->
       <section>
 				<!-- <div class="center-flex"> -->
+				<div class="center-flex column-flex">
+
          <div class="title">
             <h2>Summer Activities</h2>
          </div>
@@ -57,12 +59,13 @@ get_header(); ?>
 					</div>
          </div>
 
-         <div class="center">
+         <div class="single-column">
            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
              eos, nam tation postulant suscipiantur ei.</p>
         </div>
 			<!-- </div> -->
+		 </div>
 		</section>
 
     <!-- This is the guided sub banner -->

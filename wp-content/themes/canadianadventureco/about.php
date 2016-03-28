@@ -46,7 +46,7 @@ get_header(); ?>
 
       <!-- This is the "why we built the mallard lodge" section -->
       <section>
-				<div class="banner column-flex">
+				<div class="center-flex column-flex">
 	         <div class="title">
 	            <h2>Why we built the Mallard Lodge</h2>
 	         </div>
@@ -59,11 +59,14 @@ get_header(); ?>
 	              soleat phaedrum ex usu. Ut melius integre petentium mel, his stet veniam invenire eu.
 	              Vim causae euismod liberavisse id, ei usu facer recusabo. Eum et diceret lobortis.</p>
 	         </div>
+
+					 <button class="button">
+						 Explore the lodge
+					 </button>
+
 			 </div>
 
-			<button class="button">
-				Explore the lodge
-			</button>
+
 		</section>
 
 		<!-- This is the explore packages section (only for mobile)-->

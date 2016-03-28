@@ -38,6 +38,8 @@ get_header(); ?>
       <!-- This is the "winter-activities-icons" section -->
       <section>
 				<!-- <div class="center-flex"> -->
+				<div class="center-flex column-flex">
+
          <div class="title">
             <h2>Winter Activities</h2>
          </div>
@@ -60,13 +62,14 @@ get_header(); ?>
 
          </div>
 
-         <div class="center">
+         <div class="single-column">
            <p>When you arrive for your winter adventure, spend your days skiing,
              snowboarding, snowshoeing or just relaxing in the lodge. With your guide,
              you’ll experience some of the most remote regions of British Columbia and
              ski down slopes that have never been skiied before.</p>
         </div>
 			<!-- </div> -->
+		 </div>
 		</section>
 
     <!-- This is the guided sub banner -->

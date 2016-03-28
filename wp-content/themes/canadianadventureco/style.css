@@ -745,6 +745,9 @@ a {
   .icons-single-column ul {
     list-style: none;
     text-align: left; }
+  .icons-single-column p {
+    margin-left: 10%;
+    margin-right: 10%; }
 
 .submission {
   padding: 3rem; }

@@ -28,18 +28,16 @@ get_header(); ?>
 			 </div>
       </section>
 
-		<!-- This is the personal-gear section -->
+		<!-- This is the "personal-gear" section -->
 		<section>
-			<div class="">
+			<div class="center-flex column-flex">
         <div>
-          <img src="" alt="">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/how-to-prepare/prepare-hero.png" alt="snowboarders hikinging up a mountain on a sunny day"/>
-
         </div>
 
-				<div class="">
+				<div class="icons-single-column container">
 					<h3>Personal Gear (clothing)</h3>
-          <ul>
+					<ul>
             <li>Lorem Ipsum is simply</li>
             <li>Lorem Ipsum is simply</li>
             <li>Lorem Ipsum is simply</li>
@@ -52,14 +50,14 @@ get_header(); ?>
 		</section>
 
 
-    <!-- This is the equip-list section -->
+    <!-- This is the "equip-list" section -->
     <section>
-      <div class="">
+			<div class="center-flex column-flex">
         <div>
-          <img src="" alt="">
+					<img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/how-to-prepare/prepare3.jpg" alt="Equipment gear for mountain sports"/>
         </div>
 
-        <div class="">
+				<div class="icons-single-column container">
           <h3>Equipment List</h3>
           <ul>
             <li>Lorem Ipsum is simply</li>
@@ -74,33 +72,32 @@ get_header(); ?>
     </section>
 
       <!-- This is the "Download Docs" section -->
-      <section class="banner column">
-         <div class="">
-            <h3>Documents for download</h3>
-         </div>
+      <section>
+				<div class="center-flex column-flex">
+					 <div class="title">
+							<h3>Documents for download</h3>
+	         </div>
 
-        <div>
-         <button class="button">
-          Fast Facts
-         </button>
+					 <div class="center-flex column-flex">
+	         <button class="button">
+	          Fast Facts
+	         </button>
 
-         <div class="">
-            <p>Includes venue, contact and terrain information.</p>
-         </div>
-       </div>
+	         <div class="single-column">
+	            <p>Includes venue, contact and terrain information.</p>
+	         </div>
+	       </div>
 
-       <div>
-         <button class="button">
-          Backgrounder
-         </button>
+	       <div class="center-flex column-flex">
+	         <button class="button">
+	          Backgrounder
+	         </button>
 
-         <div class="">
-            <p>Contains information pertaining to the company, its history and current operations.</p>
-         </div>
-       </div>
-
+					 <div class="single-column">
+	            <p>Contains information pertaining to the company, its history and current operations.</p>
+	         </div>
+	       </div>
       </div>
-
 		</section>
 
 		<!-- This is the explore packages section (only for mobile)-->
