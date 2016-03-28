@@ -635,6 +635,11 @@ a {
 .bypostauthor {
   display: block; }
 
+/*Site-Content*/
+@media screen and (min-width: 480px) {
+  .site-content {
+    padding-top: 170px; } }
+
 .center-flex,
 .banner {
   display: -webkit-flex;
@@ -1057,6 +1062,10 @@ input[type=range]:focus::-ms-fill-upper {
           justify-content: space-between;
   background-color: white;
   width: 100vw; }
+  @media screen and (min-width: 480px) {
+    #masthead {
+      position: fixed;
+      z-index: 100; } }
 
 .logo {
   width: 84px;
@@ -1078,11 +1087,12 @@ input[type=range]:focus::-ms-fill-upper {
   display: none; }
   @media screen and (min-width: 480px) {
     .main-navigation {
-      padding-top: 1rem;
+      padding-top: 1.25rem;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      width: 80%; } }
+      width: 80%;
+      font-size: 1rem; } }
   .main-navigation a {
     color: #303030; }
     .main-navigation a:hover {
@@ -1108,11 +1118,14 @@ input[type=range]:focus::-ms-fill-upper {
     color: #ffffff; }
 
 .menu li a {
-  padding: 1rem; }
+  padding: 0.75rem; }
 
 .request_to_book {
-  padding: 1.25rem;
-  height: 3.75rem; }
+  font-size: 1rem;
+  padding: 1rem;
+  height: 3rem; }
+  .request_to_book a {
+    color: #ffffff; }
 
 /*--------------------------------------------------------------
 # Footer

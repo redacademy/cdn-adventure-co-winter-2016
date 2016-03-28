@@ -5,9 +5,9 @@
 	background-color: white;
 	width: 100vw;
 	@include desktop {
-		// position: fixed;
-	}
-
+		position: fixed;
+		z-index: 100;
+	} 
 }
 
 .logo {
@@ -31,9 +31,10 @@
 .main-navigation {
 	display: none;
 	@include desktop {
-		padding-top:1rem;
+		padding-top:1.25rem;
 		display: flex;
 		width: 80%;
+		font-size: 1rem;
 	}
 
 	a {
@@ -71,10 +72,14 @@
 
 .menu {
 	li a {
-		padding: 1rem;
+		padding: 0.75rem;
 	}
 }
 .request_to_book {
-	padding: 1.25rem;
-	height: 3.75rem;
+	font-size: 1rem;
+	padding: 1rem;
+	height: 3rem;
+	a {
+		color: $color__white;
+	}
 }

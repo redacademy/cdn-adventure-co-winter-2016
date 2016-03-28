@@ -48,6 +48,14 @@
 	display: block;
 }
 
+/*Site-Content*/
+
+.site-content {
+	@include desktop {
+		padding-top: 170px;		
+	}
+}
+
 
 //Site constants
 .center-flex,
