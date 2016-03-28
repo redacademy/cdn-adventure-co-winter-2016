@@ -54,3 +54,12 @@
     @content;
   }
 }
+
+@mixin formbox {
+	border: 1px solid black;
+	border-radius: 0;
+	width: 75%;
+	&:placeholder-shown {
+		text-transform: uppercase;
+	}
+}

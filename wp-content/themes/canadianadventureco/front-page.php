@@ -38,7 +38,7 @@
 <section>
    <h3 class="center">Where adventure and relaxation meet</h3>
    <div class="triple-column container">
-      <div class="front-single-column container">
+      <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>
          <h4>Winter outdoor activities</h4>
          <p>
@@ -46,7 +46,7 @@
          </p>
       </div>
 
-      <div class="front-single-column container">
+      <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/sun-icon.png" alt="an icon depicting a shining sun" class="icon"/>
          <h4>summer outdoor activities</h4>
          <p>
@@ -54,7 +54,7 @@
          </p>
       </div>
 
-      <div class="front-single-column container">
+      <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/lodge-icon.png" alt="an icon depicting a house" class="icon"/>
          <h4>relaxation at the lodge</h4>
          <p>
@@ -68,34 +68,41 @@
 <hr>
 <!-- this is the unique adventure section  -->
 <section>
-   <h3 class="triple-column container center">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h3>
+   <h3 class="center">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h3>
    <div class="triple-column container">
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/03_helicopteraccess.jpg" alt="A picture of a helicopter" class="zoomed in-1"/>
          </div>
-         <h4>Helicopter access</h4>
-         <p>Our lodge is accessible by 30-minute helicopter from Valemount, BC.
-         </p>
+         <div class="info-wrapper">
+            <h4>Helicopter <br/> access</h4>
+            <p>
+               Our lodge is accessible by 30-minute helicopter from Valemount, BC.
+            </p>
+         </div>
       </div>
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/04_backcountry.jpeg" alt="a picture of a wide open field in the mountains" class="full-picture"/>
          </div>
-         <h4>backcountry experience</h4>
-         <p>
-            we are located in one of the most pristine and remote areas of the Rocky Mountains.
-         </p>
+         <div class="info-wrapper">
+            <h4>backcountry experience</h4>
+            <p>
+               We are located in one of the most pristine and remote areas of the Rocky Mountains.
+            </p>
+         </div>
       </div>
 
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/05_lodge.jpeg" alt="a picture of Mallard Mountain Lodge at night during winter" class="zoomed in-2"/>
          </div>
-         <h4>the mallard mountain lodge</h4>
-         <p>
-            Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
-         </p>
+         <div class="info-wrapper">
+            <h4>the mallard mountain lodge</h4>
+            <p>
+               Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
+            </p>
+         </div>
       </div>
 
    </div>
@@ -105,14 +112,14 @@
 
 <!-- This is the Work with our guests section -->
 <section>
-   <h3 class="triple-column container center">We work with our guests to create a customized, once-in-a-lifetome adventure.</h3>
+   <h3 class="center">We work with our guests to create a customized, once-in-a-lifetome adventure.</h3>
    <div class="triple-column container">
       <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/06_guides.jpg" alt="A picture of a group of cross country skiers" class="zoomed in-3"/>
          </div>
          <div class="info-wrapper">
-            <h4>expert guides</h4>
+            <h4>expert <br/> guides</h4>
             <p>
                Safety is our first priority, and our guides are experts in the backcountry.
             </p>
@@ -135,7 +142,7 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/08_smallgroups.jpg" alt="a group of people having fun in the snow" class="zoomed in-5"/>
          </div>
          <div class="info-wrapper">
-            <h4>small groups</h4>
+            <h4>small <br/>groups</h4>
             <p>
                With maximum groups of 9, guests will experience an intimate experience at the lodge.
             </p>
@@ -150,14 +157,29 @@
 
 <!-- This is the video -->
 <section>
-   <div class="center">
+   <div class="vid-cont center">
       <iframe class="iframe container" src="https://www.youtube.com/embed/jVqoBuc1gFM" frameborder="0" allowfullscreen></iframe>
    </div>
 </section>
 
 <!-- This is the image grid section  -->
 <section>
-   <?php //a loop will go here, looping over the images to create a grid of pictures. ?>
+   <div class="photogrid">
+      <ul>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/01.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/02.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/03.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/04.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/05.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/06.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/07.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/08.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/09.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/10.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/11.jpg" alt="" /></li>
+         <li><img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/grid/12.jpg" alt="" /></li>
+      </ul>
+   </div>
 </section>
 
 <!-- This is the map section -->
