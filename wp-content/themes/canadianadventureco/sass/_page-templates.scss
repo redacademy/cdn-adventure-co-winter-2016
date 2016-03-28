@@ -193,7 +193,9 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
   background: $color__blue;
 }
-
+.customize-list {
+   list-style-type: none;
+}
 .price-estimate {
    background-color: $color__dark-grey;
    color: white;
@@ -214,7 +216,13 @@ input[type=range]:focus::-ms-fill-upper {
    }
 }
    //contact-info
-
+.contact-form {
+   text-align: center;
+   & .input {
+      margin-bottom: 1rem;
+      @include formbox;
+   }
+}
 //Trip-Estimate
 
 .trip-estimate {
