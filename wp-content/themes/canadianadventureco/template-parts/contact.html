@@ -1,4 +1,41 @@
-<div class="">
-   contact-info
-   <a href="http://adventure.academy.red"><button type="button" name="button">submit</button></a>
+<div class="single-column container center">
+   <h2>Your contact information</h2>
+   <form class="contact-form" action="submit" method="post">
+      <input type="text" name="contact-form" value="" class="input" placeholder="first Name">
+      <input type="text" name="contact-form" value="" class="input" placeholder="last name">
+      <input type="email" name="contact-form" value="" class="input" placeholder="email">
+      <input type="text" name="contact-form" value="" class="input" placeholder="Phone">
+      <p>
+         How would you like to be contacted?
+      </p>
+      <div class="radio-choice">
+         <div class="">
+            <label>
+               <input type="radio" name="contact-method" checked></input>
+               <div></div>
+            </label>
+            <p>
+               email
+            </p>
+         </div>
+         <div class="">
+            <label>
+               <input type="radio" name="contact-method"></input>
+               <div></div>
+            </label>
+            <p>
+               phone
+            </p>
+         </div>
+      </div>
+      <p>
+         Enter your prefered dates of travel:
+      </p>
+      <input type="date" name="contact-form" value="" class="input">
+      <p>
+         Do you have any questions or comments?
+      </p>
+      <textarea name="contact-form" rows="8" cols="40" class="input"></textarea>
+   </form>
+   <a href="http://adventure.academy.red/submission-recieved/"><button type="button" name="button">submit</button></a>
 </div>
