@@ -1,29 +1,29 @@
 .winter-packages-hero {
-	background: url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
-	@include banner;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+	@include sub-banner;
 }
 
 .guided-winter-hero {
-	background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
-	@include banner;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+	@include sub-banner;
 }
 
 .meals-hero {
-	background: url(../../assets/images/pictures/packages/winter/meals.jpeg) center top no-repeat #ffffff;
-	@include banner;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/meals.jpeg) center top no-repeat #ffffff;
+	@include sub-banner;
 }
 
 .small-groups-hero {
-	background: url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
-	@include banner;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/group.jpg) center top no-repeat #ffffff;
+	@include sub-banner;
 }
 
 .summer-packages-hero {
-	background: url(../../assets/images/pictures/packages/summer/lake.jpeg) center top no-repeat #ffffff;
-	@include banner;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/summer/lake.jpeg) center top no-repeat #ffffff;
+	@include sub-banner;
 }
 
 .guided-summer-hero {
-	background: url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
-	@include banner;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+	@include sub-banner;
 }
