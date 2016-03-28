@@ -3,8 +3,8 @@
 --------------------------------------------------------------*/
 
 .lodge-hero {
-  background: url(../../assets/images/pictures/the-lodge/the-lodge.jpeg) center top no-repeat;
-  @include banner;
+  background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/the-lodge/the-lodge.jpeg) center top no-repeat;
+  @include sub-banner;
 }
 
 .lodge {
@@ -84,11 +84,11 @@
 }
 
 .sustain-hero {
-  background: url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
-  @include banner;
+  background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
+  @include sub-banner;
 }
 
 .enviro-hero {
-  background: url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
-  @include banner;
+  background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/the-lodge/sustainability.png) center no-repeat;
+  @include sub-banner;
 }

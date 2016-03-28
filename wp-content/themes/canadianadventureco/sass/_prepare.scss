@@ -1,4 +1,9 @@
 .prepare-hero {
-	background: url(../../assets/images/pictures/getting-here/we-cant-wait.jpg) center top no-repeat #ffffff;
-	@include banner;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/how-to-prepare/prepare-hero.png) center top no-repeat #ffffff;
+	@include sub-banner;
+}
+
+.laugh-hero {
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/how-to-prepare/laugh.jpg) center top no-repeat #ffffff;
+	@include sub-banner;
 }
