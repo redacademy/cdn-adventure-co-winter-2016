@@ -708,6 +708,10 @@ a {
 .single-column p {
   margin-left: 10%;
   margin-right: 10%; }
+  @media screen and (min-width: 480px) {
+    .single-column p {
+      margin-left: 0;
+      margin-right: 0; } }
 
 .triple-column {
   display: block;
@@ -819,8 +823,7 @@ object {
 .explore-packages {
   background: #303030;
   text-align: center;
-  padding-bottom: 2rem;
-  padding-top: 3rem; }
+  padding-top: 4rem; }
   .explore-packages .container {
     border-bottom: 1px solid #D4D5D4;
     padding-bottom: 4rem;
@@ -1033,7 +1036,6 @@ input[type=range]:focus::-ms-fill-upper {
 .trip-estimate {
   background: #303030;
   text-align: center;
-  padding-bottom: 2rem;
   padding-top: 4rem; }
   .trip-estimate .button {
     width: 100%;
@@ -1260,7 +1262,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .lodge-amenities {
   border-top: 1px solid #D4D5D4;
-  width: 85%; }
+  width: 75%; }
   .lodge-amenities h2 {
     text-align: center; }
   .lodge-amenities span {
@@ -1269,7 +1271,8 @@ input[type=range]:focus::-ms-fill-upper {
     display: block; }
     @media screen and (min-width: 480px) {
       .lodge-amenities span {
-        margin: 0; } }
+        margin: 0;
+        min-width: 100px; } }
   @media screen and (min-width: 480px) {
     .lodge-amenities p {
       display: -webkit-flex;

@@ -10,18 +10,20 @@ jQuery(document).ready(function(){
 //mobile menu function
 
   jQuery('.menu-button').on('click', function() {
-    jQuery('.mobile-navigation').toggle().toggleClass('mobile-menu');
+    jQuery('.mobile-navigation').toggleClass('mobile-menu').toggle();
 
-    jQuery('#secondary-menu').children('ul').toggle();
+    jQuery('#secondary-menu').toggle();
     jQuery('.site-branding').toggle();
 
   });
+
+//Disable scroll on map until click
 
   jQuery('.map-cont').click(function () {
       jQuery('.map').css('pointer-events', 'auto');
   });
 
-  jQuery( '.map-cont' ).mouseleave(function() {
+  jQuery('.map-cont').mouseleave(function() {
     jQuery('.map').css('pointer-events', 'none');
   });
 

@@ -36,7 +36,7 @@ add_action( 'admin_init', 'cdn_adventure_remove_submenus', 102 );
 function cdn_adventure_login_logo() {
      echo '<style type="text/css">
          h1 a {
-					 background-image:url('.get_template_directory_uri().'./assets/images/cac-logo-grey.png) !important;
+					 background-image:url('.get_template_directory_uri().'/assets/images/cac-logo-grey.png) !important;
 	         background-size: contain !important;
 					 width: 100% !important;
 					 margin-left: -40px;}

@@ -19,7 +19,7 @@
             Located in the Punch Bowl region of the Rocky Mountains, the Mallard Mountain Lodge is the home of the Canadian Adventure Company. Small groups of 9 come from all over to stay with us and experience one of the most remote regions in the Canadian Rockies by 30-minute helicopter ride.
          </p>
       </div>
-      <button class="">
+      <button class="button">
          Explore the lodge
       </button>
    </div>

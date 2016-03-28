@@ -6,7 +6,7 @@
   background: url(../../assets/images/pictures/the-lodge/the-lodge.jpeg) center top no-repeat;
   @include banner;
 }
- 
+
 .lodge {
   h1 {
     text-align: center;
@@ -62,7 +62,7 @@
 
 .lodge-amenities {
   border-top: $border__grey;
-  width: 85%;
+  width: 75%;
   h2 {
     text-align: center;
   }
@@ -72,6 +72,7 @@
     display: block;
     @include desktop {
       margin: 0;
+      min-width: 100px;
     }
   }
   p {

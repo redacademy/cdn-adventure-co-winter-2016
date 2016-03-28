@@ -6,7 +6,6 @@
 
 .explore-packages {
   @include grey-background;
-  padding-top: 3rem;
 
   .container {
     border-bottom: $border__grey;
@@ -220,7 +219,6 @@ input[type=range]:focus::-ms-fill-upper {
 
 .trip-estimate {
   @include grey-background;
-  padding-top: 4rem;
 
   .button {
     width: 100%;

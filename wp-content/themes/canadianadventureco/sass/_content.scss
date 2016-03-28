@@ -88,7 +88,7 @@
 	@include desktop {
 		font-size: 4rem;
 		line-height: 3.5rem;
-	};
+	}
 }
 
 .banner-side-text {
@@ -104,7 +104,7 @@
 	@include desktop {
 		font-size: 5.625rem;
 		line-height: 5.25rem;
-	};
+	}
 }
 
 .column-flex {
@@ -123,6 +123,10 @@
 .single-column p {
 	margin-left: 10%;
 	margin-right: 10%;
+	@include desktop {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 .triple-column {

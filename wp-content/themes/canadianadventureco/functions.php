@@ -24,7 +24,7 @@ function cdn_adventure_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html( 'Primary Menu' ),
-		'secondary-menu' => esc_html( 'Secondary Menu' )
+		'secondary' => esc_html( 'Secondary Menu' )
 	) );
 
 	// Switch search form, comment form, and comments to output valid HTML5.
@@ -95,7 +95,7 @@ function cdn_adventure_scripts() {
 	wp_enqueue_script( 'ui-router', get_template_directory_uri() . '/build/js/angular.ui-router.min.js');
 	wp_enqueue_script( 'BookingApp', get_template_directory_uri() . '/js/booking-app.js');
 	wp_enqueue_script( 'bxslider', get_template_directory_uri() . '/js/jquery.bxslider/jquery.bxslider.min.js', array('jquery'));
-	wp_enqueue_script( 'bx_slider', get_template_directory_uri(). '/js/bx-slider.js');
+	wp_enqueue_script( 'main', get_template_directory_uri(). '/js/main.js');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
