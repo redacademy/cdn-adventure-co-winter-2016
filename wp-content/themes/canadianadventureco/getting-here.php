@@ -62,7 +62,7 @@ get_header(); ?>
          <div class="triple-column container">
             <div class="icons-single-column container">
 							<img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/car.png" alt="an icon depicting a car" class="icon"/>
-              <h3><strong>Approximate Driving Times to Valemount, from:</strong></h3>
+              <p><strong>Approximate Driving Times to Valemount, from:</strong></p>
               <ul>
                 <li>Kamloops, BC - 3.5 hours</li>
                 <li>Kelowna, BC - 5 hours</li>
