@@ -132,6 +132,7 @@
 .triple-column {
 	display: block;
 	width: 100%;
+	padding-bottom: 3rem;
 
 	@include desktop {
 		width: 83%;
@@ -158,7 +159,7 @@
 }
 
 .icons-single-column {
-	background-color: #fff;
+	background-color: $color__light-grey;
 	width: 90%;
 	text-align: center;
 
