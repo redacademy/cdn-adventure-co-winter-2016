@@ -14,6 +14,7 @@ jQuery(document).ready(function($){
 
     $('#secondary-menu').toggle();
     $('.site-branding').toggle();
+    $('.site-content').toggle();
 
   });
 
