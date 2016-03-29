@@ -27,4 +27,8 @@ jQuery(document).ready(function($){
     $('.map').css('pointer-events', 'none');
   });
 
+  $('.map-cont').mouseenter(function() {
+    $('.map').css('pointer-events', 'none');
+  });
+
 });
