@@ -7,7 +7,7 @@
 
 get_header(); ?>
 	<div id="primary" class="content-area" ng-app="BookingApp" ng-controller="BookingAppCtrl">
-		<div class="" ui-view>
+		<div class="package-app" ui-view autoscroll="true">
 
 		</div>
 	</div><!-- #primary -->
