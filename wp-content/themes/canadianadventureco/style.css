@@ -1050,12 +1050,13 @@ input[type=range]:focus::-ms-fill-upper {
   background: #068fbf; }
 
 .customize-list {
-  list-style-type: none; }
+  text-align: left;
+  width: 500px; }
 
 .price-estimate {
-  background-color: #303030;
-  color: white;
-  height: 100px; }
+  background-color: #068fbf;
+  padding: 2rem;
+  color: white; }
 
 .request-btn {
   width: 80%;
