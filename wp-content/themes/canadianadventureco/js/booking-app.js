@@ -14,8 +14,12 @@ angular.module('BookingApp', ['ui.router'])
    });
 })
 
-
-.controller('BookingAppCtrl', BookingAppCtrl);
+.controller('BookingAppCtrl', BookingAppCtrl)
+.run(function($rootScope) {
+   $rootScope.$on('$stateChangeSuccess', function() {
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+   });
+});
 
 function BookingAppCtrl($scope, $state) {
    $state.go('state1');
@@ -33,5 +37,30 @@ function BookingAppCtrl($scope, $state) {
       "date":"",
       "comments":""
    };
+   $scope.priceGen = function() {
+      var guidePrice = function() {
+         if ($scope.package.guided==='guided'){
+            return 100*$scope.package.nights;
+         }else {
+            return 0;
+         }
+      };
+      var cateredPrice = function() {
+         if ($scope.package.food==='catered'){
+            return 100*$scope.package.nights*$scope.package.guests;
+         } else {
+            return 0;
+         }
+      };
+      var nightPrice = 300*$scope.package.nights;
 
+      return guidePrice()+cateredPrice()+nightPrice;
+   };
+   $scope.submission = function(contactForm) {
+      if (contactForm.$invalid) {
+         alert("Please fill out your contact information.");
+      } else {
+         alert(JSON.stringify($scope.package));
+      }
+   }
 };

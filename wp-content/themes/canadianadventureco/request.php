@@ -6,10 +6,9 @@
  */
 
 get_header(); ?>
-	<div id="primary" class="content-area" ng-app="BookingApp" ng-controller="BookingAppCtrl">
-		<div class="package-app" ui-view autoscroll="true">
+	<div id="primary" class="content-area" ng-app="BookingApp" ng-controller="BookingAppCtrl"  ui-view>
 
-		</div>
+
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>

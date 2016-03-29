@@ -8,7 +8,7 @@
             <div class="radio-choice">
                <div class="">
                   <label>
-                     <input ng-model="package.guided" type="radio" name="guided" value="guided" checked></input>
+                     <input ng-model="package.guided" type="radio" name="guided" value="guided"></input>
                      <div></div>
                   </label>
                   <p>
@@ -38,7 +38,7 @@
             <div class="radio-choice">
                <div class="">
                   <label>
-                     <input ng-model="package.food" type="radio" name="catered" value="catered" checked></input>
+                     <input ng-model="package.food" type="radio" name="catered" value="catered"></input>
                      <div></div>
                   </label>
                   <p>
@@ -67,7 +67,7 @@
          <form class="" oninput="amount.value=rangeInput.value">
             <input ng-model="package.nights" type="range" id="rangeInput" name="stay" value="3" min="3" max="10">
             <!-- This label will need to reflect the range's current position -->
-            <label for="stay"><output name="amount" for="stay">0</output></label>
+            <label for="stay"><output name="amount" for="stay">3</output></label>
          </form>
       </div>
    </section>
@@ -78,9 +78,9 @@
             Groups smaller than 7 could share the lodge facilities with other guests
          </p>
          <form class="" oninput="amount.value=rangeInput.value">
-            <input ng-model="package.guests" type="range" id="rangeInput" name="guests" value="1" min="1" max="10">
+            <input ng-model="package.guests" type="range" id="rangeInput" name="guests" value="1" min="1" max="9">
             <!-- This label will need to reflect the range's current position -->
-            <label for="guests"><output name="amount" for="guests">0</output></label>
+            <label for="guests"><output name="amount" for="guests">1</output></label>
          </form>
       </div>
    </section>
@@ -91,31 +91,33 @@
             Estimated price per person:
          </div>
          <div class="">
-            -- Generated Price --
+            {{priceGen()/package.guests|currency:"$":0}}
          </div>
       </div>
    </section>
    <!-- This section needs to be generated dynamically based on the choices made by the users -->
    <section>
-      <div class="customize-list">
-         <h4>This package includes:</h4>
-         <ul>
-            <li>Pre-trip info</li>
-            <li>Welcome at Valemont</li>
-            <li>Round trip helicopter transportation</li>
-            <li>Accommodation at Mallard Lodge</li>
-            <li>3 meals a day, family style, cooked to your dietary preferences</li>
-            <li>Professional backcountry guide</li>
-         </ul>
+      <div class="customize-list container">
+            <h4>This package includes:</h4>
+            <ul>
+               <li>Pre-trip info</li>
+               <li>Welcome at Valemont</li>
+               <li>Round trip helicopter transportation</li>
+               <li>Accommodation at Mallard Lodge</li>
+               <li ng-show="package.guided==='guided'">A backcountry-ceritified guide for your trip</li>
+               <li ng-show="package.food==='catered'">3 meals a day, cooked to your dietary preference</li>
+            </ul>
       </div>
       <hr>
-      <div class="">
+      <div class="customize-list container">
          <h4>This package doesn't include:</h4>
          <ul>
             <li>Travel to/from staging area in Valemont, BC</li>
+            <li ng-show="package.guided==='self-guided'">A backcountry-ceritified guide for your trip</li>
+            <li ng-show="package.food==='self-catered'">Food for your stay</li>
             <li>Alcoholic beverages</li>
             <li>Personal expenses</li>
-            <li>Gratuities</li>
+            <li>Taxes and gratuities</li>
             <li>Summer hiking and camping gear (available for rental)</li>
          </ul>
       </div>
