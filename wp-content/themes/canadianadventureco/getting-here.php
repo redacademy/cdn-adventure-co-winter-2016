@@ -37,23 +37,34 @@ get_header(); ?>
 	          lodging at the Best Western PLUS Valemount is highly recommended as well.</p>
 	         </div>
 			 </div>
+			 <hr>
       </section>
 
-      <!-- This is the valemount map section-->
+      <!-- This is the "valemount-map-title" section-->
       <section>
 				<div class="center-flex column-flex">
 	         <div class="title">
 	            <h2>Get yourself to Valemount, and we'll take care of the rest.</h2>
 	         </div>
-					 <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a pair of skiis" class="icon"/>
 			 </div>
       </section>
+
+			<!-- This is the "google-map" section -->
+			<section>
+			   <div class="map-cont">
+			      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311094.7126487304!2d-118.259743!3d52.471396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda98c98eb93410e8!2sCanadian+Adventure+Company!5e0!3m2!1sen!2sca!4v1458852068826" class="iframe map" frameborder="0" style="border:0" allowfullscreen></iframe>
+			      <button class="button map-btn">
+			         how to get here
+			      </button>
+			   </div>
+			 </hr>
+			</section>
 
       <!-- This is the "travel-options" section -->
       <section>
 				<div class="center-flex column-flex">
          <div class="title">
-						<h2>How to get here</h2>
+						<h2>We recommend car or air travel to get you and your gear to Valemount.</h2>
          </div>
 
          <div class="triple-column container">
@@ -89,7 +100,7 @@ get_header(); ?>
          </div>
 
         <div class="center">
-          <p>Upon request, we are happy to assist with your transportation arrangements.</p>
+          <p><strong>Upon request, we are happy to assist with your transportation arrangements.</strong></p>
         </div>
          </div>
       </section>
