@@ -97,20 +97,24 @@
    </section>
    <!-- This section needs to be generated dynamically based on the choices made by the users -->
    <section>
-      <div class="customize-list single-column container">
-         <h4>This package includes:</h4>
-         <ul>
-            <li>Pre-trip info</li>
-            <li>Welcome at Valemont</li>
-            <li>Round trip helicopter transportation</li>
-            <li>Accommodation at Mallard Lodge</li>
-         </ul>
+      <div class="customize-list container">
+            <h4>This package includes:</h4>
+            <ul>
+               <li>Pre-trip info</li>
+               <li>Welcome at Valemont</li>
+               <li>Round trip helicopter transportation</li>
+               <li>Accommodation at Mallard Lodge</li>
+               <li ng-show="package.guided==='guided'">A backcountry-ceritified guide for your trip</li>
+               <li ng-show="package.food==='catered'">3 meals a day, cooked to your dietary preference</li>
+            </ul>
       </div>
       <hr>
-      <div class="customize-list single-column container">
+      <div class="customize-list container">
          <h4>This package doesn't include:</h4>
          <ul>
             <li>Travel to/from staging area in Valemont, BC</li>
+            <li ng-show="package.guided==='self-guided'">A backcountry-ceritified guide for your trip</li>
+            <li ng-show="package.food==='self-catered'">Food for your stay</li>
             <li>Alcoholic beverages</li>
             <li>Personal expenses</li>
             <li>Taxes and gratuities</li>

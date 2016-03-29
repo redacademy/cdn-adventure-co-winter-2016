@@ -1050,7 +1050,8 @@ input[type=range]:focus::-ms-fill-upper {
   background: #068fbf; }
 
 .customize-list {
-  text-align: left; }
+  text-align: left;
+  width: 500px; }
 
 .price-estimate {
   background-color: #068fbf;

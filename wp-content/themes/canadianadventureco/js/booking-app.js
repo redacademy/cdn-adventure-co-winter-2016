@@ -14,8 +14,12 @@ angular.module('BookingApp', ['ui.router'])
    });
 })
 
-
-.controller('BookingAppCtrl', BookingAppCtrl);
+.controller('BookingAppCtrl', BookingAppCtrl)
+.run(function($rootScope) {
+   $rootScope.$on('$stateChangeSuccess', function() {
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+   });
+});
 
 function BookingAppCtrl($scope, $state) {
    $state.go('state1');
