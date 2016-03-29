@@ -63,6 +63,7 @@ get_header(); ?>
           <a data-slide-index="11" href=""><img alt="View of Bathroom"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/shower.jpeg" /></a>
 
         </div>
+        <hr>
       </section><!-- .lodge-gallery -->
 
         <section class="container lodge-amenities">

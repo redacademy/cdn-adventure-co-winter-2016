@@ -8,7 +8,6 @@
   @include grey-background;
 
   .container {
-    border-bottom: $border__grey;
     padding-bottom: 4rem;
     width: 85%;
   }
@@ -243,7 +242,6 @@ input[type=range]:focus::-ms-fill-upper {
   }
 
   .container {
-    border-bottom: $border__grey;
     padding-bottom: 4rem;
     width: 85%;
   }

@@ -18,4 +18,5 @@
          summer
       </button>
    </div><!-- .explore-packages -->
+   <hr>
 </section>

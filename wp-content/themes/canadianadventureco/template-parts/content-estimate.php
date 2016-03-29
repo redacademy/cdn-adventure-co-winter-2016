@@ -17,4 +17,5 @@
           </button>
         </a>
      </div>
+     <hr>
     </section>
