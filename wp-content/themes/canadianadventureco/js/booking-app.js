@@ -56,11 +56,13 @@ function BookingAppCtrl($scope, $state) {
 
       return guidePrice()+cateredPrice()+nightPrice;
    };
+   $scope.showValidation = false;
    $scope.submission = function(contactForm) {
-      if (contactForm.$invalid) {
-         alert("Please fill out your contact information.");
+         if(contactForm.$invalid) {
+            $scope.showValidation=true;
       } else {
          alert(JSON.stringify($scope.package));
+         window.location.href="http://adventure.academy.red/submission"
       }
    }
 };
