@@ -14,7 +14,7 @@
      <div class="title">
        <h2>Safety is our first priority, and our guides are experts in the backcountry.</h2>
      </div>
-     <div class="single-column">
+     <div class="center">
         <p>Safety is our first priority, and our guides are experts with years of experience
           in the backcountry... Etc etc. Lorem Ipsum is simply dummy text of the printing and
            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
