@@ -19,4 +19,19 @@ angular.module('BookingApp', ['ui.router'])
 
 function BookingAppCtrl($scope, $state) {
    $state.go('state1');
+   $scope.package = {
+      "season":"",
+      "guided":"guided",
+      "food":"catered",
+      "nights":"3",
+      "guests":"1",
+      "firstName":"",
+      "lastName":"",
+      "email":"",
+      "phone":"",
+      "contactMethod":"email",
+      "date":"",
+      "comments":""
+   };
+
 };

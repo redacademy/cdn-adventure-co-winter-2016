@@ -1,18 +1,18 @@
 <div class="season-page">
-   <div class="choice-cont" ui-sref="state2">
+   <div class="choice-cont" ui-sref="state2" ng-click="package.season='summer'">
       <div class="summer-app">
          <div class="banner-text">
             summer
          </div>
       </div>
-      <button type="button" name="button" ui-sref="state2" class="season-btn">summer</button>
+      <button type="button" name="button" ui-sref="state2" class="season-btn" ng-click="package.season='summer'">summer</button>
    </div>
-   <div class="choice-cont" ui-sref="state2">
+   <div class="choice-cont" ui-sref="state2" ng-click="package.season='winter'">
       <div class="winter-app">
          <div class="banner-text">
             winter
          </div>
       </div>
-      <button type="button" name="button" ui-sref="state2" class="season-btn">winter</button>
+      <button type="button" name="button" ui-sref="state2" class="season-btn"  ng-click="package.season='winter'">winter</button>
    </div>
 </div>

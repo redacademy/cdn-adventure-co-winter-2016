@@ -8,7 +8,7 @@
             <div class="radio-choice">
                <div class="">
                   <label>
-                     <input type="radio" name="guided" checked></input>
+                     <input ng-model="package.guided" type="radio" name="guided" value="guided" checked></input>
                      <div></div>
                   </label>
                   <p>
@@ -17,7 +17,7 @@
                </div>
                <div class="">
                   <label>
-                     <input type="radio" name="guided"></input>
+                     <input ng-model="package.guided" type="radio" name="guided" value="self-guided"></input>
                      <div></div>
                   </label>
                   <p>
@@ -38,7 +38,7 @@
             <div class="radio-choice">
                <div class="">
                   <label>
-                     <input type="radio" name="catered" checked></input>
+                     <input ng-model="package.food" type="radio" name="catered" value="catered" checked></input>
                      <div></div>
                   </label>
                   <p>
@@ -47,7 +47,7 @@
                </div>
                <div class="">
                   <label>
-                     <input type="radio" name="catered"></input>
+                     <input ng-model="package.food" type="radio" name="catered" value="self-catered"></input>
                      <div></div>
                   </label>
                <p>
@@ -65,7 +65,7 @@
             Minimum 3 nights stay
          </p>
          <form class="" oninput="amount.value=rangeInput.value">
-            <input type="range" id="rangeInput" name="stay" value="3" min="3" max="10">
+            <input ng-model="package.nights" type="range" id="rangeInput" name="stay" value="3" min="3" max="10">
             <!-- This label will need to reflect the range's current position -->
             <label for="stay"><output name="amount" for="stay">0</output></label>
          </form>
@@ -78,7 +78,7 @@
             Groups smaller than 7 could share the lodge facilities with other guests
          </p>
          <form class="" oninput="amount.value=rangeInput.value">
-            <input type="range" id="rangeInput" name="guests" value="1" min="1" max="10">
+            <input ng-model="package.guests" type="range" id="rangeInput" name="guests" value="1" min="1" max="10">
             <!-- This label will need to reflect the range's current position -->
             <label for="guests"><output name="amount" for="guests">0</output></label>
          </form>
