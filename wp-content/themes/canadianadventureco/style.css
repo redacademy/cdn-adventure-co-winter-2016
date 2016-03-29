@@ -787,7 +787,8 @@ a {
         margin-left: 0;
         margin-right: 0; } }
   .list-double-column .button {
-    width: 20rem; }
+    width: 20rem;
+    margin-left: 0.5rem; }
 
 .submission {
   padding: 3rem; }
@@ -1050,12 +1051,13 @@ input[type=range]:focus::-ms-fill-upper {
   background: #068fbf; }
 
 .customize-list {
-  list-style-type: none; }
+  text-align: left;
+  width: 500px; }
 
 .price-estimate {
-  background-color: #303030;
-  color: white;
-  height: 100px; }
+  background-color: #068fbf;
+  padding: 2rem;
+  color: white; }
 
 .request-btn {
   width: 80%;
