@@ -58,7 +58,7 @@ get_header(); ?>
 
          </div>
 
-         <div class="single-column">
+         <div class="center">
            <p><?php echo CFS()->get('winter_activities');?></p>
         </div>
 			<!-- </div> -->
@@ -103,7 +103,7 @@ get_header(); ?>
       </div>
     </section>
 
-    <!-- This is the "maximum groups" section -->
+    <!-- This is the "maximum-groups" section -->
 
 		<?php get_template_part( 'template-parts/content', 'maximum' ); ?>
 
