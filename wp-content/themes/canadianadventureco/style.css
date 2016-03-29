@@ -877,6 +877,9 @@ object {
         width: 33%;
         margin: 0 2rem; } }
 
+.show-validation input.ng-invalid {
+  box-shadow: 0 0 3px 3px rgba(255, 0, 0, 0.5); }
+
 .season-page {
   display: block;
   margin: 3rem 0; }

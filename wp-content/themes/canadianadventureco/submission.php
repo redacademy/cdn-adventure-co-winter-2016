@@ -12,7 +12,7 @@ get_header(); ?>
 
     <section class="submission container title">
 
-      <h1>We've Recieved Your Submission!</h1>
+      <h1>We've Received Your Submission!</h1>
 
       <p>
         Thank you for your request. We will contact you shortly.
@@ -25,7 +25,7 @@ get_header(); ?>
       </a>
 
     </section>
-    
+
 
   </main><!-- #main -->
 </div><!-- #primary -->

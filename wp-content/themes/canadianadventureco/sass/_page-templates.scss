@@ -32,7 +32,11 @@
 }
 
 //angular app
-
+.show-validation {
+   input.ng-invalid {
+      box-shadow: 0 0 3px 3px rgba(255, 0, 0, .5);
+   }
+}
 //Season page
 .season-page {
    display: block;

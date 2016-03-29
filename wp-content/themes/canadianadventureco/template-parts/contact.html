@@ -1,6 +1,6 @@
 <div class="single-column container center">
    <h2>Your contact information</h2>
-   <form name="contactForm" class="contact-form">
+   <form name="contactForm" class="contact-form" ng-class="{'show-validation' : showValidation}">
       <input ng-model="package.firstName" type="text" name="firstName" value="" class="input" placeholder="first Name" required>
       <input ng-model="package.lastName" type="text" name="lastName" value="" class="input" placeholder="last name" required>
       <input ng-model="package.email"type="email" name="email" value="" class="input" placeholder="email" required>
