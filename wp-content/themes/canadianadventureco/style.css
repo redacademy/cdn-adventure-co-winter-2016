@@ -346,7 +346,8 @@ hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 0;
+  width: 85%; }
 
 ul {
   list-style: disc; }
@@ -784,7 +785,8 @@ a {
     @media screen and (min-width: 480px) {
       .list-double-column ul {
         margin-left: 0;
-        margin-right: 0; } }
+        margin-right: 0;
+        column: 2 250px; } }
   .list-double-column .button {
     width: 20rem; }
 
@@ -860,7 +862,6 @@ object {
   text-align: center;
   padding-top: 4rem; }
   .explore-packages .container {
-    border-bottom: 1px solid #D4D5D4;
     padding-bottom: 4rem;
     width: 85%; }
   .explore-packages h2 {
@@ -1092,7 +1093,6 @@ input[type=range]:focus::-ms-fill-upper {
       .trip-estimate .button {
         width: 50%; } }
   .trip-estimate .container {
-    border-bottom: 1px solid #D4D5D4;
     padding-bottom: 4rem;
     width: 85%; }
 
@@ -1335,7 +1335,6 @@ input[type=range]:focus::-ms-fill-upper {
   padding-bottom: 3rem; }
 
 .lodge-amenities {
-  border-top: 1px solid #D4D5D4;
   width: 75%; }
   .lodge-amenities h2 {
     text-align: center; }

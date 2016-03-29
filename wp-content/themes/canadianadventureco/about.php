@@ -26,7 +26,7 @@ get_header(); ?>
 	         </div>
 
          <div class="single-column">
-            <p><?php echo CFS()->get('get_to_know');?></p>
+            <p><?php echo CFS()->get('get_to_know'); ?></p>
          </div>
 				</div>
       </section>

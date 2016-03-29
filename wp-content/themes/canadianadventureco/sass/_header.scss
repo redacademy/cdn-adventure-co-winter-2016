@@ -95,6 +95,9 @@
 	a {
 		color: $color__white;
 	}
+	@include desktop {
+		display: none;
+	}
 }
 
 .menu {
