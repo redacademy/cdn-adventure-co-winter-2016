@@ -16,8 +16,6 @@ get_header(); ?>
             <div class="small-banner-text">
 							Valemount is where your adventure begins
 						</div>
-            <!-- <p>Every adventure with us begins in Valemount, BC, where a 30-minute helicopter
-              ride will whisk you away to our Mallard Mountain Lodge.</p> -->
          </div>
       </section>
 
@@ -55,7 +53,6 @@ get_header(); ?>
       <section>
 				<div class="center-flex column-flex">
          <div class="title">
-            <!-- <h2>We recommned car or air travel to get you and your gear to Valemount.</h2> -->
 						<h2>How to get here</h2>
          </div>
 

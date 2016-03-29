@@ -26,11 +26,7 @@ get_header(); ?>
 	         </div>
 
          <div class="single-column">
-            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
-              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
-              eos, nam tation postulant suscipiantur ei. Modo errem veritus at eam. Quo cibo phaedrum vituperata
-              ne, per ad probo eripuit, mea te prompta facilis eleifend. Nam debitis lucilius deseruisse ne.
-              Qui deserunt philosophia ea, aperiri voluptatum ei nec. </p>
+            <p><?php echo CFS()->get('get_to_know');?></p>
          </div>
 				</div>
       </section>
@@ -51,13 +47,7 @@ get_header(); ?>
 	            <h2>Why we built the Mallard Lodge</h2>
 	         </div>
 	         <div class="single-column">
-	            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
-	              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
-	              eos, nam tation postulant suscipiantur ei. Modo errem veritus at eam. Quo cibo phaedrum vituperata
-	              ne, per ad probo eripuit, mea te prompta facilis eleifend. Nam debitis lucilius deseruisse ne.
-	              Qui deserunt philosophia ea, aperiri voluptatum ei nec. Ne offendit ocurreret voluptatibus eos,
-	              soleat phaedrum ex usu. Ut melius integre petentium mel, his stet veniam invenire eu.
-	              Vim causae euismod liberavisse id, ei usu facer recusabo. Eum et diceret lobortis.</p>
+	            <p><?php echo CFS()->get('why_we_built');?></p>
 	         </div>
 
 					 <button class="button">

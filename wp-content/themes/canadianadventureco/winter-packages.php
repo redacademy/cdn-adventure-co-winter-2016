@@ -26,11 +26,7 @@ get_header(); ?>
 	           <h1>Our Winter Season is from November to April</h1>
 	         </div>
 	         <div class="single-column">
-	            <p>Canadian Adventure Company offers highly customized
-	              packages for guests, so that they can enjoy their perfect
-	              getaway at the Mallard Lodge. Due to the often extreme nature
-	              of the winter season, all of our winter season packages are
-	              guided by experts.</p>
+	            <p><?php echo CFS()->get('winter_season');?></p>
 	         </div>
 			 </div>
       </section>
@@ -63,10 +59,7 @@ get_header(); ?>
          </div>
 
          <div class="single-column">
-           <p>When you arrive for your winter adventure, spend your days skiing,
-             snowboarding, snowshoeing or just relaxing in the lodge. With your guide,
-             you’ll experience some of the most remote regions of British Columbia and
-             ski down slopes that have never been skiied before.</p>
+           <p><?php echo CFS()->get('winter_activities');?></p>
         </div>
 			<!-- </div> -->
 		 </div>

@@ -23,12 +23,10 @@ get_header(); ?>
       <section>
 				<div class="center-flex column-flex">
 	         <div class="title">
-	           <h1>Our Summer Season is from TBD to TBD</h1>
+	           <h1>Our Summer Season is from June to September</h1>
 	         </div>
 	         <div class="single-column">
-	            <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
-	              splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
-	              eos, nam tation postulant suscipiantur ei.</p>
+	            <p><?php echo CFS()->get('summer_season');?></p>
 	         </div>
 			 </div>
       </section>
@@ -60,9 +58,7 @@ get_header(); ?>
          </div>
 
          <div class="single-column">
-           <p>Lorem ipsum dolor sit amet, at eos veri conceptam, duis equidem eu nam, usu cu errem
-             splendide contentiones. At vel vidit efficiendi. Case justo dicta ea vix, cu dolor iudicabit
-             eos, nam tation postulant suscipiantur ei.</p>
+           <p><?php echo CFS()->get('summer_activities');?></p>
         </div>
 			<!-- </div> -->
 		 </div>
