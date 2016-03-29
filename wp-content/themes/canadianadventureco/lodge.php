@@ -70,27 +70,27 @@ get_header(); ?>
           <h2>Lodge Amenities</h2>
           <p>
             <span>Beds</span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            <?php echo CFS()->get('amenities_beds');?>
           </p>
           <p>
             <span>Showers</span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            <?php echo CFS()->get('amenities_showers');?>
           </p>
           <p>
             <span>Kitchen</span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            <?php echo CFS()->get('amenities_kitchen');?>
           </p>
           <p>
             <span>Toilet</span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            <?php echo CFS()->get('amenities_toilet');?>
           </p>
           <p>
             <span>Living Space</span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            <?php echo CFS()->get('amenities_living_space');?>
           </p>
           <p>
             <span>Catering</span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            <?php echo CFS()->get('amenities_catering');?>
           </p>
         </section><!-- .lodge-amenities -->
 
