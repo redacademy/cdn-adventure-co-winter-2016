@@ -1,17 +1,17 @@
 <div class="single-column container center">
    <h2>Your contact information</h2>
-   <form class="contact-form" action="submit" method="post">
-      <input ng-model="package.firstName" type="text" name="contact-form" value="" class="input" placeholder="first Name">
-      <input ng-model="package.lastName" type="text" name="contact-form" value="" class="input" placeholder="last name">
-      <input ng-model="package.email"type="email" name="contact-form" value="" class="input" placeholder="email">
-      <input ng-model="package.phone"type="text" name="contact-form" value="" class="input" placeholder="Phone">
+   <form name="contactForm" class="contact-form">
+      <input ng-model="package.firstName" type="text" name="firstName" value="" class="input" placeholder="first Name" required>
+      <input ng-model="package.lastName" type="text" name="lastName" value="" class="input" placeholder="last name" required>
+      <input ng-model="package.email"type="email" name="email" value="" class="input" placeholder="email" required>
+      <input ng-model="package.phone"type="text" name="phoneNumber" value="" class="input" placeholder="Phone" required>
       <p>
          How would you like to be contacted?
       </p>
       <div class="radio-choice">
          <div class="">
             <label>
-               <input ng-model="package.contactMethod" type="radio" name="contact-method" value="email" checked></input>
+               <input ng-model="package.contactMethod" type="radio" name="contactMethod" value="email"></input>
                <div></div>
             </label>
             <p>
@@ -20,7 +20,7 @@
          </div>
          <div class="">
             <label>
-               <input ng-model="package.contactMethod" type="radio" name="contact-method" value="phone"></input>
+               <input ng-model="package.contactMethod" type="radio" name="contactMethod" value="phone"></input>
                <div></div>
             </label>
             <p>
@@ -31,11 +31,11 @@
       <p>
          Enter your prefered date of arrival:
       </p>
-      <input ng-model="package.arrivalDate" type="date" name="contact-form" value="" class="input">
+      <input ng-model="package.arrivalDate" type="date" name="arrivalDate" value="" class="input" required>
       <p>
          Do you have any questions or comments?
       </p>
-      <textarea ng-model="package.comments "name="contact-form" rows="8" cols="40" class="input"></textarea>
+      <textarea ng-model="package.comments "name="comments" rows="8" cols="40" class="input"></textarea>
    </form>
-   <a href="/submission-recieved/"><button type="button" name="button">submit</button></a>
+   <button type="button" name="button" ng-click="submission(contactForm)">submit</button>
 </div>

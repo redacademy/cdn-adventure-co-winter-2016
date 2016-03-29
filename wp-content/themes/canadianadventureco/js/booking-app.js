@@ -56,4 +56,11 @@ function BookingAppCtrl($scope, $state) {
 
       return guidePrice()+cateredPrice()+nightPrice;
    };
+   $scope.submission = function(contactForm) {
+      if (contactForm.$invalid) {
+         alert("Please fill out your contact information.");
+      } else {
+         alert(JSON.stringify($scope.package));
+      }
+   }
 };
