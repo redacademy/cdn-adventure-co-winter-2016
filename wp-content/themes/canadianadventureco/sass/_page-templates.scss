@@ -33,14 +33,9 @@
 }
 
 
+
 //angular app
-// .package-app {
-//    padding-top: 90px;
-//
-//    @include desktop {
-//       padding-top: 138px;
-//    };
-// }
+
 //Season page
 .season-page {
    display: block;
@@ -200,12 +195,12 @@ input[type=range]:focus::-ms-fill-upper {
   background: $color__blue;
 }
 .customize-list {
-   list-style-type: none;
+   text-align: left;
 }
 .price-estimate {
-   background-color: $color__dark-grey;
+   background-color: $color__blue;
+   padding: 2rem;
    color: white;
-   height: 100px;
 }
 .request-btn {
    width: 80%;
