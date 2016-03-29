@@ -67,9 +67,6 @@ get_header(); ?>
 <!-- This is the "equip-list" section -->
 <section>
 	<div class="center-flex column-flex">
-		<div>
-			<!-- <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/how-to-prepare/prepare3.jpg" alt="Equipment gear for mountain sports"/> -->
-		</div>
 
 		<h2>Equipment List</h2>
 
@@ -78,7 +75,14 @@ get_header(); ?>
 				<?php
 					$loop = CFS()->get( 'equipment_list' );
 					foreach ( $loop as $row ) : ?>
-					<li><?php echo $row['equipment'];?></li>
+					<li><?php echo $row['equipment_1'];?></li>
+					<?php endforeach; ?>
+			</ul>
+			<ul>
+				<?php
+					$loop = CFS()->get( 'equipment_list' );
+					foreach ( $loop as $row ) : ?>
+					<li><?php echo $row['equipment_2'];?></li>
 					<?php endforeach; ?>
 			</ul>
 		</div>

@@ -788,7 +788,8 @@ a {
         margin-right: 0;
         column: 2 250px; } }
   .list-double-column .button {
-    width: 20rem; }
+    width: 20rem;
+    margin-left: 0.5rem; }
 
 .submission {
   padding: 3rem; }
