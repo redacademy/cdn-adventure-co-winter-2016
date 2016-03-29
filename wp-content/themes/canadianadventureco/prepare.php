@@ -73,14 +73,14 @@ get_header(); ?>
 		<div class="list-double-column container">
 			<ul>
 				<?php
-					$loop = CFS()->get( 'equipment_list' );
+					$loop = CFS()->get( 'equipment_list1' );
 					foreach ( $loop as $row ) : ?>
 					<li><?php echo $row['equipment_1'];?></li>
 					<?php endforeach; ?>
 			</ul>
 			<ul>
 				<?php
-					$loop = CFS()->get( 'equipment_list' );
+					$loop = CFS()->get( 'equipment_list2' );
 					foreach ( $loop as $row ) : ?>
 					<li><?php echo $row['equipment_2'];?></li>
 					<?php endforeach; ?>
