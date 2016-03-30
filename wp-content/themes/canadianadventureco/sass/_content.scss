@@ -198,7 +198,7 @@
 	@include desktop {
 		width: 50%;
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 	}
 
 	ul {
@@ -221,4 +221,32 @@
 
 .submission {
 	padding: 3rem;
+}
+
+.buttons-double-column {
+	display: block;
+	width: 100%;
+
+	@include desktop {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+	ul {
+		text-align: left;
+		margin-left: 20%;
+		margin-right: 20%;
+
+		@include desktop {
+			margin-left: 0;
+			margin-right: 0;
+
+		}
+	}
+
+	.button {
+		width: 20rem;
+		margin-left: 0.5rem;
+	}
 }

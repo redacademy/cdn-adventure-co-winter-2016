@@ -104,7 +104,7 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<div class="list-double-column container">
+	<div class="buttons-double-column container">
 
 		<div class="center column-flex">
 			<button class="button">
