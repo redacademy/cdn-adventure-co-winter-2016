@@ -194,18 +194,34 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
   background: $color__blue;
 }
-.customize-list {
-   text-align: left;
-   width:500px;
-}
 .price-estimate {
    background-color: $color__blue;
    padding: 2rem;
    color: white;
 }
+.price-wrap {
+   border: 1px solid white;
+   border-radius: 5px;
+   width: 10%;
+}
+.customize-list {
+   text-align: left;
+   width:400px;
+   margin-bottom: 3rem;
+   @include desktop {
+      width: 33%;
+   };
+   & h4 {
+      text-align: center;
+   }
+}
+.request-book-btn {
+   background-color: $color__dark-grey;
+   padding: 3rem;
+}
 .request-btn {
    width: 80%;
-   margin-bottom: 1rem;
+   margin-bottom: 4rem;
    @include desktop {
       width: 35%;
    }

@@ -45,22 +45,22 @@ get_header(); ?>
 
 					<ul>
 						<?php
-							$loop = CFS()->get( 'personal_gear_list' );
-							foreach ( $loop as $row ) : ?>
-							<li><?php echo $row['personal_gear'];?></li>
-							<?php endforeach; ?>
-					</ul>
+						$loop = CFS()->get( 'personal_gear_list' );
+						foreach ( $loop as $row ) : ?>
+						<li><?php echo $row['personal_gear'];?></li>
+					<?php endforeach; ?>
+				</ul>
 
-			<ul>
-				<?php
+				<ul>
+					<?php
 					$loop = CFS()->get( 'clothing_list' );
 					foreach ( $loop as $row ) : ?>
 					<li><?php echo $row['clothing'];?></li>
-					<?php endforeach; ?>
+				<?php endforeach; ?>
 			</ul>
-	</div>
+		</div>
 
-</div>
+	</div>
 </section>
 
 
@@ -73,20 +73,20 @@ get_header(); ?>
 		<div class="list-double-column container">
 			<ul>
 				<?php
-					$loop = CFS()->get( 'equipment_list1' );
-					foreach ( $loop as $row ) : ?>
-					<li><?php echo $row['equipment_1'];?></li>
-					<?php endforeach; ?>
-			</ul>
-			<ul>
-				<?php
-					$loop = CFS()->get( 'equipment_list2' );
-					foreach ( $loop as $row ) : ?>
-					<li><?php echo $row['equipment_2'];?></li>
-					<?php endforeach; ?>
-			</ul>
-		</div>
-	</div>
+				$loop = CFS()->get( 'equipment_list1' );
+				foreach ( $loop as $row ) : ?>
+				<li><?php echo $row['equipment_1'];?></li>
+			<?php endforeach; ?>
+		</ul>
+		<ul>
+			<?php
+			$loop = CFS()->get( 'equipment_list2' );
+			foreach ( $loop as $row ) : ?>
+			<li><?php echo $row['equipment_2'];?></li>
+		<?php endforeach; ?>
+	</ul>
+</div>
+</div>
 </section>
 
 <!-- This is the "laugh"" hero banner -->
@@ -106,23 +106,23 @@ get_header(); ?>
 
 	<div class="list-double-column container">
 
-		<div class="center column-flex">
-			<button class="button">
-				Fast Facts
-			</button>
+		<form class="center column-flex">
+				<button class="button">
+					Fast Facts
+				</button>
 			<div class="center">
 				<p>Includes venue, contact and terrain information.</p>
 			</div>
-		</div>
+		</form>
 
-		<div class="center column-flex">
-			<button class="button">
-				Backgrounder
-			</button>
+		<form class="center column-flex">
+				<button class="button">
+					Backgrounder
+				</button>
 			<div class="center">
 				<p>Contains information pertaining to the company, its history and current operations.</p>
 			</div>
-		</div>
+		</form>
 
 	</div>
 

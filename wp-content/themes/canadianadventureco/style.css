@@ -1053,18 +1053,33 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
   background: #068fbf; }
 
-.customize-list {
-  text-align: left;
-  width: 500px; }
-
 .price-estimate {
   background-color: #068fbf;
   padding: 2rem;
   color: white; }
 
+.price-wrap {
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 10%; }
+
+.customize-list {
+  text-align: left;
+  width: 400px;
+  margin-bottom: 3rem; }
+  @media screen and (min-width: 480px) {
+    .customize-list {
+      width: 33%; } }
+  .customize-list h4 {
+    text-align: center; }
+
+.request-book-btn {
+  background-color: #303030;
+  padding: 3rem; }
+
 .request-btn {
   width: 80%;
-  margin-bottom: 1rem; }
+  margin-bottom: 4rem; }
   @media screen and (min-width: 480px) {
     .request-btn {
       width: 35%; } }
