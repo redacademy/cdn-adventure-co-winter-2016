@@ -64,7 +64,7 @@
 	max-height: 100%;
 }
 .vid-cont {
-   background-color: $color__dark-grey;
+   @include grey-background;
 }
 .iframe {
 	width: 100%;
