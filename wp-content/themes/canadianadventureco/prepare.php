@@ -106,23 +106,27 @@ get_header(); ?>
 
 	<div class="buttons-double-column container">
 
-		<form class="center column-flex">
+		<div class="center column-flex">
+			<a href="<?php echo CFS()->get('fast_facts'); ?>">
 				<button class="button">
 					Fast Facts
 				</button>
+			</a>
+
 			<div class="center">
 				<p>Includes venue, contact and terrain information.</p>
 			</div>
-		</form>
-
-		<form class="center column-flex">
+		</div>
+		<div class="center column-flex">
+			<a href="<?php echo CFS()->get('backgrounder'); ?>">
 				<button class="button">
 					Backgrounder
 				</button>
+			</a>
 			<div class="center">
 				<p>Contains information pertaining to the company, its history and current operations.</p>
 			</div>
-		</form>
+		</div>
 
 	</div>
 
