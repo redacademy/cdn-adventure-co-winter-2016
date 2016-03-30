@@ -1542,9 +1542,11 @@ input[type=range]:focus::-ms-fill-upper {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     padding: 1rem;
-    margin: 0; }
+    margin: 0;
+    list-style: none; }
     .photogrid ul li {
-      width: 33%; }
+      width: 33%;
+      list-style: none; }
 
 .winter-packages-hero {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
