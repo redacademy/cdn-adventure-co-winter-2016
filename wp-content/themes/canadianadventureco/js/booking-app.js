@@ -60,6 +60,7 @@ function BookingAppCtrl($scope, $state) {
    $scope.submission = function(contactForm) {
          if(contactForm.$invalid) {
             $scope.showValidation=true;
+            window.scrollTo(0,0);
       } else {
          alert(JSON.stringify($scope.package));
          window.location.href="http://adventure.academy.red/submission"

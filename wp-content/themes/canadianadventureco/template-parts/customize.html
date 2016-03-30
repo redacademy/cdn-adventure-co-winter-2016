@@ -50,9 +50,9 @@
                      <input ng-model="package.food" type="radio" name="catered" value="self-catered"></input>
                      <div></div>
                   </label>
-               <p>
-                  self-catered
-               </p>
+                  <p>
+                     self-catered
+                  </p>
                </div>
             </div>
          </form>
@@ -90,23 +90,23 @@
          <div class="">
             Estimated price per person:
          </div>
-         <div class="">
-            {{priceGen()/package.guests|currency:"$":0}}
+         <div class="price-wrap container">
+            {{priceGen()/package.guests|currency:"$":0}} CAD
          </div>
       </div>
    </section>
    <!-- This section needs to be generated dynamically based on the choices made by the users -->
    <section>
       <div class="customize-list container">
-            <h4>This package includes:</h4>
-            <ul>
-               <li>Pre-trip info</li>
-               <li>Welcome at Valemont</li>
-               <li>Round trip helicopter transportation</li>
-               <li>Accommodation at Mallard Lodge</li>
-               <li ng-show="package.guided==='guided'">A backcountry-ceritified guide for your trip</li>
-               <li ng-show="package.food==='catered'">3 meals a day, cooked to your dietary preference</li>
-            </ul>
+         <h4>This package includes:</h4>
+         <ul>
+            <li>Pre-trip info</li>
+            <li>Welcome at Valemont</li>
+            <li>Round trip helicopter transportation</li>
+            <li>Accommodation at Mallard Lodge</li>
+            <li ng-show="package.guided==='guided'">A backcountry-ceritified guide for your trip</li>
+            <li ng-show="package.food==='catered'">3 meals a day, cooked to your dietary preference</li>
+         </ul>
       </div>
       <hr>
       <div class="customize-list container">
@@ -122,11 +122,10 @@
          </ul>
       </div>
    </section>
-   <section>
-      <hr>
-      <div class="">
+   <div>
+      <div class="request-book-btn">
          <button type="button" name="button" ui-sref="state3" class="request-btn">request to book</button>
-         <button type="button" name="button" class="home-btn">back to packages</button>
+         <hr>
       </div>
-   </section>
+   </div>
 </div>
