@@ -107,7 +107,7 @@ get_header(); ?>
 	<div class="buttons-double-column container">
 
 		<div class="center column-flex">
-			<a href="<?php echo CFS()->get('fast_facts'); ?>">
+			<a href="<?php echo CFS()->get('fast_facts'); ?>" target="_blank">
 				<button class="button">
 					Fast Facts
 				</button>
@@ -118,7 +118,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="center column-flex">
-			<a href="<?php echo CFS()->get('backgrounder'); ?>">
+			<a href="<?php echo CFS()->get('backgrounder'); ?>" target="_blank">
 				<button class="button">
 					Backgrounder
 				</button>
