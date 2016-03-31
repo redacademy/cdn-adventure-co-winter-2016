@@ -50,10 +50,21 @@
 
 /*Site-Content*/
 
-.site-content {
-	padding-top: 90px;
-	@include desktop {
-		padding-top: 138px;
+.page:not(.home) {
+	.site-content {
+		padding-top: 90px;
+		@include desktop {
+			padding-top: 138px;
+		}
+	}
+}
+
+.home {
+	.site-content {
+		padding-top: 90px;
+		@include desktop {
+			padding-top: 0;
+		}
 	}
 }
 

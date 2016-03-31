@@ -11,6 +11,22 @@
 	}
 }
 
+#masthead.transparent {
+	@include desktop {
+	background-color: transparent;
+	.main-navigation a {
+		color: $color__white;
+	}
+	.button {
+		background: none;
+		border: 1px solid $color__white;
+	}
+	img {
+		filter: brightness(8);
+	}
+ }
+}
+
 .logo {
 	width: 84px;
 	height: 65px;

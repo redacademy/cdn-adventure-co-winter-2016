@@ -32,4 +32,17 @@ jQuery(document).ready(function($){
     $('.map').css('pointer-events', 'none');
   });
 
+// Scroll header css
+$('.home').children().children('header').addClass('transparent');
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 755 && $('body').hasClass('home')){
+      $('header').removeClass('transparent');
+    }
+    else if ($(this).scrollTop() > -1 && $('body').hasClass('home')) {
+      $('header').addClass('transparent');
+
+    }
+  });
+
 });
