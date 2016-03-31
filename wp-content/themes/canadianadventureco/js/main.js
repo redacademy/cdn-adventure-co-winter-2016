@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
 //mobile menu function
 
   $('.menu-button').on('click', function() {
-    $('.mobile-navigation').toggleClass('mobile-menu').toggle();
+    $('.mobile-navigation').toggle();
 
     $('#secondary-menu').toggle();
     $('.site-branding').toggle();
