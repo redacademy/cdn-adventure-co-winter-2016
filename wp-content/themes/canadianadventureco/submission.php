@@ -18,10 +18,8 @@ get_header(); ?>
         Thank you for your request. We will contact you shortly.
       </p>
 
-      <a href="<?php echo esc_url(home_url('/')); ?>">
-        <button type="button" class="button">
+      <a href="<?php echo esc_url(home_url('/')); ?>" class="button">
           Go Back Home
-        </button>
       </a>
 
     </section>
