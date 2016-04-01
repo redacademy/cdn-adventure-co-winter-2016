@@ -50,12 +50,12 @@ get_header(); ?>
 	            <p><?php echo CFS()->get('why_we_built');?></p>
 	         </div>
 
+
 					 <a href="/the-lodge" class="button">
 						 Explore the lodge
 					 </a>
 
 			 </div>
-
 
 		</section>
 
