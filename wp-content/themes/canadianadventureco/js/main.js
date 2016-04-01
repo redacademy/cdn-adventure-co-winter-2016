@@ -15,7 +15,6 @@ jQuery(document).ready(function($){
     $('#secondary-menu').toggle();
     $('.site-branding').toggle();
     $('.site-content').toggle();
-
   });
 
 //Disable scroll on map until click

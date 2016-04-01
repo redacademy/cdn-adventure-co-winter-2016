@@ -21,5 +21,5 @@
             to bring your own food and cook your own meals, you can do that too! Just let us
             know what works best for you.</p>
      </div>
- </div>
+  </div>
 </section>

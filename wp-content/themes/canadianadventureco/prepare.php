@@ -107,10 +107,10 @@ get_header(); ?>
 	<div class="buttons-double-column container">
 
 		<div class="center column-flex">
-			<a href="<?php echo CFS()->get('fast_facts'); ?>" target="_blank">
-				<button class="button">
+			<a href="<?php echo CFS()->get('fast_facts'); ?>"
+				 target="_blank"
+				 class="button">
 					Fast Facts
-				</button>
 			</a>
 
 			<div class="center">
@@ -118,10 +118,8 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="center column-flex">
-			<a href="<?php echo CFS()->get('backgrounder'); ?>" target="_blank">
-				<button class="button">
+			<a href="<?php echo CFS()->get('backgrounder'); ?>" target="_blank" class="button">
 					Backgrounder
-				</button>
 			</a>
 			<div class="center">
 				<p>Contains information pertaining to the company, its history and current operations.</p>

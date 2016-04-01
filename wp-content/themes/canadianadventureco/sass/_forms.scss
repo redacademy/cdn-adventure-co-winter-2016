@@ -5,6 +5,7 @@
 /* Buttons */
 
 button,
+.button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -31,6 +32,7 @@ input[type="submit"] {
 
 .button {
 	padding: 1rem 1.5rem;
+	text-decoration: none;
 }
 
 /* Fields */

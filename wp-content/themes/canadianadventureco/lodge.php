@@ -66,72 +66,72 @@ get_header(); ?>
         <hr>
       </section><!-- .lodge-gallery -->
 
-        <section class="container lodge-amenities">
-          <h2>Lodge Amenities</h2>
-          <p>
-            <span>Beds</span>
-            <?php echo CFS()->get('amenities_beds');?>
-          </p>
-          <p>
-            <span>Showers</span>
-            <?php echo CFS()->get('amenities_showers');?>
-          </p>
-          <p>
-            <span>Kitchen</span>
-            <?php echo CFS()->get('amenities_kitchen');?>
-          </p>
-          <p>
-            <span>Toilet</span>
-            <?php echo CFS()->get('amenities_toilet');?>
-          </p>
-          <p>
-            <span>Living Space</span>
-            <?php echo CFS()->get('amenities_living_space');?>
-          </p>
-          <p>
-            <span>Catering</span>
-            <?php echo CFS()->get('amenities_catering');?>
-          </p>
-        </section><!-- .lodge-amenities -->
+      <section class="container lodge-amenities">
+        <h2>Lodge Amenities</h2>
+        <p>
+          <span>Beds</span>
+          <?php echo CFS()->get('amenities_beds');?>
+        </p>
+        <p>
+          <span>Showers</span>
+          <?php echo CFS()->get('amenities_showers');?>
+        </p>
+        <p>
+          <span>Kitchen</span>
+          <?php echo CFS()->get('amenities_kitchen');?>
+        </p>
+        <p>
+          <span>Toilet</span>
+          <?php echo CFS()->get('amenities_toilet');?>
+        </p>
+        <p>
+          <span>Living Space</span>
+          <?php echo CFS()->get('amenities_living_space');?>
+        </p>
+        <p>
+          <span>Catering</span>
+          <?php echo CFS()->get('amenities_catering');?>
+        </p>
+      </section><!-- .lodge-amenities -->
 
-        <section>
-          <div class="banner sustain-hero">
-            <div class="banner-text">
-              Sustainability
-            </div>
+      <section>
+        <div class="banner sustain-hero">
+          <div class="banner-text">
+            Sustainability
           </div>
-          <div class="single-column container">
-            <p>
-              Sustainability and environmental stewardship are cornerstones of CAC's business and the packages we offer. Here are some highlights.
-            </p>
-            <p>
-              The log Lodge, and all other buildings, were pre-built off site, and reassembled on site. This minimized the disruption associated with onsite crews and machinery.  It was built to accommodate only 7 to 9 guests at a time. This is a very small physical footprint. The lodge uses grey water purification system. CAC uses propane incinerating toilets which create no blackwater discharge, and instead convert all waste to harmless ash.
-            </p>
-            <p>
-              A large solar system with 9 solar panels provides electric power, and is designed to minimize generator usage year round. CAC did not construct a road to the Lodge site. CAC does not build hiking trails. Although there are patterns to hiking routes, with a small group and lots of terrain to work with.
-            </p>
+        </div>
+        <div class="single-column container">
+          <p>
+            Sustainability and environmental stewardship are cornerstones of CAC's business and the packages we offer. Here are some highlights.
+          </p>
+          <p>
+            The log Lodge, and all other buildings, were pre-built off site, and reassembled on site. This minimized the disruption associated with onsite crews and machinery.  It was built to accommodate only 7 to 9 guests at a time. This is a very small physical footprint. The lodge uses grey water purification system. CAC uses propane incinerating toilets which create no blackwater discharge, and instead convert all waste to harmless ash.
+          </p>
+          <p>
+            A large solar system with 9 solar panels provides electric power, and is designed to minimize generator usage year round. CAC did not construct a road to the Lodge site. CAC does not build hiking trails. Although there are patterns to hiking routes, with a small group and lots of terrain to work with.
+          </p>
+        </div>
+
+        <div class="banner enviro-hero">
+          <div class="banner-text">
+            Environmental Stewardship
           </div>
+        </div>
+        <div class="single-column container">
+          <p>
+            Enjoying the outdoors and sharing in the wonder that makes British Columbia a magnificent province are what makes backcountry in the wilderness a popular activity. Without a healthy natural environment, we would lose an integral element of what defines BC as a province. We feel very strongly about the need to protect the health of our natural environment for generations to come.
+          </p>
+          <p>
+            Environmental stewardship means taking care of our environment through our actions. It means practising sensible and responsible management of our resources, through what we do, for the benefit of present and future generations. CAC’s role is to ensure that our pristine wilderness is here in the future.
+          </p>
+        </div>
+      </section><!-- .stewardship-->
 
-            <div class="banner enviro-hero">
-              <div class="banner-text">
-                Environmental Stewardship
-              </div>
-            </div>
-            <div class="single-column container">
-            <p>
-              Enjoying the outdoors and sharing in the wonder that makes British Columbia a magnificent province are what makes backcountry in the wilderness a popular activity. Without a healthy natural environment, we would lose an integral element of what defines BC as a province. We feel very strongly about the need to protect the health of our natural environment for generations to come.
-            </p>
-            <p>
-              Environmental stewardship means taking care of our environment through our actions. It means practising sensible and responsible management of our resources, through what we do, for the benefit of present and future generations. CAC’s role is to ensure that our pristine wilderness is here in the future.
-            </p>
-          </div>
-        </section><!-- .stewardship-->
+      <?php get_template_part( 'template-parts/content', 'explore' ); ?>
 
-        <?php get_template_part( 'template-parts/content', 'explore' ); ?>
+    </article><!-- .lodge -->
 
-      </article><!-- .lodge -->
+  </main><!-- #main -->
+</div><!-- #primary -->
 
-    </main><!-- #main -->
-  </div><!-- #primary -->
-
-  <?php get_footer(); ?>
+<?php get_footer(); ?>
