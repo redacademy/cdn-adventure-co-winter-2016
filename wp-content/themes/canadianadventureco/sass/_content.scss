@@ -239,9 +239,9 @@
 	width: 100%;
 
 	@include desktop {
-		width: 50%;
+		width: 60%;
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 	}
 
 	ul {
@@ -255,13 +255,18 @@
 
 		}
 	}
-
-	.button {
-		width: 20rem;
-		margin-left: 0.5rem;
+	.space {
+		width: 50%;
+		text-align: center;
 	}
 }
-
+.dl-btn {
+	display: inline-block;
+	width: 85%;
+	@include desktop {
+		width: 230px;
+	}
+}
 .site-404 {
 	padding-top: 90px;
 

@@ -105,27 +105,22 @@ get_header(); ?>
 	</div>
 
 	<div class="buttons-double-column container">
-
-		<div class="center column-flex">
-			<a href="<?php echo CFS()->get('fast_facts'); ?>"
-				 target="_blank"
-				 class="button">
+		<div class="space">
+			<a href="<?php echo CFS()->get('fast_facts'); ?>" target="_blank" class="button dl-btn">
 					Fast Facts
 			</a>
-
 			<div class="center">
 				<p>Includes venue, contact and terrain information.</p>
 			</div>
 		</div>
-		<div class="center column-flex">
-			<a href="<?php echo CFS()->get('backgrounder'); ?>" target="_blank" class="button">
+		<div class="space">
+			<a href="<?php echo CFS()->get('backgrounder'); ?>" target="_blank" class="button dl-btn">
 					Backgrounder
 			</a>
 			<div class="center">
 				<p>Contains information pertaining to the company, its history and current operations.</p>
 			</div>
 		</div>
-
 	</div>
 
 </section>

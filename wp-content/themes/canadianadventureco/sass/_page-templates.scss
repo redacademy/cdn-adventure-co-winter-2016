@@ -30,6 +30,7 @@
 
    }
 }
+
 //angular app
 .show-validation {
    input.ng-invalid {
@@ -247,9 +248,11 @@ input[type=range]:focus::-ms-fill-upper {
    @include grey-background;
 
    .button {
+      display: block;
       width: 100%;
       padding: 1rem;
       @include desktop {
+         display: inline-block;
          width: 50%;
       }
    }
