@@ -19,16 +19,13 @@ jQuery(document).ready(function($){
   });
 
 //Disable scroll on map until click
+$('.map').css('pointer-events', 'none');
 
   $('.map-cont').click(function () {
       $('.map').css('pointer-events', 'auto');
   });
 
   $('.map-cont').mouseleave(function() {
-    $('.map').css('pointer-events', 'none');
-  });
-
-  $('.map-cont').mouseenter(function() {
     $('.map').css('pointer-events', 'none');
   });
 
@@ -41,7 +38,6 @@ $('.home').children().children('header').addClass('transparent');
     }
     else if ($(this).scrollTop() > -1 && $('body').hasClass('home')) {
       $('header').addClass('transparent');
-
     }
   });
 
