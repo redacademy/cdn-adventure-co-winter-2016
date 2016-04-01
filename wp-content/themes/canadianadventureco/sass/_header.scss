@@ -24,6 +24,9 @@
 	img {
 		filter: brightness(8);
 	}
+	.sub-menu a {
+		color: $color__dark-grey;
+	}
  }
 }
 
@@ -71,7 +74,7 @@
 		text-transform: uppercase;
 		text-align: center;
 		font-size: 1rem;
-		line-height: 1;
+		line-height: 2;
 		padding: 0.5rem;
 		height: 3rem;
 		a {
