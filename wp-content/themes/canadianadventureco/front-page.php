@@ -38,7 +38,7 @@
 
 <!-- This is the Where adventure meets... section -->
 <section>
-   <h3 class="center">Where Adventure and Relaxation meet</h3>
+   <h3 class="center">Where adventure and relaxation meet</h3>
    <div class="triple-column container">
       <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>

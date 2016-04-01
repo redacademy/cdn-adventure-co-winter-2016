@@ -16,7 +16,7 @@ input[type="submit"] {
 	text-transform: uppercase;
 	text-align: center;
 	@include font-size(1.25);
-	line-height: 1;
+	line-height: 2rem;
 	padding: 2% 5%;
 
 	&:hover {
@@ -33,6 +33,9 @@ input[type="submit"] {
 .button {
 	padding: 1rem 1.5rem;
 	text-decoration: none;
+	&:visited {
+		color:$color__white;
+	}
 }
 
 /* Fields */
