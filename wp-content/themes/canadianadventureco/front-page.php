@@ -187,7 +187,7 @@
 <!-- This is the map section -->
 <section>
    <div class="map-cont">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311094.7126487304!2d-118.259743!3d52.471396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda98c98eb93410e8!2sCanadian+Adventure+Company!5e0!3m2!1sen!2sca!4v1458852068826" class="iframe map" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d473740.4285079021!2d-118.96817427941029!3d52.604316899107594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537eeedce21d844f%3A0xda98c98eb93410e8!2sCanadian+Adventure+Company%2C+Tappen%2C+BC+V0E+2X1%2C+Canada!5e0!3m2!1sen!2sca!4v1459537280719" class="iframe map" frameborder="0" style="border:0" allowfullscreen></iframe>
 
       <a href="/getting-here" class="button map-btn">
             How to Get Here
