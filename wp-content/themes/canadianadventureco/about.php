@@ -51,7 +51,7 @@ get_header(); ?>
 	         </div>
 
 					 <button class="button">
-						 Explore the lodge
+						 Explore the Lodge
 					 </button>
 
 			 </div>

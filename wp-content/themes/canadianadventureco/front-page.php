@@ -3,7 +3,7 @@
 <section>
    <div class="banner front-hero">
       <div class="banner-text">
-         The mountains are calling
+         The Mountains are calling
       </div>
    </div>
 </section>
@@ -21,7 +21,7 @@
       </div>
       <a href="/the-lodge">
          <button class="button">
-            Explore the lodge
+            Explore the Lodge
          </button>
       </a>
    </div>
@@ -38,11 +38,11 @@
 
 <!-- This is the Where adventure meets... section -->
 <section>
-   <h3 class="center">Where adventure and relaxation meet</h3>
+   <h3 class="center">Where Adventure and Relaxation meet</h3>
    <div class="triple-column container">
       <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>
-         <h4>Winter outdoor activities</h4>
+         <h4>Winter Outdoor Activities</h4>
          <p>
             Spend your day skiing, snowboarding or snowshoeing in the backcountry with out expert guide.
          </p>
@@ -50,7 +50,7 @@
 
       <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/sun-icon.png" alt="an icon depicting a shining sun" class="icon"/>
-         <h4>summer outdoor activities</h4>
+         <h4>Summer Outdoor Activities</h4>
          <p>
             In the warmer months, hike amoungst the wildflowers and creeks.
          </p>
@@ -58,7 +58,7 @@
 
       <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/lodge-icon.png" alt="an icon depicting a house" class="icon"/>
-         <h4>relaxation at the lodge</h4>
+         <h4>Relaxation at the Lodge</h4>
          <p>
             At the end of the day, relax in the beautiful Mallard Mountain Lodge.
          </p>
@@ -77,9 +77,9 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/03_helicopteraccess.jpg" alt="A picture of a helicopter" class="zoomed in-1"/>
          </div>
          <div class="info-wrapper">
-            <h4>Helicopter <br/> access</h4>
+            <h4>Helicopter <br/> Access</h4>
             <p>
-               Our lodge is accessible by 30-minute helicopter from Valemount, BC.
+               Our Lodge is accessible by 30-minute helicopter from Valemount, BC.
             </p>
          </div>
       </div>
@@ -88,7 +88,7 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/04_backcountry.jpeg" alt="a picture of a wide open field in the mountains" class="full-picture"/>
          </div>
          <div class="info-wrapper">
-            <h4>backcountry experience</h4>
+            <h4>Backcountry Experience</h4>
             <p>
                We are located in one of the most pristine and remote areas of the Rocky Mountains.
             </p>
@@ -100,7 +100,7 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/05_lodge.jpeg" alt="a picture of Mallard Mountain Lodge at night during winter" class="zoomed in-2"/>
          </div>
          <div class="info-wrapper">
-            <h4>the mallard mountain lodge</h4>
+            <h4>The Mallard Mountain Lodge</h4>
             <p>
                Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
             </p>
@@ -121,7 +121,7 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/06_guides.jpg" alt="A picture of a group of cross country skiers" class="zoomed in-3"/>
          </div>
          <div class="info-wrapper">
-            <h4>expert <br/> guides</h4>
+            <h4>Expert <br/> Guides</h4>
             <p>
                Safety is our first priority, and our guides are experts in the backcountry.
             </p>
@@ -132,7 +132,7 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/07_meals.jpeg" alt="a picture of a dinner table with a full spread" class="zoomed in-4"/>
          </div>
          <div class="info-wrapper">
-            <h4>catered or self-catered</h4>
+            <h4>Catered or Self-catered</h4>
             <p>
                Leave the cooking to us with a fully-catered stay, or choose to bring your own food.
             </p>
@@ -144,7 +144,7 @@
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/08_smallgroups.jpg" alt="a group of people having fun in the snow" class="zoomed in-5"/>
          </div>
          <div class="info-wrapper">
-            <h4>small <br/>groups</h4>
+            <h4>Small <br/>Groups</h4>
             <p>
                With maximum groups of 9, guests will experience an intimate experience at the lodge.
             </p>
@@ -190,7 +190,7 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d311094.7126487304!2d-118.259743!3d52.471396!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xda98c98eb93410e8!2sCanadian+Adventure+Company!5e0!3m2!1sen!2sca!4v1458852068826" class="iframe map" frameborder="0" style="border:0" allowfullscreen></iframe>
       <a href="/getting-here">
          <button class="button map-btn">
-            how to get here
+            How to get here
          </button>
       </a>
    </div>
@@ -199,14 +199,14 @@
 <!-- This is the newsletter section -->
 <section>
    <div class="newsletter single-column center container">
-      <h2>subscribe to our newsletter</h2>
+      <h2>Subscribe to our newsletter</h2>
       <p>
          Stay up to date on the latest deals and news from the mountain!
       </p>
       <form class="news-form" action="submit" method="post">
          <input type="email" name="name" value="" placeholder="email" class="email-input">
          <button class="button sign-up">
-            sign up
+            Sign up
          </button>
       </form>
    </div>
