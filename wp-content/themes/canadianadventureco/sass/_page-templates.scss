@@ -5,30 +5,30 @@
 /* Explore Packages */
 
 .explore-packages {
-  @include grey-background;
+   @include grey-background;
 
-  .container {
-    padding-bottom: 4rem;
-    width: 85%;
-  }
-  h2 {
-    color: $color__white;
-  }
+   .container {
+      padding-bottom: 4rem;
+      width: 85%;
+   }
+   h2 {
+      color: $color__white;
+   }
 
-  .button {
-    display: block;
-    min-width: 116px;
-    width: 100%;
-    margin: 2rem 0;
-    padding: 1rem;
+   .button {
+      display: block;
+      min-width: 116px;
+      width: 100%;
+      margin: 2rem 0;
+      padding: 1rem;
 
-    @include desktop {
-      display: inline;
-      width: 33%;
-      margin: 0 2rem;
-    }
+      @include desktop {
+         display: inline-block;
+         width: 33%;
+         margin: 0 2rem;
+      }
 
-  }
+   }
 }
 //angular app
 .show-validation {
@@ -88,7 +88,7 @@
    }
 }
 
-   //Customize
+//Customize
 .custom-parent {
 
    & section {
@@ -124,75 +124,75 @@ input[type=radio]:checked + div {
    background-size: contain;
 }
 input[type=range] {
-  -webkit-appearance: none;
-  margin: 10px 0;
-  width: 67%;
+   -webkit-appearance: none;
+   margin: 10px 0;
+   width: 67%;
 }
 input[type=range]:focus {
-  outline: none;
+   outline: none;
 }
 input[type=range]::-webkit-slider-runnable-track {
-  width: 67%;
-  height: 12.8px;
-  cursor: pointer;
-  background: $color__blue;
-  border-radius: 25px;
+   width: 67%;
+   height: 12.8px;
+   cursor: pointer;
+   background: $color__blue;
+   border-radius: 25px;
 }
 input[type=range]::-webkit-slider-thumb {
-  height: 20px;
-  width: 39px;
-  border-radius: 7px;
-  background: $color__dark-grey;
-  cursor: pointer;
-  -webkit-appearance: none;
-  margin-top: -3.6px;
+   height: 20px;
+   width: 39px;
+   border-radius: 7px;
+   background: $color__dark-grey;
+   cursor: pointer;
+   -webkit-appearance: none;
+   margin-top: -3.6px;
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: $color__blue;
+   background: $color__blue;
 }
 input[type=range]::-moz-range-track {
-  width: 67%;
-  height: 12.8px;
-  cursor: pointer;
-  background: $color__blue;
-  border-radius: 25px;
+   width: 67%;
+   height: 12.8px;
+   cursor: pointer;
+   background: $color__blue;
+   border-radius: 25px;
 }
 input[type=range]::-moz-range-thumb {
-  height: 20px;
-  width: 39px;
-  border-radius: 7px;
-  background: $color__dark-grey;
-  cursor: pointer;
+   height: 20px;
+   width: 39px;
+   border-radius: 7px;
+   background: $color__dark-grey;
+   cursor: pointer;
 }
 input[type=range]::-ms-track {
-  width: 67%;
-  height: 12.8px;
-  cursor: pointer;
-  background: transparent;
-  border-color: transparent;
-  border-width: 39px 0;
-  color: transparent;
+   width: 67%;
+   height: 12.8px;
+   cursor: pointer;
+   background: transparent;
+   border-color: transparent;
+   border-width: 39px 0;
+   color: transparent;
 }
 input[type=range]::-ms-fill-lower {
-  background: $color__blue;
-  border-radius: 50px;
+   background: $color__blue;
+   border-radius: 50px;
 }
 input[type=range]::-ms-fill-upper {
-  background: $color__blue;
-  border-radius: 50px;
+   background: $color__blue;
+   border-radius: 50px;
 }
 input[type=range]::-ms-thumb {
-  height: 20px;
-  width: 39px;
-  border-radius: 7px;
-  background: $color__dark-grey;
-  cursor: pointer;
+   height: 20px;
+   width: 39px;
+   border-radius: 7px;
+   background: $color__dark-grey;
+   cursor: pointer;
 }
 input[type=range]:focus::-ms-fill-lower {
-  background: $color__blue;
+   background: $color__blue;
 }
 input[type=range]:focus::-ms-fill-upper {
-  background: $color__blue;
+   background: $color__blue;
 }
 .price-estimate {
    background-color: $color__blue;
@@ -233,7 +233,7 @@ input[type=range]:focus::-ms-fill-upper {
       width: 35%;
    }
 }
-   //contact-info
+//contact-info
 .contact-form {
    text-align: center;
    & .input {
@@ -244,18 +244,18 @@ input[type=range]:focus::-ms-fill-upper {
 //Trip-Estimate
 
 .trip-estimate {
-  @include grey-background;
+   @include grey-background;
 
-  .button {
-    width: 100%;
-    padding: 1rem;
-    @include desktop {
-      width: 50%;
-    }
-  }
+   .button {
+      width: 100%;
+      padding: 1rem;
+      @include desktop {
+         width: 50%;
+      }
+   }
 
-  .container {
-    padding-bottom: 4rem;
-    width: 85%;
-  }
+   .container {
+      padding-bottom: 4rem;
+      width: 85%;
+   }
 }

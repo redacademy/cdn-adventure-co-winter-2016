@@ -917,7 +917,7 @@ object {
     padding: 1rem; }
     @media screen and (min-width: 480px) {
       .explore-packages .button {
-        display: inline;
+        display: inline-block;
         width: 33%;
         margin: 0 2rem; } }
 
