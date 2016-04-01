@@ -261,3 +261,11 @@
 		margin-left: 0.5rem;
 	}
 }
+
+.site-404 {
+	padding-top: 90px;
+
+	@include desktop {
+		padding-top: 138px;
+	}
+}
