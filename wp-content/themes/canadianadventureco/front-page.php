@@ -21,7 +21,7 @@
       </div>
 
       <a href="/the-lodge" class="button">
-            Explore the lodge
+            Explore the Lodge
       </a>
 
    </div>
@@ -102,7 +102,7 @@
          <div class="info-wrapper">
             <h4>The Mallard Mountain Lodge</h4>
             <p>
-               Our sustainably-built lodge has all the amenities you will need after a day in the backcountry.
+               Our sustainably-built lLodge has all the amenities you will need after a day in the backcountry.
             </p>
          </div>
       </div>
@@ -146,7 +146,7 @@
          <div class="info-wrapper">
             <h4>Small <br/>Groups</h4>
             <p>
-               With maximum groups of 9, guests will experience an intimate experience at the lodge.
+               With maximum groups of 9, guests will experience an intimate experience at the Lodge.
             </p>
          </div>
       </div>
@@ -198,7 +198,7 @@
 <!-- This is the newsletter section -->
 <section>
    <div class="newsletter single-column center container">
-      <h2>Subscribe to our newsletter</h2>
+      <h2>Subscribe to our Newsletter</h2>
       <p>
          Stay up to date on the latest deals and news from the mountain!
       </p>

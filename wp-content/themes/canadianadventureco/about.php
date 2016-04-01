@@ -52,7 +52,7 @@ get_header(); ?>
 
 
 					 <a href="/the-lodge" class="button">
-						 Explore the lodge
+						 Explore the Lodge
 					 </a>
 
 			 </div>
