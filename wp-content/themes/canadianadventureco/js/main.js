@@ -18,8 +18,6 @@ jQuery(document).ready(function($){
   });
 
 //Disable scroll on map until click
-$('.map').css('pointer-events', 'none');
-
   $('.map-cont').click(function () {
       $('.map').css('pointer-events', 'auto');
   });

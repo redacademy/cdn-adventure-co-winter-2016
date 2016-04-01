@@ -1181,7 +1181,9 @@ input[type=range]:focus::-ms-fill-upper {
       border: 1px solid #ffffff; }
     #masthead.transparent img {
       -webkit-filter: brightness(8);
-              filter: brightness(8); } }
+              filter: brightness(8); }
+    #masthead.transparent .sub-menu a {
+      color: #303030; } }
 
 .logo {
   width: 84px;
@@ -1226,7 +1228,7 @@ input[type=range]:focus::-ms-fill-upper {
     text-transform: uppercase;
     text-align: center;
     font-size: 1rem;
-    line-height: 1;
+    line-height: 2;
     padding: 0.5rem;
     height: 3rem; }
     .main-navigation .button a {
@@ -1535,6 +1537,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .map-cont {
   position: relative; }
+  .map-cont .map {
+    pointer-events: none; }
 
 .map-btn {
   position: absolute;

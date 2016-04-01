@@ -76,6 +76,9 @@
 }
 .map-cont {
 	position: relative;
+  .map {
+    pointer-events: none;
+  }
 }
 .map-btn {
 	position: absolute;
