@@ -26,20 +26,20 @@ get_header(); ?>
 					<h1>Pre-Trip Planning</h1>
 				</div>
 
-				<div class="single-column">
+				<!-- <div class="single-column">
 					<p><?php echo CFS()->get('pretrip'); ?></p>
 				</div>
-			</div>
+			</div> -->
 		</section>
 
 		<!-- This is the "personal-gear" section -->
 		<section>
 			<div class="center-flex column-flex">
-				<div>
+				<!-- <div>
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/getting-here/we-cant-wait.jpg" alt="snowboarders hikinging up a mountain on a sunny day"/>
-				</div>
+				</div> -->
 
-				<h2>Personal Gear & Clothing</h2>
+				<h3 class="wide-text">Personal Gear & Clothing</h3>
 
 				<div class="list-double-column container">
 
@@ -68,7 +68,7 @@ get_header(); ?>
 <section>
 	<div class="center-flex column-flex">
 
-		<h2>Equipment List</h2>
+		<h3 class="wide-text">Equipment List</h3>
 
 		<div class="list-double-column container">
 			<ul>
