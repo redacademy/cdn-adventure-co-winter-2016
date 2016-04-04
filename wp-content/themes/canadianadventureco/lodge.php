@@ -34,7 +34,7 @@ get_header(); ?>
       </section><!-- .lodge-info -->
 
       <section class="lodge-gallery">
-        <ul class="bxslider single-column">
+        <ul class="bxslider">
           <li><img alt="Lounging on bed"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/girl-on-bed.jpeg" /></li>
           <li><img alt="Single Beds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/bed.jpeg" /></li>
           <li><img alt="Sleeping Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/beds2.jpg" /></li>
