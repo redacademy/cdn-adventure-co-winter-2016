@@ -1504,15 +1504,28 @@ input[type=range]:focus::-ms-fill-upper {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 0.4em; }
+  margin-left: 0.4em;
+  overflow: hidden;
+  height: 300px;
+  position: relative; }
+  @media screen and (min-width: 480px) {
+    .bxslider {
+      height: 100vh; } }
   .bxslider img {
+    position: absolute;
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
+    @media screen and (min-width: 480px) {
+      .bxslider img {
+        top: -25%; } }
 
 .bx-wrapper {
   margin-bottom: .5rem !important; }
 
 #bx-pager {
+  overflow: hidden;
+  width: 100vw;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
@@ -1521,16 +1534,15 @@ input[type=range]:focus::-ms-fill-upper {
       -webkit-flex-wrap: wrap;
           -ms-flex-wrap: wrap;
               flex-wrap: wrap;
-      -webkit-justify-content: center;
-          -ms-flex-pack: center;
-              justify-content: center; } }
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
   #bx-pager img {
-    width: 50px;
     height: 50px; }
     @media screen and (min-width: 480px) {
       #bx-pager img {
-        width: 150px;
-        height: 150px;
+        width: 30vw;
+        height: 30vh;
         margin: .5rem; } }
 
 .bx-viewport {
