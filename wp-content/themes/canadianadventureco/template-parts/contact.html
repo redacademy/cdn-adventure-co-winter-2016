@@ -8,30 +8,35 @@
       <p>
          How would you like to be contacted?
       </p>
-      <div class="radio-choice">
-         <div class="">
-            <label>
-               <input ng-model="package.contactMethod" type="radio" name="contactMethod" value="email"></input>
-               <div></div>
-            </label>
-            <p>
-               email
-            </p>
-         </div>
-         <div class="">
-            <label>
-               <input ng-model="package.contactMethod" type="radio" name="contactMethod" value="phone"></input>
-               <div></div>
-            </label>
-            <p>
-               phone
-            </p>
+      <div class="custom-choice">
+         <div class="radio-choice">
+            <div class="">
+               <label>
+                  <input ng-model="package.contactMethod" type="radio" name="contactMethod" value="email"></input>
+                  <div></div>
+               </label>
+               <p>
+                  email
+               </p>
+            </div>
+            <div class="between-radio">
+               or
+            </div>
+            <div class="">
+               <label>
+                  <input ng-model="package.contactMethod" type="radio" name="contactMethod" value="phone"></input>
+                  <div></div>
+               </label>
+               <p>
+                  phone
+               </p>
+            </div>
          </div>
       </div>
       <p>
          Enter your prefered date of arrival:
       </p>
-      <input ng-model="package.arrivalDate" type="date" name="arrivalDate" value="" class="input" required>
+      <input ng-model="package.arrivalDate" type="date" name="date" value="" class="input" required>
       <p>
          Do you have any questions or comments?
       </p>

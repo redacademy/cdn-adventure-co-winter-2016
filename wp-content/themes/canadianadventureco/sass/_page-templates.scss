@@ -142,8 +142,7 @@
    display: none;
    @include desktop {
       display: block;
-      margin-top: 5%;
-      margin-left: 14px;
+      margin-top: 10%;
       text-transform: uppercase;
    };
 }
@@ -290,6 +289,7 @@ input[type=range]:focus::-ms-fill-upper {
    text-align: center;
    & .input {
       margin-bottom: 1rem;
+      padding: 1.5rem;
       @include formbox;
    }
 }
