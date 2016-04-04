@@ -21,23 +21,15 @@ get_header(); ?>
 
 		<!-- This is the "pre-trip-planning" section -->
 		<section>
-			<div class="center-flex column-flex">
+			<div class="center-flex column-flex spacing">
 				<div class="title">
 					<h1>Pre-Trip Planning</h1>
 				</div>
-
-				<!-- <div class="single-column">
-					<p><?php echo CFS()->get('pretrip'); ?></p>
-				</div>
-			</div> -->
 		</section>
 
 		<!-- This is the "personal-gear" section -->
 		<section>
 			<div class="center-flex column-flex">
-				<!-- <div>
-					<img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/getting-here/we-cant-wait.jpg" alt="snowboarders hikinging up a mountain on a sunny day"/>
-				</div> -->
 
 				<h3 class="wide-text">Personal Gear & Clothing</h3>
 
@@ -98,7 +90,7 @@ get_header(); ?>
 <!-- This is the "Download-Docs" section -->
 <section>
 
-	<div class="center-flex column-flex">
+	<div class="center-flex column-flex spacing">
 		<div class="title">
 			<h2>Documents for download</h2>
 		</div>

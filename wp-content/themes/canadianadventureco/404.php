@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section>
-				<div class="center-flex column-flex">
+				<div class="center-flex column-flex spacing">
 					<h1 class="title center"><?php echo esc_html( 'Oops! That page can&rsquo;t be found.' ); ?></h1>
 				</div>
 			</section>

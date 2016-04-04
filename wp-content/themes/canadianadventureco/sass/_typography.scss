@@ -28,7 +28,11 @@ h2 {
 	text-transform: uppercase;
 	color: $color__medium-grey;
 }
-
+h1 {
+	color: $color__heading-gray;
+	font-size: 3.5rem;
+	font-weight: 100;
+}
 /* This is H4 per design spec */
 h3 {
 	font-family: $font__main;

@@ -266,6 +266,11 @@ h2 {
   text-transform: uppercase;
   color: #757575; }
 
+h1 {
+  color: #3E3E3E;
+  font-size: 3.5rem;
+  font-weight: 100; }
+
 /* This is H4 per design spec */
 h3 {
   font-family: "Lato", sans-serif;
@@ -863,7 +868,9 @@ a {
   margin-top: 5rem; }
 
 .wide-text {
-  letter-spacing: 2.25px; }
+  letter-spacing: 2.25px;
+  text-transform: uppercase;
+  font-weight: 100; }
 
 .sub-heading-narrow {
   display: none; }

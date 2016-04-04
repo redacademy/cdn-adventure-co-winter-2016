@@ -10,7 +10,7 @@
 <!-- This is the "maximum groups" section -->
 
 <section>
-  <div class="center-flex column-flex">
+  <div class="center-flex column-flex spacing">
      <div class="title">
        <h2>With maximum groups of 9, guests will experience an intimate experience at the lodge.</h2>
      </div>

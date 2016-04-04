@@ -10,7 +10,7 @@
 <!-- This is the "safety priority" section -->
 
 <section>
-  <div class="center-flex column-flex">
+  <div class="center-flex column-flex spacing">
      <div class="title">
        <h2>Safety is our first priority, and our guides are experts in the backcountry.</h2>
      </div>

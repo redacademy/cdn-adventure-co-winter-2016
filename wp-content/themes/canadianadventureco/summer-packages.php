@@ -21,7 +21,7 @@ get_header(); ?>
 
       <!-- This is the "our-summer-season" section -->
       <section>
-				<div class="center-flex column-flex">
+				<div class="center-flex column-flex spacing">
 	         <div class="title">
 	           <h1>Our Summer Season is from June to September</h1>
 	         </div>

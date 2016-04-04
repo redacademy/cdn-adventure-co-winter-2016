@@ -20,7 +20,7 @@ get_header(); ?>
         </div>
       </section>
 
-      <section class="single-column container">
+      <section class="single-column container spacing">
         <h1>The Mallard Mountain Lodge</h1>
         <p>
           Mallard Mountain Lodge is a classic Canadian log lodge that began construction in the summer 2013
@@ -101,7 +101,7 @@ get_header(); ?>
             Sustainability
           </div>
         </div>
-        <div class="single-column container">
+        <div class="single-column container spacing">
           <p>
             Sustainability and environmental stewardship are cornerstones of CAC's business and the packages we offer. Here are some highlights.
           </p>
@@ -118,7 +118,7 @@ get_header(); ?>
             Environmental Stewardship
           </div>
         </div>
-        <div class="single-column container">
+        <div class="single-column container spacing">
           <p>
             Enjoying the outdoors and sharing in the wonder that makes British Columbia a magnificent province are what makes backcountry in the wilderness a popular activity. Without a healthy natural environment, we would lose an integral element of what defines BC as a province. We feel very strongly about the need to protect the health of our natural environment for generations to come.
           </p>

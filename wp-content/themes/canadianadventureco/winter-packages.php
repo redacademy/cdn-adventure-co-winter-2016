@@ -21,7 +21,7 @@ get_header(); ?>
 
 		<!-- This is the "our-winter-season" section -->
 		<section>
-			<div class="center-flex column-flex">
+			<div class="center-flex column-flex spacing">
 				<div class="title">
 					<h1>Our Winter Season is from November to April</h1>
 				</div>

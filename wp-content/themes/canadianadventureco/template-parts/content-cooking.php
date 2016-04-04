@@ -10,7 +10,7 @@
 <!-- This is the "cooking" section -->
 
 <section>
-  <div class="center-flex column-flex">
+  <div class="center-flex column-flex spacing">
      <div class="title">
        <h2>Leave the cooking to us with a fully-catered stay, or choose to bring your own food.</h2>
      </div>
