@@ -326,3 +326,10 @@
 		position: absolute;
 	}
 }
+.spacing-below {
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	@include desktop {
+		width: 67%;
+	}
+}

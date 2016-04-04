@@ -889,6 +889,13 @@ a {
       margin-right: 15%;
       position: absolute; } }
 
+.spacing-below {
+  margin: 0 auto;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 480px) {
+    .spacing-below {
+      width: 67%; } }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
@@ -1038,6 +1045,40 @@ object {
       height: 400px;
       margin: 2rem 1rem 2rem .5rem; } }
 
+.summer-banner {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .summer-banner {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/summer/lake.jpeg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 800px; } }
+
+.winter-banner {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .winter-banner {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 800px; } }
+
 .season-btn {
   width: 80%;
   margin: 1rem;
@@ -1047,7 +1088,13 @@ object {
       width: 50%; } }
 
 .custom-parent section {
-  margin: 2rem 0; }
+  margin: 8rem 0; }
+
+@media screen and (min-width: 480px) {
+  .custom-choice {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto; } }
 
 .radio-choice {
   display: -webkit-flex;
@@ -1056,8 +1103,22 @@ object {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around; }
+  @media screen and (min-width: 480px) {
+    .radio-choice {
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
   .radio-choice p {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 0; }
+
+.between-radio {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .between-radio {
+      display: block;
+      margin-top: 10%;
+      text-transform: uppercase; } }
 
 input[type=radio] {
   display: none; }
@@ -1065,6 +1126,7 @@ input[type=radio] {
 input[type=radio] + div {
   display: block;
   margin: 0 auto;
+  margin-bottom: 2rem;
   height: 100px;
   width: 100px;
   background: url(../../assets/images/icons/empty.png) center top no-repeat #f5f5f5;
@@ -1073,6 +1135,7 @@ input[type=radio] + div {
 input[type=radio]:checked + div {
   display: block;
   margin: 0 auto;
+  margin-bottom: 2rem;
   height: 100px;
   width: 100px;
   background: url(../../assets/images/icons/filled.png) center top no-repeat #f5f5f5;
@@ -1149,6 +1212,16 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
   background: #068fbf; }
 
+.under-range {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 67%;
+  margin: 0 auto; }
+
 .price-estimate {
   background-color: #068fbf;
   padding: 2rem;
@@ -1191,6 +1264,7 @@ input[type=range]:focus::-ms-fill-upper {
   text-align: center; }
   .contact-form .input {
     margin-bottom: 1rem;
+    padding: 1.5rem;
     border: 1px solid black;
     border-radius: 0;
     width: 75%; }
