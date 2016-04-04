@@ -25,7 +25,7 @@ get_header(); ?>
 	         <div class="title">
 	           <h1>Our Summer Season is from June to September</h1>
 	         </div>
-	         <div class="single-column">
+	         <div class="single-column-2">
 	            <p><?php echo CFS()->get('summer_season');?></p>
 	         </div>
 			 </div>

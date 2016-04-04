@@ -14,7 +14,7 @@
      <div class="title">
        <h2>With maximum groups of 9, guests will experience an intimate experience at the lodge.</h2>
      </div>
-     <div class="center">
+     <div class="center single-column-2">
         <p><?php echo CFS()->get('maximum_groups');?></p>
      </div>
  </div>
