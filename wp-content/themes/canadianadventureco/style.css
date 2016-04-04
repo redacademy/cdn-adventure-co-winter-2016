@@ -704,7 +704,7 @@ a {
   font-size: 2.25rem;
   line-height: 2.5rem;
   text-align: left;
-  width: 50%;
+  width: 40%;
   margin-left: 10%;
   font-family: "Pathway Gothic", sans-serif;
   text-transform: uppercase;
@@ -771,6 +771,11 @@ a {
   .center p {
     margin-left: 10%;
     margin-right: 10%; }
+
+.center-wide {
+  text-align: center; }
+  .center-wide p {
+    color: #303030; }
 
 .icons-single-column {
   background-color: #f5f5f5;

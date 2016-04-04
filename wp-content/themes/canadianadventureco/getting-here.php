@@ -97,8 +97,8 @@ get_header(); ?>
             </div>
          </div>
 
-        <div class="center">
-          <p><strong>Upon request, we are happy to assist with your transportation arrangements.</strong></p>
+        <div class="center-wide">
+          <p>Upon request, we are happy to assist with your transportation arrangements.</p>
         </div>
          </div>
       </section>
