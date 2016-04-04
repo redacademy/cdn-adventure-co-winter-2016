@@ -818,13 +818,13 @@ a {
   width: 100%; }
   @media screen and (min-width: 480px) {
     .buttons-double-column {
-      width: 60%;
+      width: 70%;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
   .buttons-double-column ul {
     text-align: left;
     margin-left: 20%;
@@ -835,14 +835,18 @@ a {
         margin-right: 0; } }
   .buttons-double-column .space {
     width: 50%;
-    text-align: center; }
+    text-align: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 2.5rem; }
 
 .dl-btn {
   display: inline-block;
   width: 85%; }
   @media screen and (min-width: 480px) {
     .dl-btn {
-      width: 230px; } }
+      width: 375px; } }
 
 .site-404 {
   padding-top: 90px; }

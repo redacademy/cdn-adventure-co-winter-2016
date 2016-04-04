@@ -245,9 +245,9 @@
 	width: 100%;
 
 	@include desktop {
-		width: 60%;
+		width: 70%;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	ul {
@@ -264,13 +264,15 @@
 	.space {
 		width: 50%;
 		text-align: center;
+		justify-content: center;
+		margin: 0 2.5rem;
 	}
 }
 .dl-btn {
 	display: inline-block;
 	width: 85%;
 	@include desktop {
-		width: 230px;
+		width: 375px;
 	}
 }
 .site-404 {
