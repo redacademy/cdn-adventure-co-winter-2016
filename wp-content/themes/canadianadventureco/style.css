@@ -727,6 +727,13 @@ a {
     .single-column {
       width: 75%; } }
 
+.single-column-2 {
+  width: 100%;
+  padding-bottom: 3rem; }
+  @media screen and (min-width: 480px) {
+    .single-column-2 {
+      width: 60%; } }
+
 .single-column p {
   margin-left: 10%;
   margin-right: 10%; }
@@ -842,6 +849,9 @@ a {
   @media screen and (min-width: 480px) {
     .site-404 {
       padding-top: 138px; } }
+
+.spacing {
+  margin-top: 5rem; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1548,6 +1558,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .map-cont {
   position: relative; }
+  .map-cont .map {
+    pointer-events: none; }
 
 .map-btn {
   width: 60%;
