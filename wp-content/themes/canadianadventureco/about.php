@@ -25,7 +25,7 @@ get_header(); ?>
 	           <h1>Get to know the McManus Family</h1>
 	         </div>
 
-         <div class="single-column">
+         <div class="single-column-2">
             <p><?php echo CFS()->get('get_to_know'); ?></p>
          </div>
 				</div>
@@ -46,7 +46,7 @@ get_header(); ?>
 	         <div class="title">
 	            <h2>Why we built the Mallard Lodge</h2>
 	         </div>
-	         <div class="single-column">
+	         <div class="single-column-2">
 	            <p><?php echo CFS()->get('why_we_built');?></p>
 	         </div>
 

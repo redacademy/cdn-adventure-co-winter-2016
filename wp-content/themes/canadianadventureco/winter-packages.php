@@ -25,7 +25,7 @@ get_header(); ?>
 				<div class="title">
 					<h1>Our Winter Season is from November to April</h1>
 				</div>
-				<div class="single-column">
+				<div class="single-column-2">
 					<p><?php echo CFS()->get('winter_season');?></p>
 				</div>
 			</div>
@@ -58,7 +58,7 @@ get_header(); ?>
 
 				</div>
 
-				<div class="center">
+				<div class="center single-column-2">
 					<p><?php echo CFS()->get('winter_activities');?></p>
 				</div>
 				<!-- </div> -->

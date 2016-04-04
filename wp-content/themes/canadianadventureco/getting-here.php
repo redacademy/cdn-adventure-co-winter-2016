@@ -26,7 +26,7 @@ get_header(); ?>
 	         <div class="title">
 	           <h1>Never-been-touched terrain will leave you mesmerized</h1>
 	         </div>
-	         <div class="single-column">
+	         <div class="single-column-2">
 	            <p>The Mallard Mountan Lodge is located in one of the most pristine and remote areas
 	            of British Columbia, on the west slope of the Rocky Mountains.</p>
 	            <p>The winter brings huge snowfalls of perfect dry powder, while in the summer the high alpine
