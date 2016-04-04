@@ -1,10 +1,18 @@
-<div class="center custom-parent">
+<div class="banner-text" ng-class="{'summer-banner':package.season==='summer',  'winter-banner':package.season==='winter' }">
+   package prices
+</div>
+<div class="center custom-parent spacing">
    <h2>Select your trip preferences</h2>
    <hr>
    <section>
       <div class="center">
          <h2>Professional Guide</h2>
-         <div class="">
+         <div class="spacing-below">
+            <p>
+               You have the option to be guided by one of our backcountry certified experts.
+            </p>
+         </div>
+         <div class="custom-choice">
             <div class="radio-choice">
                <div class="">
                   <label>
@@ -14,6 +22,9 @@
                   <p>
                      guided
                   </p>
+               </div>
+               <div class="between-radio">
+                  or
                </div>
                <div class="">
                   <label>
@@ -25,16 +36,19 @@
                   </p>
                </div>
             </div>
-            <div class="">
-               You have the option to be guided by one of our backcountry certified experts.
-            </div>
          </div>
       </div>
    </section>
+   <hr>
    <section>
       <div class="center">
          <h2>Meals</h2>
-         <form class="">
+         <div class="spacing-below">
+            <p>
+               With the catered option, we will buy the food and cook you 3 meals a day. You provide your own food and meals with the self-catered option.
+            </p>
+         </div>
+         <form class="custom-choice">
             <div class="radio-choice">
                <div class="">
                   <label>
@@ -44,6 +58,9 @@
                   <p>
                      catered
                   </p>
+               </div>
+               <div class="between-radio">
+                  or
                </div>
                <div class="">
                   <label>
@@ -58,6 +75,7 @@
          </form>
       </div>
    </section>
+   <hr>
    <section>
       <div class="center">
          <h2>number of nights</h2>
@@ -67,10 +85,20 @@
          <form class="" oninput="amount.value=rangeInput.value">
             <input ng-model="package.nights" type="range" id="rangeInput" name="stay" value="3" min="3" max="10">
             <!-- This label will need to reflect the range's current position -->
-            <label for="stay"><output name="amount" for="stay">3</output></label>
          </form>
+         <div class="under-range">
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span>10+</span>
+         </div>
       </div>
    </section>
+   <hr>
    <section>
       <div class="center">
          <h2>number of guests</h2>
@@ -80,8 +108,18 @@
          <form class="" oninput="amount.value=rangeInput.value">
             <input ng-model="package.guests" type="range" id="rangeInput" name="guests" value="1" min="1" max="9">
             <!-- This label will need to reflect the range's current position -->
-            <label for="guests"><output name="amount" for="guests">1</output></label>
          </form>
+         <div class="under-range">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9+</span>
+         </div>
       </div>
    </section>
    <!-- This section needs to be generated dynamically based on the choices made by the users -->
@@ -108,7 +146,9 @@
             <li ng-show="package.food==='catered'">3 meals a day, cooked to your dietary preference</li>
          </ul>
       </div>
-      <hr>
+   </section>
+   <hr>
+   <section>
       <div class="customize-list container">
          <h4>This package doesn't include:</h4>
          <ul>

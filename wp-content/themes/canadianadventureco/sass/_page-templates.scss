@@ -80,6 +80,29 @@
       margin: 2rem 1rem 2rem .5rem;
    }
 }
+.summer-banner {
+   display: none;
+   @include desktop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%),
+      url(../../assets/images/pictures/packages/summer/lake.jpeg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 800px;
+   }
+}
+.winter-banner {
+   display: none;
+   @include desktop {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/skiing.jpg) center top no-repeat #ffffff;
+      background-size: cover;
+      height: 800px;
+   }
+}
 .season-btn {
    width: 80%;
    margin: 1rem;
@@ -93,16 +116,36 @@
 .custom-parent {
 
    & section {
-      margin: 2rem 0;
+      margin: 8rem 0;
    }
+}
+.custom-choice {
+   @include desktop {
+      text-align: center;
+      width:40%;
+      margin: 0 auto;
+   };
 }
 .radio-choice {
    display: flex;
    justify-content: space-around;
+   @include desktop {
+      justify-content: space-between;
+   };
 
    & p {
       text-transform: uppercase;
+      margin: 0;
    }
+}
+.between-radio {
+   display: none;
+   @include desktop {
+      display: block;
+      margin-top: 5%;
+      margin-left: 14px;
+      text-transform: uppercase;
+   };
 }
 input[type=radio] {
    display: none;
@@ -111,6 +154,7 @@ input[type=radio] {
 input[type=radio] + div {
    display: block;
    margin: 0 auto;
+   margin-bottom: 2rem;
    height:100px;
    width: 100px;
    background: url(../../assets/images/icons/empty.png) center top no-repeat $color__background-body;
@@ -119,6 +163,7 @@ input[type=radio] + div {
 input[type=radio]:checked + div {
    display: block;
    margin: 0 auto;
+   margin-bottom: 2rem;
    height:100px;
    width: 100px;
    background: url(../../assets/images/icons/filled.png) center top no-repeat $color__background-body;
@@ -194,6 +239,12 @@ input[type=range]:focus::-ms-fill-lower {
 }
 input[type=range]:focus::-ms-fill-upper {
    background: $color__blue;
+}
+.under-range {
+   display: flex;
+   justify-content: space-between;
+   width: 67%;
+   margin: 0 auto;
 }
 .price-estimate {
    background-color: $color__blue;
