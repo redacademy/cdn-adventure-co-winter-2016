@@ -12,10 +12,11 @@ get_header(); ?>
 
     <article class="lodge container">
       <section>
-        <div class="banner lodge-hero">
+        <div class="banner column-flex lodge-hero">
           <div class="banner-text">
             Mallard Mountain Lodge
           </div>
+          <h3 class="sub-heading-narrow">An ultra-remote adventure in the Canadian Rockies, designed for groups of 7 to 9.</h3>
         </div>
       </section>
 

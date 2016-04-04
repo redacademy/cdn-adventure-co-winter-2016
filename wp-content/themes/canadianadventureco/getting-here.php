@@ -12,10 +12,11 @@ get_header(); ?>
 
       <!-- This is the getting-here hero banner -->
       <section>
-         <div class="banner getting-hero">
+         <div class="banner column-flex getting-hero">
             <div class="small-banner-text">
 							Valemount is where your adventure begins
 						</div>
+						<h3 class="sub-heading-wide">Every adventure with us begins in Valemount, BC, where a 30-minute helicopter ride will whisk you away to our Mallard Mountain Lodge.</h3>
          </div>
       </section>
 

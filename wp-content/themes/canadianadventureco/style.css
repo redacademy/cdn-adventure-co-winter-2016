@@ -860,6 +860,30 @@ a {
 .wide-text {
   letter-spacing: 2.25px; }
 
+.sub-heading-narrow {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .sub-heading-narrow {
+      display: inline-block;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 18%;
+      margin-left: 25%;
+      margin-right: 25%;
+      position: absolute; } }
+
+.sub-heading-wide {
+  display: none; }
+  @media screen and (min-width: 480px) {
+    .sub-heading-wide {
+      display: inline-block;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 18%;
+      margin-left: 15%;
+      margin-right: 15%;
+      position: absolute; } }
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
