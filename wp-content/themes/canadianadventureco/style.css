@@ -1380,11 +1380,7 @@ input[type=range]:focus::-ms-fill-upper {
   margin-left: 0.4em; }
   .bxslider img {
     display: block;
-    margin: 0 auto;
-    height: 300px; }
-    @media screen and (min-width: 480px) {
-      .bxslider img {
-        height: 550px; } }
+    margin: 0 auto; }
 
 .bx-wrapper {
   margin-bottom: .5rem !important; }
@@ -1419,7 +1415,7 @@ input[type=range]:focus::-ms-fill-upper {
   padding-bottom: 3rem; }
 
 .lodge-amenities {
-  width: 75%; }
+  width: 60%; }
   .lodge-amenities h2 {
     text-align: center; }
   .lodge-amenities span {
@@ -1548,6 +1544,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .map-cont {
   position: relative; }
+  .map-cont .map {
+    pointer-events: none; }
 
 .map-btn {
   width: 60%;
