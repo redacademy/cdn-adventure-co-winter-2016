@@ -10,11 +10,11 @@
 
 <!-- This is the "what/where/how" section -->
 <section>
-   <div class="center-flex column-flex">
+   <div class="center-flex column-flex spacing">
       <div class="title">
-         <h1>Where/What/How</h1>
+         <h1><span>Where/What/How</span></h1>
       </div>
-      <div class="single-column">
+      <div class="single-column-2">
          <p>
             Located in the Punch Bowl region of the Rocky Mountains, the Mallard Mountain Lodge is the home of the Canadian Adventure Company. Small groups of 9 come from all over to stay with us and experience one of the most remote regions in the Canadian Rockies by 30-minute helicopter ride.
          </p>
@@ -38,7 +38,7 @@
 
 <!-- This is the Where adventure meets... section -->
 <section>
-   <h3 class="center">Where adventure and relaxation meet</h3>
+   <h3 class="center spacing">Where adventure and relaxation meet</h3>
    <div class="triple-column container">
       <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>
@@ -70,9 +70,9 @@
 <hr>
 <!-- this is the unique adventure section  -->
 <section>
-   <h3 class="center">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h3>
+   <h3 class="center spacing">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h3>
    <div class="triple-column container">
-      <div class="front-single-column container">
+         <div class="front-single-column container">
          <div class="picture-wrapper">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/home/03_helicopteraccess.jpg" alt="A picture of a helicopter" class="zoomed in-1"/>
          </div>
@@ -114,7 +114,7 @@
 
 <!-- This is the Work with our guests section -->
 <section>
-   <h3 class="center">We work with our guests to create a customized, once-in-a-lifetome adventure.</h3>
+   <h3 class="center spacing">We work with our guests to create a customized, once-in-a-lifetome adventure.</h3>
    <div class="triple-column container">
       <div class="front-single-column container">
          <div class="picture-wrapper">
@@ -197,7 +197,7 @@
 
 <!-- This is the newsletter section -->
 <section>
-   <div class="newsletter single-column center container">
+   <div class="newsletter single-column center container spacing">
       <h2>Subscribe to our Newsletter</h2>
       <p>
          Stay up to date on the latest deals and news from the mountain!
