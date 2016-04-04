@@ -9,12 +9,14 @@ jQuery(document).ready(function($){
 
 //mobile menu function
 
-  $('.menu-button').on('click', function() {
+  $('.menu-button').on('click', function(event) {
+    event.preventDefault();
     $('.mobile-navigation').toggle();
 
     $('#secondary-menu').toggle();
     $('.site-branding').toggle();
-    $('.site-content').toggle();
+    $('body').toggleClass('no-scroll');
+
   });
 
 //Disable scroll on map until click

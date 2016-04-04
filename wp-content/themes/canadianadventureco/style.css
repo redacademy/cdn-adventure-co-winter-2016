@@ -1330,8 +1330,10 @@ input[type=range]:focus::-ms-fill-upper {
   margin-bottom: 0.25rem; }
   @media screen and (min-width: 480px) {
     .logo {
-      width: 150px;
-      height: 110px; } }
+      width: 140px;
+      height: 100px;
+      padding-left: 1rem;
+      margin-left: 1.4rem; } }
 
 .menu-button {
   margin: 2rem;
@@ -1344,7 +1346,9 @@ input[type=range]:focus::-ms-fill-upper {
   display: none; }
   @media screen and (min-width: 480px) {
     .main-navigation {
-      padding-top: 1.25rem;
+      padding-top: 1.85rem;
+      padding-right: 1rem;
+      margin-right: 1.4rem;
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
@@ -1352,7 +1356,6 @@ input[type=range]:focus::-ms-fill-upper {
       -webkit-justify-content: flex-end;
           -ms-flex-pack: end;
               justify-content: flex-end;
-      margin-right: 0.5rem;
       font-size: 1rem; } }
   .main-navigation a {
     color: #303030; }
@@ -1401,6 +1404,9 @@ input[type=range]:focus::-ms-fill-upper {
 
 .menu li a {
   padding: 0.75rem; }
+
+.no-scroll {
+  overflow: hidden; }
 
 /*--------------------------------------------------------------
 # Footer
