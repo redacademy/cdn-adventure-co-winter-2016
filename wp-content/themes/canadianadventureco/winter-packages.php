@@ -83,7 +83,7 @@ get_header(); ?>
 		<section>
 			<div class="banner meals-hero">
 				<div class="banner-text">
-					Meals
+					The Meals
 				</div>
 			</div>
 		</section>
