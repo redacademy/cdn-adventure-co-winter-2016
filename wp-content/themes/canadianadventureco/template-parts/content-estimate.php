@@ -11,7 +11,7 @@
 
 <section class="trip-estimate">
   <div class="container">
-    <a href="/request" class="button">
+    <a href="<?php echo esc_url( home_url( '/request' ) ); ?>" class="button">
       Get a Trip Estimate
     </a>
   </div>
