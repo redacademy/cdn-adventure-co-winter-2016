@@ -60,18 +60,18 @@ get_header(); ?>
         </ul>
 
         <div id="bx-pager">
-          <a data-slide-index="0" href=""><img alt="Lounging on bed"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/girl-on-bed.jpeg" /></a>
-          <a data-slide-index="1" href=""><img alt="Beds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/bed.jpeg" /></a>
+          <a data-slide-index="0" href=""><img alt="Lounging on bed"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/girl-on-bed.jpg" /></a>
+          <a data-slide-index="1" href=""><img alt="Beds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/bed.jpg" /></a>
           <a data-slide-index="2" href=""><img alt="Sleeping Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge//Lodge gallery/lodge-thumbs/beds2.jpg" /></a>
-          <a data-slide-index="3" href=""><img alt="Bunkbeds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/beds3.jpeg" /></a>
-          <a data-slide-index="4" href=""><img alt="Wood Fireplace"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/fire.jpeg" /></a>
-          <a data-slide-index="5" href=""><img alt="Living Space"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/guitars.jpeg" /></a>
+          <a data-slide-index="3" href=""><img alt="Bunkbeds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/beds3.jpg" /></a>
+          <a data-slide-index="4" href=""><img alt="Wood Fireplace"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/fire.jpg" /></a>
+          <a data-slide-index="5" href=""><img alt="Living Space"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/guitars.jpg" /></a>
           <a data-slide-index="6" href=""><img alt="Tea and Coffee"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/IMG_3222.jpg" /></a>
           <a data-slide-index="7" href=""><img alt="Shoe Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/IMG_4238.jpg" /></a>
           <a data-slide-index="8" href=""><img alt="Boot Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/IMG_4246.jpg" /></a>
           <a data-slide-index="9" href=""><img alt="View of Kitchen"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/kitchen.jpeg" /></a>
-          <a data-slide-index="10" href=""><img alt="View of Living Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/livingroom.jpeg" /></a>
-          <a data-slide-index="11" href=""><img alt="View of Bathroom"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/shower.jpeg" /></a>
+          <a data-slide-index="10" href=""><img alt="View of Living Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/livingroom.jpg" /></a>
+          <a data-slide-index="11" href=""><img alt="View of Bathroom"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/shower.jpg" /></a>
 
         </div>
         <hr class="spacing">
