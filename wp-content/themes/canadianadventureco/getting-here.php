@@ -97,7 +97,7 @@ get_header(); ?>
             </div>
          </div>
 
-        <div class="center-wide">
+        <div class="center-wide mobile-width">
           <p>Upon request, we are happy to assist with your transportation arrangements.</p>
         </div>
          </div>

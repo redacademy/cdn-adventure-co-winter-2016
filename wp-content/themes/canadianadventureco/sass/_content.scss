@@ -328,7 +328,12 @@
 		padding-top: 138px;
 	}
 }
-
+.mobile-width {
+	width: 85%;
+	@include desktop {
+		width:100%;
+	}
+}
 .spacing {
 	margin-top:5rem;
 }
