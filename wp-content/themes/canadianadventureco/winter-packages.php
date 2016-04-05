@@ -25,7 +25,7 @@ get_header(); ?>
 				<div class="title">
 					<h1>Our Winter Season is from November to April</h1>
 				</div>
-				<div class="single-column">
+				<div class="single-column-2 center">
 					<p><?php echo CFS()->get('winter_season');?></p>
 				</div>
 			</div>
@@ -34,13 +34,13 @@ get_header(); ?>
 		<!-- This is the "winter-activities-icons" section -->
 		<section>
 			<!-- <div class="center-flex"> -->
-			<div class="center-flex column-flex">
+			<div class="center-flex column-flex spacing bottom-spacing">
 
 				<div class="title">
 					<h2>Winter Activities</h2>
 				</div>
 
-				<div class="triple-column container">
+				<div class="triple-column container spacing">
 					<div class="icons-single-column container">
 						<img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/ski-icon.png" alt="an icon depicting a pair of skiis" class="icon"/>
 						<h4>Ski</h4>
@@ -58,7 +58,7 @@ get_header(); ?>
 
 				</div>
 
-				<div class="center">
+				<div class="center single-column-2">
 					<p><?php echo CFS()->get('winter_activities');?></p>
 				</div>
 				<!-- </div> -->
