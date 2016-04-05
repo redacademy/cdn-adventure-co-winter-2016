@@ -157,11 +157,12 @@
 	}
 }
 
-
-
+.single-column-2 p,
+.single-column-3 p,
 .single-column p {
 	margin-left: 10%;
 	margin-right: 10%;
+
 	@include desktop {
 		margin-left: 0;
 		margin-right: 0;
@@ -302,15 +303,21 @@
 		}
 	}
 	.space {
-		width: 50%;
-		text-align: center;
-		justify-content: center;
-		margin: 0 2.5rem;
+
+		@include desktop {
+			width: 50%;
+			text-align: center;
+			justify-content: center;
+			margin: 0 2.5rem;
+		}
 	}
 }
 .dl-btn {
 	display: inline-block;
 	width: 85%;
+	margin-left: 10%;
+	margin-right: 10%;
+
 	@include desktop {
 		width: 375px;
 	}
@@ -335,6 +342,7 @@
 	letter-spacing: 2.25px;
 	text-transform: uppercase;
 	font-weight: 100;
+	text-align: center;
 }
 
 .sub-heading-narrow {
