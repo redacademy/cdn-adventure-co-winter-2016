@@ -50,7 +50,7 @@ get_header(); ?>
         </ul>
 
         <div id="bx-pager">
-          <a data-slide-index href="0"><img alt="Lounging on bed"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/girl-on-bed.jpeg" /></a>
+          <a data-slide-index="0" href=""><img alt="Lounging on bed"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/girl-on-bed.jpeg" /></a>
           <a data-slide-index="1" href=""><img alt="Beds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/bed.jpeg" /></a>
           <a data-slide-index="2" href=""><img alt="Sleeping Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/beds2.jpg" /></a>
           <a data-slide-index="3" href=""><img alt="Bunkbeds"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/beds3.jpeg" /></a>

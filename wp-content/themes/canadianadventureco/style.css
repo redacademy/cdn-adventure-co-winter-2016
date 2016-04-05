@@ -1543,10 +1543,10 @@ input[type=range]:focus::-ms-fill-upper {
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
               justify-content: space-between; } }
-  #bx-pager img {
+  #bx-pager a {
     height: 50px; }
     @media screen and (min-width: 480px) {
-      #bx-pager img {
+      #bx-pager a {
         width: 30vw;
         height: 30vh;
         margin: .5rem; } }

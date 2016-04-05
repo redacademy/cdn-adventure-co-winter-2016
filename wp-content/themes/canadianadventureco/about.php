@@ -51,7 +51,7 @@ get_header(); ?>
 	         </div>
 
 
-					 <a href="/the-lodge" class="button">
+					 <a href="<?php echo esc_url( home_url( '/the-lodge' ) ); ?>" class="button">
 						 Explore the Lodge
 					 </a>
 

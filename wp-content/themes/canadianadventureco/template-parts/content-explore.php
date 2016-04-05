@@ -11,10 +11,10 @@
 <section class="explore-packages">
   <div class="container">
     <h2>explore our adventure packages</h2>
-    <a href="/winter-packages" class="button">
+    <a href="<?php echo esc_url( home_url( '/winter-packages' ) ); ?>" class="button">
       Winter
     </a>
-    <a href="/summer-packages" class="button">
+    <a href="<?php echo esc_url( home_url( '/summer-packages' ) ); ?>" class="button">
       summer
     </a>
   </div><!-- .explore-packages -->

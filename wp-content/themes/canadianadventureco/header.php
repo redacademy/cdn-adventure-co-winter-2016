@@ -37,7 +37,7 @@
 
 			<nav id="site-navigation desktop" class="main-navigation" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				<a href="/request" class="button">
+				<a href="<?php echo esc_url( home_url( '/request' ) ); ?>" class="button">
 					Request To Book
 				</a>
 			</nav><!-- #site-navigation -->
