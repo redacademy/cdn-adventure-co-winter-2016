@@ -40,20 +40,24 @@
 }
 
 #bx-pager {
-  overflow: hidden;
-  width: 100vw;
+  width: 100%;
   display: flex;
   @include desktop {
     flex-wrap: wrap;
     justify-content: space-between;
   }
   a {
+    overflow: hidden;
     height: 50px;
     @include desktop {
-      width: 30vw;
+      width: 30%;
       height: 30vh;
-      margin: .5rem;
+      margin-bottom: 1rem;
     }
+  img {
+    height: 100%;
+    width: 100%;
+  }
   }
 }
 

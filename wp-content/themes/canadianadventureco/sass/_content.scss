@@ -76,6 +76,7 @@
 	justify-content: center;
 }
 
+
 .side-banner {
 	display: flex;
 	align-items: center;
@@ -360,6 +361,9 @@
 		margin-left: 25%;
 		margin-right: 25%;
 		position: absolute;
+		top: 600px;
+		left: 0;
+		max-width: 70%;
 	}
 }
 
@@ -374,6 +378,9 @@
 		margin-left: 15%;
 		margin-right: 15%;
 		position: absolute;
+		top: 600px;
+		left: 0;
+		max-width: 70%;
 	}
 }
 .spacing-below {

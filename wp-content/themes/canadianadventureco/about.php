@@ -50,12 +50,7 @@ get_header(); ?>
 	            <p><?php echo CFS()->get('why_we_built');?></p>
 	         </div>
 
-
-<<<<<<< HEAD
-					 <a href="/the-lodge" class="button dl-btn">
-=======
 					 <a href="<?php echo esc_url( home_url( '/the-lodge' ) ); ?>" class="button">
->>>>>>> fix
 						 Explore the Lodge
 					 </a>
 
