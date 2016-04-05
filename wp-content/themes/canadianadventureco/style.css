@@ -846,7 +846,8 @@ a {
 
 .buttons-double-column {
   display: block;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
   @media screen and (min-width: 480px) {
     .buttons-double-column {
       width: 70%;
@@ -875,9 +876,7 @@ a {
 
 .dl-btn {
   display: inline-block;
-  width: 85%;
-  margin-left: 10%;
-  margin-right: 10%; }
+  width: 85%; }
   @media screen and (min-width: 480px) {
     .dl-btn {
       width: 375px; } }
