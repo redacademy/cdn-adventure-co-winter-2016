@@ -184,13 +184,18 @@ input[type=range]::-webkit-slider-runnable-track {
    border-radius: 25px;
 }
 input[type=range]::-webkit-slider-thumb {
-   height: 20px;
-   width: 39px;
+   height: 39px;
+   width: 20px;
    border-radius: 7px;
    background: $color__dark-grey;
    cursor: pointer;
    -webkit-appearance: none;
-   margin-top: -3.6px;
+   margin-top: -13.6px;
+   @include desktop {
+      height: 20px;
+      width: 39px;
+      margin-top: -3.6px;
+   }
 }
 input[type=range]:focus::-webkit-slider-runnable-track {
    background: $color__blue;
@@ -203,11 +208,18 @@ input[type=range]::-moz-range-track {
    border-radius: 25px;
 }
 input[type=range]::-moz-range-thumb {
-   height: 20px;
-   width: 39px;
+   height: 39px;
+   width: 20px;
    border-radius: 7px;
    background: $color__dark-grey;
    cursor: pointer;
+   -webkit-appearance: none;
+   margin-top: -13.6px;
+   @include desktop {
+      height: 20px;
+      width: 39px;
+      margin-top: -3.6px;
+   }
 }
 input[type=range]::-ms-track {
    width: 67%;
@@ -227,11 +239,18 @@ input[type=range]::-ms-fill-upper {
    border-radius: 50px;
 }
 input[type=range]::-ms-thumb {
-   height: 20px;
-   width: 39px;
+   height: 39px;
+   width: 20px;
    border-radius: 7px;
    background: $color__dark-grey;
    cursor: pointer;
+   -webkit-appearance: none;
+   margin-top: -13.6px;
+   @include desktop {
+      height: 20px;
+      width: 39px;
+      margin-top: -3.6px;
+   }
 }
 input[type=range]:focus::-ms-fill-lower {
    background: $color__blue;
@@ -242,8 +261,15 @@ input[type=range]:focus::-ms-fill-upper {
 .under-range {
    display: flex;
    justify-content: space-between;
-   width: 67%;
    margin: 0 auto;
+   width: 70%;
+   position: absolute;
+   left:72px;
+   @include desktop {
+      position: relative;
+      left:8px;
+      width: 67%;
+   }
 }
 .price-estimate {
    background-color: $color__blue;
