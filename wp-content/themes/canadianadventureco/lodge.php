@@ -69,7 +69,7 @@ get_header(); ?>
           <a data-slide-index="6" href=""><img alt="Tea and Coffee"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/IMG_3222.jpg" /></a>
           <a data-slide-index="7" href=""><img alt="Shoe Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/IMG_4238.jpg" /></a>
           <a data-slide-index="8" href=""><img alt="Boot Drying Rack"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/IMG_4246.jpg" /></a>
-          <a data-slide-index="9" href=""><img alt="View of Kitchen"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/kitchen.jpeg" /></a>
+          <a data-slide-index="9" href=""><img alt="View of Kitchen"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/kitchen.jpg" /></a>
           <a data-slide-index="10" href=""><img alt="View of Living Area"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/livingroom.jpg" /></a>
           <a data-slide-index="11" href=""><img alt="View of Bathroom"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/lodge-thumbs/shower.jpg" /></a>
 
