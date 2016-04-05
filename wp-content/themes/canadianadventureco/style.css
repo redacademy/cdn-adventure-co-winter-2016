@@ -888,6 +888,12 @@ a {
     .site-404 {
       padding-top: 138px; } }
 
+.mobile-width {
+  width: 85%; }
+  @media screen and (min-width: 480px) {
+    .mobile-width {
+      width: 100%; } }
+
 .spacing {
   margin-top: 5rem; }
 

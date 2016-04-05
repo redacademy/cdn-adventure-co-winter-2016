@@ -39,7 +39,9 @@
 
 <!-- This is the Where adventure meets... section -->
 <section>
-   <h3 class="center spacing">Where adventure and relaxation meet</h3>
+   <div class="banner">
+      <h3 class="center spacing mobile-width">Where adventure and relaxation meet</h3>
+   </div>
    <div class="triple-column container">
       <div class="icons-single-column container">
          <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/snow-icon.png" alt="an icon depicting a snowflake" class="icon"/>
@@ -71,7 +73,9 @@
 <hr>
 <!-- this is the unique adventure section  -->
 <section>
-   <h3 class="center spacing">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h3>
+   <div class="banner">
+      <h3 class="center spacing mobile-width">We offer a unique adventure in the remote wilderness of the Canadian Rockies</h3>
+   </div>
    <div class="triple-column container">
          <div class="front-single-column container">
          <div class="picture-wrapper">
@@ -115,7 +119,9 @@
 
 <!-- This is the Work with our guests section -->
 <section>
-   <h3 class="center spacing">We work with our guests to create a customized, once-in-a-lifetome adventure.</h3>
+   <div class="banner">
+      <h3 class="center spacing mobile-width">We work with our guests to create a customized, once-in-a-lifetome adventure.</h3>
+   </div>
    <div class="triple-column container">
       <div class="front-single-column container">
          <div class="picture-wrapper">
