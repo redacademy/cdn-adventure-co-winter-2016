@@ -25,7 +25,9 @@ get_header(); ?>
 	         <div class="title">
 	           <h1>Our Summer Season is from June to September</h1>
 	         </div>
-	         <div class="single-column-2">
+
+	         <div class="single-column-2 center">
+
 	            <p><?php echo CFS()->get('summer_season');?></p>
 	         </div>
 			 </div>
@@ -34,13 +36,13 @@ get_header(); ?>
       <!-- This is the "summer-activities-icons" section -->
       <section>
 				<!-- <div class="center-flex"> -->
-				<div class="center-flex column-flex">
+				<div class="center-flex column-flex spacing bottom-spacing">
 
          <div class="title">
             <h2>Summer Activities</h2>
          </div>
 
-         <div class="triple-column container">
+         <div class="triple-column container spacing">
 					 <div class="icons-single-column container">
             <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/hiking-icon.png" alt="an icon depicting a hiking boot" class="icon"/>
 						<h4>Hiking</h4>
@@ -57,7 +59,7 @@ get_header(); ?>
 					</div>
          </div>
 
-         <div class="center">
+         <div class="center single-column-2">
            <p><?php echo CFS()->get('summer_activities');?></p>
         </div>
 			<!-- </div> -->
@@ -68,14 +70,25 @@ get_header(); ?>
     <section>
       <div class="banner guided-summer-hero">
         <div class="banner-text">
-          Guided By Experts
+          Guided or Self-Guided
         </div>
       </div>
     </section>
 
-    <!-- This is the "safety priority" section -->
+    <!-- This is the "summer-months-priority" section -->
 
-		<?php get_template_part( 'template-parts/content', 'safety' ); ?>
+		<section>
+		  <div class="center-flex column-flex spacing bottom-spacing">
+		     <div class="title-wide">
+		       <h3>In the summer months, enjoy the pristine lakes and waterfalls, smell
+		       	the wild flowers and hike to glaciers and valleys.</h3>
+		     </div>
+		     <div class="single-column-3">
+		        <p>Between July and September, guests can enjoy the backcountry with a knowledgable guide
+							that will lead them through the terrain, or may choose a self-guided adventure on our tenure.</p>
+		     </div>
+		 </div>
+		</section>
 
     <!-- This is the meals sub banner -->
     <section>
@@ -92,7 +105,7 @@ get_header(); ?>
 
     <!-- This is the small-groups sub banner -->
     <section>
-      <div class="banner small-groups-hero">
+      <div class="banner small-groups-summer-hero">
         <div class="banner-text">
           Small Groups
         </div>

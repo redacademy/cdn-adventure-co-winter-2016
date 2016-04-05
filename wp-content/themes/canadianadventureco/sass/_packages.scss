@@ -24,6 +24,11 @@
 }
 
 .guided-summer-hero {
-	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/summer/summer-walks.jpeg) center top no-repeat #ffffff;
+	@include sub-banner;
+}
+
+.small-groups-summer-hero {
+	background: linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100%), url(../../assets/images/pictures/packages/summer/small-groups.png) center top no-repeat #ffffff;
 	@include sub-banner;
 }

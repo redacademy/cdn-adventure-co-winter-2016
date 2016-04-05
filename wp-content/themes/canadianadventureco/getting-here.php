@@ -60,7 +60,7 @@ get_header(); ?>
 
       <!-- This is the "travel-options" section -->
       <section>
-				<div class="center-flex column-flex spacing">
+				<div class="center-flex column-flex spacing bottom-spacing">
          <div class="title">
 						<h2>We recommend car or air travel to get you and your gear to Valemount.</h2>
          </div>

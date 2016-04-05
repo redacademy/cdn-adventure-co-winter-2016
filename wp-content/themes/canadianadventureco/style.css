@@ -261,12 +261,8 @@ h1, h2, h3, h4, h5, h6 {
 h1,
 h2 {
   font-family: "Pathway Gothic", sans-serif;
-  font-size: 2.5rem;
   line-height: 3rem;
   text-transform: uppercase;
-  color: #757575; }
-
-h1 {
   color: #3E3E3E;
   font-size: 3.5rem;
   font-weight: 100; }
@@ -739,6 +735,14 @@ a {
     .single-column-2 {
       width: 60%; } }
 
+.single-column-3 {
+  width: 100%;
+  padding-bottom: 3rem;
+  text-align: center; }
+  @media screen and (min-width: 480px) {
+    .single-column-3 {
+      width: 70%; } }
+
 .single-column p {
   margin-left: 10%;
   margin-right: 10%; }
@@ -767,6 +771,19 @@ a {
 .title {
   text-align: center;
   width: 75%; }
+  @media screen and (min-width: 480px) {
+    .title {
+      width: 58%; } }
+
+.title-wide {
+  text-align: center;
+  width: 75%; }
+  @media screen and (min-width: 480px) {
+    .title-wide {
+      width: 70%; } }
+  .title-wide h3 {
+    font-size: 2.3rem;
+    font-weight: 100; }
 
 .icon {
   width: 50%; }
@@ -866,6 +883,9 @@ a {
 
 .spacing {
   margin-top: 5rem; }
+
+.bottom-spacing {
+  margin-bottom: 8rem; }
 
 .wide-text {
   letter-spacing: 2.25px;
@@ -1561,8 +1581,6 @@ input[type=range]:focus::-ms-fill-upper {
 
 .lodge-amenities {
   width: 60%; }
-  .lodge-amenities h2 {
-    text-align: center; }
   .lodge-amenities span {
     font-weight: bold;
     margin-right: 10%;
@@ -1787,11 +1805,20 @@ input[type=range]:focus::-ms-fill-upper {
       height: 850px; } }
 
 .guided-summer-hero {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/winter/guides.jpg) center top no-repeat #ffffff;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/summer/summer-walks.jpeg) center top no-repeat #ffffff;
   background-size: cover;
   height: 285px; }
   @media screen and (min-width: 480px) {
     .guided-summer-hero {
+      background-size: cover;
+      height: 850px; } }
+
+.small-groups-summer-hero {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(../../assets/images/pictures/packages/summer/small-groups.png) center top no-repeat #ffffff;
+  background-size: cover;
+  height: 285px; }
+  @media screen and (min-width: 480px) {
+    .small-groups-summer-hero {
       background-size: cover;
       height: 850px; } }
 

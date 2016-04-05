@@ -20,17 +20,27 @@ get_header(); ?>
         </div>
       </section>
 
-      <section class="single-column-2 container spacing">
-        <h1>The Mallard Mountain Lodge</h1>
-        <p>
-          Mallard Mountain Lodge is a classic Canadian log lodge that began construction in the summer 2013
-        </p>
-        <p>
-          The Lodge was partially pre-built off site, then flown by helicopter to our very remote Mallard Peaks area of the Rocky Mountains, where the building was completed.
-        </p>
-        <p>
-          The main floor of the lodge features a living and dining room, with wood fired stove, and kitchen. The second floor has sleeping bays along the outside walls, divided by interior walls. The beds (one upper & lower in each bay) are custom made oversize twins for lots of space, each fronted by individual black out privacy curtains, and each with a solar light. The second floor also has a separate room for changing, with a counter and sink for wash up etc. & a mountain shower (full sized stall and curtain, hot water container and overhead nozzle) draining into our greywater system.
-        </p>
+
+      <section>
+        <div class="center-flex column-flex spacing">
+          <div class="title">
+            <h1>The Mallard Mountain Lodge</h1>
+          </div>
+
+          <div class="single-column-2">
+            <p>
+              Mallard Mountain Lodge is a classic Canadian log lodge that began construction in the summer 2013
+            </p>
+            <p>
+              The Lodge was partially pre-built off site, then flown by helicopter to our very remote Mallard Peaks area of the Rocky Mountains, where the building was completed.
+            </p>
+            <p>
+              The main floor of the lodge features a living and dining room, with wood fired stove, and kitchen. The second floor has sleeping bays along the outside walls, divided by interior walls. The beds (one upper & lower in each bay) are custom made oversize twins for lots of space, each fronted by individual black out privacy curtains, and each with a solar light. The second floor also has a separate room for changing, with a counter and sink for wash up etc. & a mountain shower (full sized stall and curtain, hot water container and overhead nozzle) draining into our greywater system.
+            </p>
+          </div>
+
+        </div>
+
       </section><!-- .lodge-info -->
 
       <section class="lodge-gallery">
@@ -64,11 +74,28 @@ get_header(); ?>
           <a data-slide-index="11" href=""><img alt="View of Bathroom"  src="<?php echo get_template_directory_uri() ?>/assets/images/pictures/the-lodge/Lodge gallery/shower.jpeg" /></a>
 
         </div>
-        <hr>
+        <hr class="spacing">
       </section><!-- .lodge-gallery -->
 
-      <section class="container lodge-amenities">
-        <h2>Lodge Amenities</h2>
+      <section>
+        <div class="center-flex column-flex spacing bottom-spacing">
+
+            <div class="title">
+              <h2>Lodge Amenities</h2>
+            </div>
+
+            <div class="single-column-2">
+              <p>The Lodge uses solar power for most electricity needs. You can charge your cameras and computers.
+              Wi-fi internet connection is available. The Lodge has a satellite phone (cost per minute applies).
+              </p>
+
+              <p>Comfortable toilet facilities are located a short distance from the Lodge in a separate heated
+                and well-lit log building. The toilet is just like at home, except that after being used the toilet
+                incinerates waste instead of flusing it.
+              </p>
+            </div>
+
+        <div class="container lodge-amenities">
         <p>
           <span>Beds</span>
           <?php echo CFS()->get('amenities_beds');?>
@@ -93,6 +120,8 @@ get_header(); ?>
           <span>Catering</span>
           <?php echo CFS()->get('amenities_catering');?>
         </p>
+      </div>
+        </div>
       </section><!-- .lodge-amenities -->
 
       <section>
@@ -101,7 +130,9 @@ get_header(); ?>
             Sustainability
           </div>
         </div>
-        <div class="single-column-2 container spacing">
+
+        <div class="single-column-2 container spacing bottom-spacing">
+
           <p>
             Sustainability and environmental stewardship are cornerstones of CAC's business and the packages we offer. Here are some highlights.
           </p>
@@ -118,7 +149,9 @@ get_header(); ?>
             Environmental Stewardship
           </div>
         </div>
-        <div class="single-column-2 container spacing">
+
+        <div class="single-column-2 container spacing bottom-spacing">
+
           <p>
             Enjoying the outdoors and sharing in the wonder that makes British Columbia a magnificent province are what makes backcountry in the wilderness a popular activity. Without a healthy natural environment, we would lose an integral element of what defines BC as a province. We feel very strongly about the need to protect the health of our natural environment for generations to come.
           </p>

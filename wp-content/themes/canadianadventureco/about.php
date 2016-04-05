@@ -42,7 +42,7 @@ get_header(); ?>
 
       <!-- This is the "why we built the mallard lodge" section -->
       <section>
-				<div class="center-flex column-flex spacing">
+				<div class="center-flex column-flex spacing bottom-spacing">
 	         <div class="title">
 	            <h2>Why we built the Mallard Lodge</h2>
 	         </div>
@@ -51,7 +51,7 @@ get_header(); ?>
 	         </div>
 
 
-					 <a href="/the-lodge" class="button">
+					 <a href="/the-lodge" class="button dl-btn">
 						 Explore the Lodge
 					 </a>
 

@@ -146,6 +146,19 @@
 		width: 60%;
 	}
 }
+
+.single-column-3 {
+	width: 100%;
+	padding-bottom: 3rem;
+	text-align: center;
+
+	@include desktop {
+		width: 70%;
+	}
+}
+
+
+
 .single-column p {
 	margin-left: 10%;
 	margin-right: 10%;
@@ -174,6 +187,25 @@
 .title {
 	text-align: center;
 	width: 75%;
+
+	@include desktop {
+		width: 58%;
+	}
+}
+
+.title-wide {
+	text-align: center;
+	width: 75%;
+
+
+	@include desktop {
+		width: 70%;
+	}
+
+	h3 {
+		font-size: 2.3rem;
+		font-weight: 100;
+	}
 }
 
 .icon {
@@ -293,6 +325,10 @@
 
 .spacing {
 	margin-top:5rem;
+}
+
+.bottom-spacing {
+	margin-bottom: 8rem;
 }
 
 .wide-text {
